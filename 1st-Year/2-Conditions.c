@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main () {
+void main () { 
   int a = 15;
 
   _Bool x;
