@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() { 
+void main() {
     float vize, final, sonuc;
 
     printf("Bu uygulama vize ve final notunu alarak ders durumunu rapor eder.\n");
