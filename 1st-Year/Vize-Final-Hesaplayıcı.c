@@ -21,4 +21,4 @@ void main() {
     else {
         printf("\nKaldınız, notunuz: %f", sonuc);
     }
-}
+} 
