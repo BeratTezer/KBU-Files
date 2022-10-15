@@ -6,6 +6,14 @@ void main()
     int typeSelection;
     int userNumber;
     
+    int length(unsigned x) {
+    if (x >= 10000)      return 5;
+    if (x >= 1000)       return 4;
+    if (x >= 100)        return 3;
+    if (x >= 10)         return 2;
+    return 1;
+    }
+    
     printf("This program will help you in converting decimal and hexadecimal numbers to each other.\n\n");
     
     while (loopController == 0) {
@@ -13,15 +21,23 @@ void main()
         scanf("%d", &typeSelection);
         
         if (typeSelection == 1) {
-            printf("\n\nPlease enter your decimal number, it will convert to hexadecimal\n\n> ");
+            printf("\n\nPlease enter your decimal number, it will convert to hexadecimal (Max 5 digits)\n\n> ");
             scanf("%d", &userNumber);
             
-            if (userNumber != int) {
-                printf("\n\nYou just have to enter numbers.\n\n");
+            if (length(userNumber) == 1) {
+                
+            } else if (length(userNumber) == 2) {
+                
+            } else if (length(userNumber) == 3) {
+                
+            } else if (length(userNumber) == 4) {
+                
+            } else if (length(userNumber == 5)) {
+                
+            } else {
+                printf("\n\nYou have to write a number.\n\n");
                 break;
             }
-            
-            
             
             
             
