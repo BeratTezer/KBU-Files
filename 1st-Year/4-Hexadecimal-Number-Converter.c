@@ -51,21 +51,37 @@ void main()
             if (length(userNumber) == 1) {
                 printf("%s", converter16(userNumber));
             } else if (length(userNumber) == 2) {
-                if (userNumber <= 16) {
+                if (userNumber < 16) {
                     printf("%s", converter16(userNumber));
                 } else {
-                    digit2 = converter16(userNumber/16);
-                    digit1 = converter16(userNumber - (userNumber/16)*16);
+                    digit2 = converter16(userNumber / 16);
+                    digit1 = converter16(userNumber - (userNumber / 16) * 16);
                     printf("\n\nThe result is: %s%s\n\n", digit2, digit1);
                 }
             } else if (length(userNumber) == 3) {
-                
-                
-                
+                if (userNumber < 256) {
+                    digit2 = converter16(userNumber / 16);
+                    digit1 = converter16(userNumber % 16);
+                    printf("\n\nThe result is: %s%s\n\n", digit2, digit1);
+                } else {
+                    digit3 = converter16(userNumber / 256);
+                    digit2 = converter16((userNumber - (userNumber / 256) * 256) / 16);
+                    digit1 = converter16(userNumber % 16);
+                    printf("\n\nThe result is: %s%s%s\n\n", digit3, digit2, digit1);
+                }
             } else if (length(userNumber) == 4) {
-                
-                
-                
+                if (userNumber < 4096) {
+                    digit3 = converter16(userNumber / 256);
+                    digit2 = converter16((userNumber - (userNumber / 256) * 256) / 16);
+                    digit1 = converter16(userNumber % 16);
+                    printf("\n\nThe result is: %s%s%s\n\n", digit3, digit2, digit1);
+                } else {
+                    digit4 = converter16(userNumber / 4096);
+                    digit3 = converter16((userNumber - (userNumber / 4096) * 4096) / 256);
+                    digit2 = converter16(userNumber - (userNumber / 4096) * 4096)
+                    digit1 = converter16(userNumber % 16);
+                    printf("\n\nThe result is: %s%s%s%s\n\n", digit4, digit3, digit2, digit1);
+                }
             } else if (length(userNumber == 5)) {
                 
                 
