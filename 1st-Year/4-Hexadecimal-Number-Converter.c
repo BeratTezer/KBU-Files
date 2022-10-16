@@ -78,7 +78,7 @@ void main()
                 } else {
                     digit4 = converter16(userNumber / 4096);
                     digit3 = converter16((userNumber - (userNumber / 4096) * 4096) / 256);
-                    digit2 = converter16(((userNumber - (((userNumber / 4096) * 4096) + ((userNumber - (userNumber / 4096) * 4096) / 256 )* 256)) / 16));
+                    digit2 = converter16(((userNumber - (((userNumber / 4096) * 4096) + ((userNumber - (userNumber / 4096) * 4096) / 256 ) * 256)) / 16));
                     digit1 = converter16(userNumber % 16);
                     printf("\n\nThe result is: %s%s%s%s\n\n", digit4, digit3, digit2, digit1);
                 }
@@ -86,14 +86,17 @@ void main()
                 if (userNumber < 65536) {
                     digit4 = converter16(userNumber / 4096);
                     digit3 = converter16((userNumber - (userNumber / 4096) * 4096) / 256);
-                    digit2 = converter16(((userNumber - (((userNumber / 4096) * 4096) + ((userNumber - (userNumber / 4096) * 4096) / 256 )* 256)) / 16));
+                    digit2 = converter16(((userNumber - (((userNumber / 4096) * 4096) + ((userNumber - (userNumber / 4096) * 4096) / 256 ) * 256)) / 16));
                     digit1 = converter16(userNumber % 16);
                     printf("\n\nThe result is: %s%s%s%s\n\n", digit4, digit3, digit2, digit1);
                 } else {
-                    
+                    digit5 = converter16(userNumber / 65536);
+                    digit4 = converter16((userNumber - (userNumber / 65536) * 65536) / 4096);
+                    digit3 = converter16(((userNumber - (((userNumber / 65536) * 65536) + ((userNumber - (userNumber / 65536) * 65536) / 4096 ) * 4096)) / 256));
+                    digit2 = converter16((userNumber - ((userNumber / 65536) * 65536 + ((userNumber - (userNumber / 65536) * 65536) / 4096 ) * 4096  + ((userNumber - (((userNumber / 65536) * 65536) + ((userNumber - (userNumber / 65536) * 65536) / 4096 ) * 4096)) / 256) * 256)) / 16);
+                    digit1 = converter16(userNumber % 16);
+                    printf("\n\nThe result is: %s%s%s%s%s\n\n", digit5, digit4, digit3, digit2, digit1);
                 }
-                // 
-                
             } else {
                 printf("\n\nYou have to write a number.\n\n");
                 break;
