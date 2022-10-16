@@ -78,13 +78,21 @@ void main()
                 } else {
                     digit4 = converter16(userNumber / 4096);
                     digit3 = converter16((userNumber - (userNumber / 4096) * 4096) / 256);
-                    digit2 = converter16(userNumber - (userNumber / 4096) * 4096)
+                    digit2 = converter16(((userNumber - (((userNumber / 4096) * 4096) + ((userNumber - (userNumber / 4096) * 4096) / 256 )* 256)) / 16));
                     digit1 = converter16(userNumber % 16);
                     printf("\n\nThe result is: %s%s%s%s\n\n", digit4, digit3, digit2, digit1);
                 }
             } else if (length(userNumber == 5)) {
-                
-                
+                if (userNumber < 65536) {
+                    digit4 = converter16(userNumber / 4096);
+                    digit3 = converter16((userNumber - (userNumber / 4096) * 4096) / 256);
+                    digit2 = converter16(((userNumber - (((userNumber / 4096) * 4096) + ((userNumber - (userNumber / 4096) * 4096) / 256 )* 256)) / 16));
+                    digit1 = converter16(userNumber % 16);
+                    printf("\n\nThe result is: %s%s%s%s\n\n", digit4, digit3, digit2, digit1);
+                } else {
+                    
+                }
+                // 
                 
             } else {
                 printf("\n\nYou have to write a number.\n\n");
