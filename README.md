@@ -1,1 +1,1 @@
-<img src="https://media2.giphy.com/media/R7m04yMaGWVeE/giphy.gif" alt="Forget all of them!" align="center">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fmen-in-black&psig=AOvVaw2eUFtmp40OaFFhoBFpUif4&ust=1668755082146000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNiZk6HTtPsCFQAAAAAdAAAAABAE" alt="Forget all of them!" align="center">
