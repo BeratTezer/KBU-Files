@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 
 /* function main begins program execution */
 int main()
@@ -55,5 +56,7 @@ int main()
     printf("   5%13d\n", frequency5);
     printf("   6%13d\n", frequency6);
     
+    getch();
     return 0; /* indicates successful termination */
+
 }
