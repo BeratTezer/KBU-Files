@@ -1,13 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main(void) {
     int loop=1, d1=0, d2=0, diceTotal=0, point=0, first=0;
-    unsigned seed;
+    // unsigned seed;
     
-    printf("Seed: ");
-    scanf("%u", &seed);
-    srand(seed);
+    // Manual:
+    // printf("Seed: ");
+    // scanf("%u", &seed);
+    // srand(seed);
+    
+    // Automatic:
+    srand(time(NULL));
     
     while (loop) {
         d1 = 1 + rand() % 6;
