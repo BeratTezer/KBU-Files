@@ -12,7 +12,8 @@ int main() {
     scanf("%d", &n);
     
     // This is not ok. This "n" must has a specific value
-    int array[n];
+    // int array[n];
+    int array[100];
     
     for (i=0; i<n; i++) {
         printf("\n[%d]. element of array: ", i+1);
