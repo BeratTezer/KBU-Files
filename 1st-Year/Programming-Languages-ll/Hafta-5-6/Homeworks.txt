@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+char coder();
+char decoder();
+
+int main() {
+    
+    
+    
+    return 0;
+}
+
+char coder() {
+    int a, b, x, y;
+    size_t len = 0, read;
+    char *text = NULL;
+    
+    printf("How many columns your code block have?\n-> ");
+    scanf("%d", &a);
+    printf("How many rows your code block have?\n-> ");
+    scanf("%d", &b);
+    
+    char codeBlock[a][b];
+    
+    printf("Fill the block by row from left to right with letters.\n");
+    
+    for (x=0; x<a; x++) {
+        for (y=0; y<b; y++) {
+            printf("[%d][%d]: ", x, y);
+            scanf("%c", &codeBlock[y][x]);
+        }
+    }
+    
+    printf("Enter a text (press Ctrl+D to end):\n");
+
+    while ((read = getline(&text, &len, stdin)) != -1) {
+        printf("Read %zd characters:\n", read);
+        printf("%s", text);
+    }
+
+    free(text);
+    
+    
+    
+}
+
+kalan 4 soruyu da yapacağım
