@@ -46,4 +46,4 @@ char coder() {
     
 }
 
-kalan 4 soruyu da yapacağım
+kalan 4 soruyu da yapacağım 
