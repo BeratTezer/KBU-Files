@@ -25,5 +25,7 @@ int main() {
         printf("%c", *(name+i));
     }
     
+    free(name);
+
     return 0;
 }
