@@ -13,12 +13,10 @@ int main() {
     if (str == NULL) {
         printf("\nCould not allocate space in memory");
     } else {
-        strcpy(str, "Berat Tezer");
+        strcpy(str, "Ben Neb ");
     }
     
     printf("Name: %s", str);
     
     return 0;
 }
-
-// BENCE YANLIŞ OLDU, DÜZELTECEĞİM
