@@ -1,34 +1,64 @@
-// Write a program using dynamic memory allocation that prints out words of a sentence in reverse order.
-
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-void reverseSentence(char *sentence, int x);
+void coder(char*, int*);
+void decoder(int*, char*, int);
 
 int main() {
-    char *text = (char*)malloc(100 * sizeof(char));
-    int i=0;
+    int i = 0, loop = 1, *codePtr;
+    char str[100], *convertedStr;
     
-    printf("Please write your sentence: ");
-    fgets(text, 100, stdin);
+    printf("Write a text to code it. (Just use these CAPITAL LETTERs: A, B, C, D, E, F, G, H and I)\n> ");
+    fgets(str, 100, stdin);
     
-    reverseSentence(text, 0);
+    codePtr = (int*)malloc(strlen(str)*sizeof(int));
     
-    free(text);
+    
+    coder(str, codePtr);
+    
+    for (i=0; i < strlen(str)-1; i++) {
+        printf("%d ", codePtr[i]);
+    }
+    
+    printf("\n\n\n\n");
+    
+    convertedStr = (char*)malloc(strlen(str) * sizeof(char));
+    decoder(codePtr, convertedStr, strlen(str));
+    
+    for (i=0; i < strlen(str)-1; i++) {
+        printf("%c ", convertedStr[i]);
+    }
     
     return 0;
 }
 
-void reverseSentence(char *sentence, int x) {
-    if (*(sentence + x) == '\0') return;
-    else {
-        int i = x;
+void coder(char* text, int* codePtr) {
+    int i = 0, x, y, codeBlock[3][3] = {{65, 68, 71}, {66, 69, 72}, {67, 70, 73}};
+    
+    while (*(text+i) != '\n') {
+        for (x=0; x<3; x++) {
+            for (y=0; y<3; y++) {
+                if (codeBlock[x][y] == *(text+i)) {
+                    *(codePtr + i) = (x+1)*10 + y+1;
+                    x = 0;
+                    y = 0;
+                    i++;
+                }
+            }
+        }
+    }
+}
+
+void decoder(int *code, char *text, int length) {
+    int i = 0, x, y, codeBlock[3][3] = {{65, 68, 71}, {66, 69, 72}, {67, 70, 73}};
+    
+    while (i <= length) {
+        x = *(code + i)/10;
+        y = *(code + i)%10;
         
-        while (*(sentence + i) != ' ' && *(sentence + i) != '\0') i++;
+        *(text + i) = *(*(codeBlock + x-1) + y-1);
         
-        reverseSentence(sentence, i + 1);
-        
-        for (x; x<i; x++) if (*(sentence + x) != '\n') printf("%c", *(sentence + x));
-        printf(" ");
+        i++;
     }
 }
