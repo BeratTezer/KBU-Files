@@ -1,0 +1,1 @@
+// Write the C program using dynamic memory, which counts the words in a given text or sentence.
