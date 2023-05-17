@@ -5,7 +5,7 @@
 #include <string.h>
 
 int main() {
-    char sentence[1000];
+    char sentence[1000]; 
     int i, n=1;
 
     printf("Enter a sentence: ");
