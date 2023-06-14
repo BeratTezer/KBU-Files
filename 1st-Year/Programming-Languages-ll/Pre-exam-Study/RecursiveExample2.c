@@ -21,6 +21,8 @@ void main() {
     printf("\n\nNow your array will write by recursive function.\n");
 
     naturalNumber(arr, n, 0);
+
+    free(arr);    
 }
 
 int naturalNumber(int *array, int size, int index) {
