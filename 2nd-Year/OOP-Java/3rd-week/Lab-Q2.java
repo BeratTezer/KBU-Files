@@ -5,9 +5,9 @@ public class Account {
     private char ownerName;
     private int password = 1234;
 
-    public Account (char name, double balance) {
-        this.balance = balance;
-        this.ownerName = name;
+    public Account (char isim, double para) {
+        this.balance = para;
+        this.ownerName = isim;
     }
 
     public Account (char name) {
