@@ -1,4 +1,4 @@
-// Q3: Öğrenci numarası, isim ve yaşının saklı tutulduğu, listedeki tüm düğümleri dolaşan, öğrenci bilgilerinin tümünü ekrana yazan ve sayan fonksiyonu yazınız.
+// Q5: İsme göre arama yapıp sıradaki kaydı silen fonksiyon
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -70,17 +70,51 @@ struct node *addStudent(struct node *head) {
 }
 
 // İsme göre tüm listeyi tarama ve ismi arama algoritması
-int deleteNext(struct node *head, char searcingName[10]) {
+int searchByName(struct node *head, char searcingName[10]) {
     for (struct node *temp = head; temp != NULL; temp = temp->next) {
         int result = strcmp(temp->name, searcingName);
         if (result == 0) {
-            printf("\nThis students next node is deleted.\n");
-            temp->next = temp->next->next; // This line deletes the next node of searcing student.
-            printList(head);
+            printf("\nStudent is found.\n");
             return 0;
         }
     }
-    printf("\n%s student couldn't find.\n", searcingName);
+    printf("\n%s couldn't found in the list.\n", searcingName);
+}
+
+struct node *deleteByName(struct node *head, char searchingName[10]) {
+    struct node *current = head;
+    struct node *previous = NULL;
+
+    while (current != NULL) {
+        int result = strcmp(current->name, searchingName);
+        
+        if (result == 0) {
+            if (previous == NULL) {
+                head = current->next;
+            } else {
+                previous->next = current->next;
+            }
+            free(current);
+            printf("\n%s isimli öğrenci silindi.\n", searchingName);
+            return head;
+        }
+
+        previous = current;
+        current = current->next;
+    }
+
+    printf("\n%s adında bir öğrenci bulunamadı.\n", searchingName);
+    return head;
+}
+
+
+// Listedeki en uzun ismi bulur ve döndürür.
+char *longestName(struct node *head) {
+    char *longest = "";
+    for (struct node *temp = head; temp != NULL; temp = temp->next) {
+        if (strlen(temp->name) > strlen(longest)) longest = temp->name;
+    }
+    return longest;
 }
 
 int main() {
@@ -95,7 +129,16 @@ int main() {
     printf("Which name you want to search?\n> ");
     scanf("%s", isim);
     
-    deleteNext(head, isim);
+    searchByName(head, isim);
+    
+    printf("Longest name in the list is: %s", longestName(head));
+    
+    printf("\nWhich names next node you want to delete?\n> ");
+    scanf("%s", isim);
+    
+    head = deleteByName(head, isim);
+    
+    printList(head);
     
     return 0;
 }
