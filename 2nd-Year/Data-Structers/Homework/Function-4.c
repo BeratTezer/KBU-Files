@@ -1,4 +1,4 @@
-// Q3: Öğrenci numarası, isim ve yaşının saklı tutulduğu, listedeki tüm düğümleri dolaşan, öğrenci bilgilerinin tümünü ekrana yazan ve sayan fonksiyonu yazınız.
+// Q4: Listede öğrenci adına göre kayıt arama yapan fonksiyonu yazınız
 
 #include <stdio.h>
 #include <stdlib.h>
