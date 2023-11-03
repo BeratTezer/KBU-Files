@@ -9,23 +9,21 @@ struct node {
 
 typedef struct {
     struct node *top;
-    int counter;
+    int data[STACK_SIZE];
 } stack;
 
 // Initialize function
-void initialize(stack *stk) {
+void reset(stack *stk) {
     stk->counter = 0;
-    stk->top = NULL;
+    stk->top = -1;
 }
 
 // Push function
 void push(stack *stk, int x) {
     if (stk->counter == STACK_SIZE) printf("Stack is full\n");
     else {
-        struct node *temp = (struct node*)malloc(sizeof(struct node));
-        temp->data = x;
-        temp->next = stk->top;
-        stk->top = temp;
-        stk->counter++;
+        // stk->top++;
+        // stk->data[stk->top] = x;
+        stk->data[++stk->top] = x;
     }
 }

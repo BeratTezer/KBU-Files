@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 #define STACK_SIZE 10
 
 struct node {
@@ -9,11 +9,11 @@ struct node {
 
 typedef struct {
     struct node *top;
-    int counter;
+    int data[STACK_SIZE];
 } stack;
 
 // Initialize function
-void initialize(stack *stk) {
+void reset(stack *stk) {
     stk->counter = 0;
-    stk->top = NULL;
-}
+    stk->top = -1;
+};
