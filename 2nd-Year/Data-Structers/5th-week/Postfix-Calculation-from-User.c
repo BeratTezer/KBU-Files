@@ -58,24 +58,24 @@ void postfixCalculator(char line[100], stack *stackName) {
             int n1 = pop(stackName);
             int n2 = pop(stackName);
             
-            printf("\nn1: %d, n2: %d\n", n1, n2);
+            // printf("\nn1: %d, n2: %d\n", n1, n2);
             
             switch (line[i]) {
                 case '+':
                     push(stackName, n1+n2);
-                    printf("\nn1+n2: %d\n", n1+n2);
+                    // printf("\nn1+n2: %d\n", n1+n2);
                     break;
                 case '-':
                     push(stackName, n2-n1);
-                    printf("\nn2-n1: %d\n", n2-n1);
+                    // printf("\nn2-n1: %d\n", n2-n1);
                     break;
                 case '*':
                     push(stackName, n1*n2);
-                    printf("\nn1*n2: %d\n", n1*n2);
+                    // printf("\nn1*n2: %d\n", n1*n2);
                     break;
                 case '/':
                     push(stackName, n2/n1);
-                    printf("\nn1/n2: %d\n", n1/n2);
+                    // printf("\nn1/n2: %d\n", n1/n2);
                     break;
             }
         }
@@ -86,10 +86,12 @@ void postfixCalculator(char line[100], stack *stackName) {
 
 int main() {
     stack calcutationStack;
-    char line[100] = "231+*8-";
+    char line[100];
     
+    printf("Please write a postfix calculation: ");
+    scanf("%s", line);
     
-    printf("This code answers the following line: %s\n", line);
+    printf("\nThis code answers the following line: %s\n", line);
     postfixCalculator(line, &calcutationStack);
     
     
