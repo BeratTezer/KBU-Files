@@ -1,7 +1,7 @@
 public class Main {
-    public static void main (String[] args) {
-        Pyramid pyramid = new Pyramid(3,5,8);
-
-        System.out.print(pyramid);
+    public static void main(String[] args) {
+        Cat cat1 = new Cat();
+        Duck duck1 = new Duck();
+        Eagle eagle1 = new Eagle();
     }
 }
