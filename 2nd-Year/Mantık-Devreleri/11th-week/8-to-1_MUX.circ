@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(140,20)" to="(140,90)"/>
+    <wire from="(140,160)" to="(140,230)"/>
+    <wire from="(80,20)" to="(140,20)"/>
+    <wire from="(80,230)" to="(140,230)"/>
+    <wire from="(110,110)" to="(110,120)"/>
+    <wire from="(110,130)" to="(110,140)"/>
+    <wire from="(80,50)" to="(130,50)"/>
+    <wire from="(80,200)" to="(130,200)"/>
+    <wire from="(110,130)" to="(150,130)"/>
+    <wire from="(80,80)" to="(120,80)"/>
+    <wire from="(110,120)" to="(150,120)"/>
+    <wire from="(80,170)" to="(120,170)"/>
+    <wire from="(120,80)" to="(120,110)"/>
+    <wire from="(120,140)" to="(120,170)"/>
+    <wire from="(190,130)" to="(220,130)"/>
+    <wire from="(120,110)" to="(150,110)"/>
+    <wire from="(120,140)" to="(150,140)"/>
+    <wire from="(80,110)" to="(110,110)"/>
+    <wire from="(80,140)" to="(110,140)"/>
+    <wire from="(130,100)" to="(150,100)"/>
+    <wire from="(130,150)" to="(150,150)"/>
+    <wire from="(130,150)" to="(130,200)"/>
+    <wire from="(170,170)" to="(170,220)"/>
+    <wire from="(130,50)" to="(130,100)"/>
+    <wire from="(140,90)" to="(150,90)"/>
+    <wire from="(140,160)" to="(150,160)"/>
+    <comp lib="6" loc="(357,187)" name="Text">
+      <a name="text" val="|"/>
+    </comp>
+    <comp lib="6" loc="(347,172)" name="Text">
+      <a name="text" val="1      0      1     Input-5"/>
+      <a name="font" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="0" loc="(80,50)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="I1"/>
+      <a name="labelfont" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(357,156)" name="Text">
+      <a name="text" val="|"/>
+    </comp>
+    <comp lib="0" loc="(80,170)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="I6"/>
+      <a name="labelfont" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="0" loc="(80,200)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="I7"/>
+      <a name="labelfont" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(357,136)" name="Text">
+      <a name="text" val="|"/>
+    </comp>
+    <comp lib="6" loc="(359,106)" name="Text">
+      <a name="text" val="|"/>
+      <a name="halign" val="right"/>
+      <a name="valign" val="bottom"/>
+    </comp>
+    <comp lib="6" loc="(347,141)" name="Text">
+      <a name="text" val="0      1      0     Input-2"/>
+      <a name="font" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(347,162)" name="Text">
+      <a name="text" val="1      0      0     Input-4"/>
+      <a name="font" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="0" loc="(80,140)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="I5"/>
+      <a name="labelfont" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(335,103)" name="Text">
+      <a name="text" val="A     B     C     Z"/>
+    </comp>
+    <comp lib="0" loc="(80,230)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="I8"/>
+      <a name="labelfont" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(347,119)" name="Text">
+      <a name="text" val="0      0      0     Input-0"/>
+      <a name="font" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(347,152)" name="Text">
+      <a name="text" val="0      1      1     Input-3"/>
+      <a name="font" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="0" loc="(220,130)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="  Z"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(322,104)" name="Text">
+      <a name="text" val="_________"/>
+    </comp>
+    <comp lib="0" loc="(80,110)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="I4"/>
+      <a name="labelfont" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(357,167)" name="Text">
+      <a name="text" val="|"/>
+    </comp>
+    <comp lib="6" loc="(369,104)" name="Text">
+      <a name="text" val="__________"/>
+    </comp>
+    <comp lib="6" loc="(380,103)" name="Text">
+      <a name="text" val="="/>
+    </comp>
+    <comp lib="6" loc="(357,195)" name="Text">
+      <a name="text" val="|"/>
+    </comp>
+    <comp lib="0" loc="(80,80)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="I3"/>
+      <a name="labelfont" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(357,146)" name="Text">
+      <a name="text" val="|"/>
+    </comp>
+    <comp lib="6" loc="(357,126)" name="Text">
+      <a name="text" val="|"/>
+    </comp>
+    <comp lib="0" loc="(170,220)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="width" val="3"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(357,178)" name="Text">
+      <a name="text" val="|"/>
+    </comp>
+    <comp lib="0" loc="(80,20)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="I0"/>
+      <a name="labelfont" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(347,192)" name="Text">
+      <a name="text" val="1      1      1     Input-7"/>
+      <a name="font" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(347,130)" name="Text">
+      <a name="text" val="0      0      1     Input-1"/>
+      <a name="font" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(347,182)" name="Text">
+      <a name="text" val="1      1      0     Input-6"/>
+      <a name="font" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="6" loc="(357,115)" name="Text">
+      <a name="text" val="|"/>
+    </comp>
+    <comp lib="6" loc="(569,103)" name="Text">
+      <a name="text" val="A'B'C'I0+A'B'C'I1+A'B'C'I2+A'B'C'I3+A'B'C'I4+A'B'C'I5+A'B'C'I6+A'B'C'I7"/>
+      <a name="font" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="2" loc="(190,130)" name="Multiplexer">
+      <a name="select" val="3"/>
+      <a name="enable" val="false"/>
+    </comp>
+  </circuit>
+</project>
