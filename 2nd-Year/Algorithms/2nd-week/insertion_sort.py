@@ -6,4 +6,10 @@ def insertion_sort(arr):
             arr[d+1] = arr[d]
             d -= 1
         arr[d+1] = key
+        print(arr)
     return arr
+
+array = [2,7,-1,0,12,5,4]
+print(array)
+
+insertion_sort(array)
