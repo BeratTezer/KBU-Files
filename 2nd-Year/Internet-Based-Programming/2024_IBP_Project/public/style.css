@@ -1,0 +1,471 @@
+/*nav*/
+nav {
+  position: absolute;
+  width: 100vw;
+  max-width: 100%;
+  height: 100dvh;
+  font-family: "Poppins", sans-serif;
+  min-height: 500px;
+}
+
+nav h2 {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  color: whitesmoke;
+  font-size: 23px;
+}
+
+nav ul {
+  list-style-type: none;
+  background: #484872;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  border-radius: 0 0 150px 0;
+  position: absolute;
+  top: -100%;
+  transition: 0.3s linear;
+}
+
+nav.opened ul {
+  transition: 0.3s linear;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 21px;
+}
+
+.current {
+  color: #fc036b;
+}
+
+a.contact {
+  background: #fc036b;
+  padding: 12px 25px;
+  border-radius: 30px;
+  display: block;
+  margin-top: 10px;
+}
+
+/*ham*/
+.nav-btn {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  right: 30px;
+  top: 25px;
+}
+
+.nav-btn div {
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  transition: 0.3s linear;
+  border-radius: 10px;
+  background: whitesmoke;
+}
+
+.nav-btn div:nth-child(1) {
+  top: 0;
+}
+
+.nav-btn div:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-btn div:nth-child(3) {
+  bottom: 0;
+}
+
+nav.opened .nav-btn div:nth-child(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+nav.opened .nav-btn div:nth-child(2) {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+nav.opened .nav-btn div:nth-child(3) {
+  bottom: 50%;
+  transform: translateY(50%) rotate(-45deg);
+}
+
+/*___*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  background: white;
+}
+
+body.disable-scroll {
+  overflow: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100vw;
+  max-width: 100%;
+  height: 100dvh;
+  min-height: 450px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 90%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg");
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: whitesmoke;
+}
+
+header .container {
+  width: 85%;
+  margin-bottom: 110px;
+}
+
+header h2 {
+  font-size: 16px;
+  font-family: "Tilt Neon", cursive;
+}
+
+header h2::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 120px;
+  margin: 7px auto 0 auto;
+  border-radius: 3px;
+  background: #fc036b;
+}
+
+header h1 {
+  margin: 30px 0;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.learnmore {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  color: whitesmoke;
+  background: #fc036b;
+  font-family: "Poppins", sans-serif;
+}
+
+#events-sec {
+  text-align: center;
+  margin: 30px 0 40px 0;
+}
+
+#events-sec .container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#events-sec h1 {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  color: #484872;
+}
+
+#events-sec h1::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: #fc036b;
+  border-radius: 3px;
+}
+#events-sec h1 {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  color: #484872;
+}
+
+#events-sec h1::after {
+  content: "";
+  width: 220px;
+  margin: 0 auto 20px auto;
+  width: 140px;
+  border-radius: 20px;
+}
+
+.events img {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.events h2 {
+  font-size: 20px;
+  font-family: "Tilt Neon", cursive;
+  color: #484872;
+  margin-top: 7px;
+}
+
+.events p {
+  line-height: 1.3;
+  font-family: "Poppins", sanserif;
+  margin: 7px 0 10px 0;
+}
+
+#explore-sec {
+  text-align: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("https://images.pexels.com/photos/361104/pexels-photo-361104.jpeg");
+  background-size: 100% 100%;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+
+#explore-sec .container {
+  width: 85%;
+}
+
+#explore-sec h1 {
+  font-size: 40px;
+}
+
+#explore-sec h1::after {
+  content: "";
+  display: block;
+  height: 5px;
+  background: #fc036b;
+  border-radius: 3px;
+  margin: 0 auto 0 auto;
+  width: 200px;
+}
+
+#explore-sec p {
+  line-height: 1.7;
+  margin: 20px 0 25px 0;
+}
+
+#tours-sec {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 30px 0 20px 0;
+}
+
+#tours-sec .container {
+  display: flex;
+  flex-direction: column;
+}
+
+#tours-sec h1 {
+  font-size: 32px;
+  color: #484872;
+}
+
+#tours-sec h1::after {
+  content: "";
+  display: block;
+  height: 5px;
+  background: #fc036b;
+  border-radius: 3px;
+  margin: 3px auto 0 auto;
+  width: 200px;
+}
+
+#tours-sec p {
+  margin: 17px 0;
+  line-height: 1.5;
+}
+
+.d-images {
+  margin: 20px 0 0 0;
+}
+
+.d-images img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  background: #484872;
+  color: whitesmoke;
+  padding: 25px 0;
+  font-size: 9px;
+  line-height: 1.2;
+  font-family: "Poppins", sans-serif;
+}
+
+/*resizing images*/
+@media screen and (min-width: 500px) {
+  .events img {
+    height: 340px;
+  }
+  .d-images img {
+    height: 320px;
+  }
+  footer {
+    font-size: 11px;
+  }
+}
+
+/*for desktops*/
+
+@media screen and (min-width: 830px) {
+  .learnmore {
+    padding: 12px 45px;
+  }
+  /*header*/
+  header {
+    min-height: 570px;
+    justify-content: center;
+    background-size: 100% 100%;
+  }
+  header .container {
+    margin-bottom: 0;
+  }
+  header h1 {
+    font-size: 45px;
+    margin-top: 20px;
+  }
+  header h2 {
+    font-size: 25px;
+  }
+  header h2::after {
+    width: 200px;
+  }
+  header .learnmore {
+    padding: 12px 25px;
+  }
+  nav ul {
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: transparent;
+    gap: 32px;
+    border-radius: 0;
+    transform: translate;
+    min-height: 0;
+    top: 25px;
+  }
+  a.contact {
+    margin: 0 35px 0 0;
+  }
+  .nav-btn {
+    display: none;
+  }
+  nav h2 {
+    font-size: 27px;
+    top: 30px;
+    left: 30px;
+  }
+  nav a:not(.contact):hover {
+    color: #fc036b;
+    transition: 0.2s linear;
+  }
+  nav a {
+    font-size: 18px;
+  }
+  /*events*/
+  #events-sec .container > div {
+    flex-direction: row;
+  }
+  #events-sec h1 {
+    font-size: 32px;
+  }
+  #events-sec h1::after {
+    margin: 0 auto 30px auto;
+  }
+  #events-sec {
+    margin: 30px 0 45px 0;
+  }
+  .events p {
+    margin: 12px 0 18px 0;
+    font-size: 18px;
+  }
+  .events h2 {
+    font-size: 25px;
+  }
+  /*explore-sec*/
+  #explore-sec {
+    text-align: left;
+  }
+  #explore-sec h1 {
+    font-size: 45px;
+  }
+  #explore-sec h1::after {
+    margin: 0;
+    width: 250px;
+  }
+  #explore-sec p {
+    font-size: 20px;
+    margin: 30px 0;
+  }
+  #tours-sec {
+    margin: 40px 0;
+    text-align: left;
+  }
+  #tours-sec p {
+    font-size: 18px;
+  }
+  #tours-sec h1:after {
+    margin: 5px 0;
+    width: 150px;
+  }
+  #tours-sec .container {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+  .d-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7px;
+    margin: 0;
+  }
+  .d-images img {
+    margin: 0;
+    height: 180px;
+  }
+  .d-text,
+  .d-images {
+    flex: 1;
+  }
+  footer {
+    font-size: 12px;
+    padding: 40px 0;
+  }
+}
