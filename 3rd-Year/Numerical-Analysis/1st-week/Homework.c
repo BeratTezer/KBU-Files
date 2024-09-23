@@ -35,7 +35,7 @@ int main() {
         }
     }
 
-    printf("\n\nDeterminant of the matris is: %d", det_calc(3,3,matris));
+    printf("\n\nDeterminant of the matris is: %d", det_calc(5,5,matris));
 
 	return 0;
 }
