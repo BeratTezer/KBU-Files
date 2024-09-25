@@ -19,6 +19,6 @@ int main()
     {
         printf("[%02d]:[%.15lf]\n", i+1, dizi[i]);
     }
-    
+    getchar();
     return 0;
 }
