@@ -1,0 +1,10 @@
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\UserRegGuide\UserRegGuide\bin\Debug\UserRegGuide.exe.config
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\UserRegGuide\UserRegGuide\bin\Debug\UserRegGuide.exe
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\UserRegGuide\UserRegGuide\bin\Debug\UserRegGuide.pdb
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\UserRegGuide\UserRegGuide\obj\Debug\UserRegGuide.csproj.AssemblyReference.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\UserRegGuide\UserRegGuide\obj\Debug\UserRegGuide.Form1.resources
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\UserRegGuide\UserRegGuide\obj\Debug\UserRegGuide.Properties.Resources.resources
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\UserRegGuide\UserRegGuide\obj\Debug\UserRegGuide.csproj.GenerateResource.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\UserRegGuide\UserRegGuide\obj\Debug\UserRegGuide.csproj.CoreCompileInputs.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\UserRegGuide\UserRegGuide\obj\Debug\UserRegGuide.exe
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\UserRegGuide\UserRegGuide\obj\Debug\UserRegGuide.pdb
