@@ -1,0 +1,10 @@
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MathCalculations\MathCalculations\bin\Debug\MathCalculations.exe.config
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MathCalculations\MathCalculations\bin\Debug\MathCalculations.exe
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MathCalculations\MathCalculations\bin\Debug\MathCalculations.pdb
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MathCalculations\MathCalculations\obj\Debug\MathCalculations.csproj.AssemblyReference.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MathCalculations\MathCalculations\obj\Debug\MathCalculations.Form1.resources
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MathCalculations\MathCalculations\obj\Debug\MathCalculations.Properties.Resources.resources
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MathCalculations\MathCalculations\obj\Debug\MathCalculations.csproj.GenerateResource.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MathCalculations\MathCalculations\obj\Debug\MathCalculations.csproj.CoreCompileInputs.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MathCalculations\MathCalculations\obj\Debug\MathCalculations.exe
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MathCalculations\MathCalculations\obj\Debug\MathCalculations.pdb

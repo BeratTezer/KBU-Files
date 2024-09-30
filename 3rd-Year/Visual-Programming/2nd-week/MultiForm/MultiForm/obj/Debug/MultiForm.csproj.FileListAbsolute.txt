@@ -1,0 +1,11 @@
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\bin\Debug\MultiForm.exe.config
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\bin\Debug\MultiForm.exe
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\bin\Debug\MultiForm.pdb
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\obj\Debug\MultiForm.csproj.AssemblyReference.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\obj\Debug\MultiForm.Form1.resources
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\obj\Debug\MultiForm.Form2.resources
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\obj\Debug\MultiForm.Properties.Resources.resources
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\obj\Debug\MultiForm.csproj.GenerateResource.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\obj\Debug\MultiForm.csproj.CoreCompileInputs.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\obj\Debug\MultiForm.exe
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\2nd-week\MultiForm\MultiForm\obj\Debug\MultiForm.pdb
