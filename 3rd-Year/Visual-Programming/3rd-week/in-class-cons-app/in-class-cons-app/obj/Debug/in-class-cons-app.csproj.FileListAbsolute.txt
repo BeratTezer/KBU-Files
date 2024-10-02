@@ -1,0 +1,7 @@
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\3rd-week\in-class-cons-app\in-class-cons-app\obj\Debug\in-class-cons-app.csproj.AssemblyReference.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\3rd-week\in-class-cons-app\in-class-cons-app\obj\Debug\in-class-cons-app.csproj.CoreCompileInputs.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\3rd-week\in-class-cons-app\in-class-cons-app\bin\Debug\in-class-cons-app.exe.config
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\3rd-week\in-class-cons-app\in-class-cons-app\bin\Debug\in-class-cons-app.exe
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\3rd-week\in-class-cons-app\in-class-cons-app\bin\Debug\in-class-cons-app.pdb
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\3rd-week\in-class-cons-app\in-class-cons-app\obj\Debug\in-class-cons-app.exe
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\3rd-week\in-class-cons-app\in-class-cons-app\obj\Debug\in-class-cons-app.pdb
