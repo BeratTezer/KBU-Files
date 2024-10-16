@@ -8,3 +8,4 @@ C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\4th-w
 C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\4th-week\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\4th-week\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\4th-week\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\4th-week\Calculator\Calculator\obj\Debug\Calculator.Form2.resources

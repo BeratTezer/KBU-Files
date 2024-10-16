@@ -8,27 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Calculator
+namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        string user_name = "berat";
-        int password = 1111;
-        int counter = 0;
-
-        private void btn_Click(object sender, EventArgs e)
-        {
-
-            Form1 form1 = new Form1();
-            this.Hide();
-
-            Form2 form = new Form2();
-            form.Show();
         }
     }
 }
