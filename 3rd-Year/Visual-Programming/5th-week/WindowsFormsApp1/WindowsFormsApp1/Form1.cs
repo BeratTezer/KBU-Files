@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -29,21 +30,26 @@ namespace WindowsFormsApp1
         {
             double r =  Convert.ToDouble(textBox1.Text);
             double alan = pi * r * r;
-            label2.Text = Convert.ToString(alan);
             label3.Text = "Dairenin alani " + Convert.ToString(alan);
+            MessageBox.Show("Dairenin cevresi " + Convert.ToString(alan));
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             double r = Convert.ToDouble(textBox1.Text);
             double cevre = 2 * pi * r;
-            label2.Text = Convert.ToString(cevre);
             label3.Text = "Dairenin cevresi " + Convert.ToString(cevre);
+            MessageBox.Show("Dairenin cevresi " + Convert.ToString(cevre));
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            label2.Text= "r= " +textBox1.Text; 
         }
     }
 }
