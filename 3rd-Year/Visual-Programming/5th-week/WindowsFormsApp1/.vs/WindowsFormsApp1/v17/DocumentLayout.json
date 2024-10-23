@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\5th-week\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{830FAFBB-1E43-4D23-B6CE-28EE6854980F}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\5th-week\\windowsformsapp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{830FAFBB-1E43-4D23-B6CE-28EE6854980F}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{830FAFBB-1E43-4D23-B6CE-28EE6854980F}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\5th-week\\windowsformsapp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{830FAFBB-1E43-4D23-B6CE-28EE6854980F}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{830FAFBB-1E43-4D23-B6CE-28EE6854980F}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\5th-week\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{830FAFBB-1E43-4D23-B6CE-28EE6854980F}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{830FAFBB-1E43-4D23-B6CE-28EE6854980F}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\5th-week\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830FAFBB-1E43-4D23-B6CE-28EE6854980F}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:WindowsFormsApp1\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830FAFBB-1E43-4D23-B6CE-28EE6854980F}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\5th-week\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830FAFBB-1E43-4D23-B6CE-28EE6854980F}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:WindowsFormsApp1\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\5th-week\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
@@ -43,16 +47,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\5th-week\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\5th-week\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.Designer.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:51:02.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\5th-week\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
               "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\5th-week\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
               "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAywCAAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:04:27.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T15:04:27.786Z"
             }
           ]
         }
