@@ -23,12 +23,10 @@ namespace Calculator
 
         private void btn_Click(object sender, EventArgs e)
         {
-
-            Form1 form1 = new Form1();
             this.Hide();
 
-            Form2 form = new Form2();
-            form.Show();
+            Form2 form2 = new Form2();
+            form2.Show();
         }
     }
 }
