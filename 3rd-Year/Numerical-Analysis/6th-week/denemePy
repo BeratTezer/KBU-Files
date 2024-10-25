@@ -1,0 +1,36 @@
+from io import BytesIO
+import PyPDF2
+from PIL import Image
+
+def pdf_to_png(pdf_file, output_dir):
+    """
+    Function to convert a PDF file into a series of PNG files, ordering the images as they appear in the PDF.
+
+    :param pdf_file: Path of the PDF file to be converted.
+    :param output_dir: Directory where the extracted PNG images will be saved. The directory should already exist.
+    """
+
+    pdf = open(pdf_file, 'rb').read()
+    buffer = BytesIO(pdf)
+
+    # Create a PDF file object from the given buffer
+    pdf_file_obj = PyPDF2.PdfReader(buffer)
+
+    page_count = pdf_file_obj.numPages
+
+    for i, page_no in enumerate(range(page_count)):
+        # Get a page instance from the PDF file object
+        page = pdf_file_obj.getPage(page_no)
+
+        # Extract image and convert to PIL format
+        im = Image.open(BytesIO(page.getImage()))
+
+        # Create output file path with incrementing number for each extracted page
+        outfilepath = f"{output_dir}/page_{i + 1}.png"
+
+        # Save the image as PNG file to the specified directory
+        im.save(outfilepath, "PNG")
+
+    buffer.close()
+
+pdf_to_png(r"C:\Users\berat\Yedeklenecekler\Materials\University Files\3nd Year\Mikro-Güncel\Mp_Introduction_of_Course.pdf", r"C:\Users\berat\Yedeklenecekler\Materials\University Files\3nd Year\Mikro-Güncel\deneme")
