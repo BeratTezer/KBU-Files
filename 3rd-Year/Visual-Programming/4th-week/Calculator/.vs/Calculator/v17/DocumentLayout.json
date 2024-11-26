@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\4th-week\\Calculator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4804193-31F8-4F61-8C01-A247031BFB14}|Calculator\\Calculator.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\4th-week\\Calculator\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4804193-31F8-4F61-8C01-A247031BFB14}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4804193-31F8-4F61-8C01-A247031BFB14}|Calculator\\Calculator.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\4th-week\\calculator\\calculator\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4804193-31F8-4F61-8C01-A247031BFB14}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4804193-31F8-4F61-8C01-A247031BFB14}|Calculator\\Calculator.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\4th-week\\Calculator\\Calculator\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4804193-31F8-4F61-8C01-A247031BFB14}|Calculator\\Calculator.csproj|solutionrelative:Calculator\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4804193-31F8-4F61-8C01-A247031BFB14}|Calculator\\Calculator.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\4th-week\\Calculator\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4804193-31F8-4F61-8C01-A247031BFB14}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,32 +38,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\4th-week\\Calculator\\Calculator\\Form2.cs",
               "RelativeDocumentMoniker": "Calculator\\Form2.cs",
               "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\4th-week\\Calculator\\Calculator\\Form2.cs",
               "RelativeToolTip": "Calculator\\Form2.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwCQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAywCQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T17:05:31.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\4th-week\\Calculator\\Calculator\\Form2.cs",
               "RelativeDocumentMoniker": "Calculator\\Form2.cs",
               "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\4th-week\\Calculator\\Calculator\\Form2.cs [Design]",
               "RelativeToolTip": "Calculator\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:49:38.795Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-09T16:49:38.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\4th-week\\Calculator\\Calculator\\Form1.cs",
               "RelativeDocumentMoniker": "Calculator\\Form1.cs",
@@ -76,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\4th-week\\Calculator\\Calculator\\Form1.cs",
               "RelativeDocumentMoniker": "Calculator\\Form1.cs",

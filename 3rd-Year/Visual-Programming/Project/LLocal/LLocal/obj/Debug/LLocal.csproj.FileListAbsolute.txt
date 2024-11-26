@@ -1,0 +1,10 @@
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\bin\Debug\LLocal.exe.config
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\bin\Debug\LLocal.exe
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\bin\Debug\LLocal.pdb
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\obj\Debug\LLocal.csproj.AssemblyReference.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\obj\Debug\LLocal.Form1.resources
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\obj\Debug\LLocal.Properties.Resources.resources
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\obj\Debug\LLocal.csproj.GenerateResource.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\obj\Debug\LLocal.csproj.CoreCompileInputs.cache
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\obj\Debug\LLocal.exe
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\obj\Debug\LLocal.pdb

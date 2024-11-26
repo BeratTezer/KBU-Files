@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\project\\llocal\\llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\project\\llocal\\llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
+              "RelativeDocumentMoniker": "LLocal\\Form1.cs",
+              "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
+              "RelativeToolTip": "LLocal\\Form1.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwCsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:29:56.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
