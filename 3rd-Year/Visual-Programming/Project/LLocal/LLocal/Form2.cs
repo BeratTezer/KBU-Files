@@ -19,7 +19,5 @@ namespace LLocal
             InitializeComponent();
         }
 
-        Point p1 = Point.Empty;
-
     }
 }

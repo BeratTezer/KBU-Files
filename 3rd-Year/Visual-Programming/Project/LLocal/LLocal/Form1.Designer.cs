@@ -33,6 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.exitButton = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -65,14 +66,13 @@
             this.label11 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.tabControl.SuspendLayout();
             this.welcomePage.SuspendLayout();
             this.signUpPage.SuspendLayout();
             this.forgotMyPasswordPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -116,6 +116,16 @@
             this.label1.Size = new System.Drawing.Size(278, 105);
             this.label1.TabIndex = 2;
             this.label1.Text = "Llocal";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::LLocal.Properties.Resources.image;
+            this.pictureBox1.Location = new System.Drawing.Point(111, 31);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(181, 256);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // panel3
             // 
@@ -674,16 +684,6 @@
             this.panel4.Size = new System.Drawing.Size(26, 439);
             this.panel4.TabIndex = 7;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::LLocal.Properties.Resources.image;
-            this.pictureBox1.Location = new System.Drawing.Point(111, 31);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(181, 256);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -704,9 +704,11 @@
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.StateCommon.Border.Rounding = 20;
-            this.Text = "Form1";
+            this.Text = "Llocal Login";
+            this.TopMost = true;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.tabControl.ResumeLayout(false);
@@ -716,7 +718,6 @@
             this.signUpPage.PerformLayout();
             this.forgotMyPasswordPage.ResumeLayout(false);
             this.forgotMyPasswordPage.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
