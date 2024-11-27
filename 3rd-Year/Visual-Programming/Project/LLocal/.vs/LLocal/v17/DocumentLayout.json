@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\project\\llocal\\llocal\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\project\\llocal\\llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\project\\llocal\\llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\project\\llocal\\llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +42,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
-              "RelativeDocumentMoniker": "LLocal\\Form1.cs",
-              "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
-              "RelativeToolTip": "LLocal\\Form1.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA2wCsAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CustomButton.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\CustomButton.cs",
+              "RelativeDocumentMoniker": "LLocal\\CustomButton.cs",
+              "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\CustomButton.cs",
+              "RelativeToolTip": "LLocal\\CustomButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T13:29:56.328Z",
+              "WhenOpened": "2024-11-27T13:49:41.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form2.cs",
+              "RelativeDocumentMoniker": "LLocal\\Form2.cs",
+              "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form2.cs",
+              "RelativeToolTip": "LLocal\\Form2.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T11:30:17.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form2.cs",
+              "RelativeDocumentMoniker": "LLocal\\Form2.cs",
+              "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form2.cs [Design]",
+              "RelativeToolTip": "LLocal\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T11:29:58.494Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
               "RelativeDocumentMoniker": "LLocal\\Form1.cs",
@@ -52,6 +89,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T12:52:07.177Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
+              "RelativeDocumentMoniker": "LLocal\\Form1.cs",
+              "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
+              "RelativeToolTip": "LLocal\\Form1.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwEUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:29:56.328Z",
+              "EditorCaption": ""
             }
           ]
         }

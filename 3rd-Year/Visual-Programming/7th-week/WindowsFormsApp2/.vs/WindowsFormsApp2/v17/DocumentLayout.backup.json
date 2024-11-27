@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{EBCD42BF-F89F-4FB0-8D6D-DB45374D52AE}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\7th-week\\windowsformsapp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EBCD42BF-F89F-4FB0-8D6D-DB45374D52AE}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBCD42BF-F89F-4FB0-8D6D-DB45374D52AE}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\7th-week\\windowsformsapp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBCD42BF-F89F-4FB0-8D6D-DB45374D52AE}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\7th-week\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\Form1.cs",
+              "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\7th-week\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:46:43.887Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
