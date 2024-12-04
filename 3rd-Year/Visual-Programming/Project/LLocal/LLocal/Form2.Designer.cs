@@ -39,15 +39,20 @@
             this.kryptonPalette1.ButtonSpecs.FormClose.Image = global::LLocal.Properties.Resources.Basic_red_dot2;
             this.kryptonPalette1.ButtonSpecs.FormMax.Image = global::LLocal.Properties.Resources.GAudit_YellowDot1;
             this.kryptonPalette1.ButtonSpecs.FormMin.Image = global::LLocal.Properties.Resources.Basic_green_dot1;
+            this.kryptonPalette1.FormStyles.FormMain.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonPalette1.FormStyles.FormMain.StateCommon.Border.Rounding = 30;
             // 
             // gradientBG1
             // 
-            this.gradientBG1.Angle = 44F;
+            this.gradientBG1.Angle = 262F;
+            this.gradientBG1.BorderRadius = 1;
             this.gradientBG1.Color0 = System.Drawing.Color.Blue;
             this.gradientBG1.Color1 = System.Drawing.Color.Orange;
-            this.gradientBG1.Location = new System.Drawing.Point(-2, -5);
+            this.gradientBG1.Location = new System.Drawing.Point(-2, -4);
             this.gradientBG1.Name = "gradientBG1";
-            this.gradientBG1.Size = new System.Drawing.Size(1389, 778);
+            this.gradientBG1.Size = new System.Drawing.Size(1403, 818);
             this.gradientBG1.TabIndex = 0;
             // 
             // Form2
@@ -55,7 +60,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1367, 770);
+            this.ClientSize = new System.Drawing.Size(1399, 810);
             this.Controls.Add(this.gradientBG1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

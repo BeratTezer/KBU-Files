@@ -33,11 +33,11 @@ namespace LLocal
             set { ang = value; Invalidate(); }
         }
 
-        //public int BorderRadius
-        //{
-        //    get { return wh; }
-        //    set { wh = value; Invalidate(); }
-        //}
+        public int BorderRadius
+        {
+            get { return wh; }
+            set { wh = value; Invalidate(); }
+        }
 
         public Color Color0
         {
