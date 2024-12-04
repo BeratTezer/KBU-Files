@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\llocal\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\project\\llocal\\llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -15,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\project\\llocal\\llocal\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,34 +41,50 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CustomButton.cs",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\CustomButton.cs",
               "RelativeDocumentMoniker": "LLocal\\CustomButton.cs",
               "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\CustomButton.cs",
               "RelativeToolTip": "LLocal\\CustomButton.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T13:49:41.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form2.cs",
               "RelativeDocumentMoniker": "LLocal\\Form2.cs",
               "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form2.cs",
               "RelativeToolTip": "LLocal\\Form2.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:30:17.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form2.cs",
               "RelativeDocumentMoniker": "LLocal\\Form2.cs",
@@ -80,18 +96,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
               "RelativeDocumentMoniker": "LLocal\\Form1.cs",
               "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs [Design]",
               "RelativeToolTip": "LLocal\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T12:52:07.177Z"
+              "WhenOpened": "2024-11-25T12:52:07.177Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
               "RelativeDocumentMoniker": "LLocal\\Form1.cs",
@@ -99,7 +116,8 @@
               "RelativeToolTip": "LLocal\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T13:29:56.328Z"
+              "WhenOpened": "2024-11-25T13:29:56.328Z",
+              "EditorCaption": ""
             }
           ]
         }
