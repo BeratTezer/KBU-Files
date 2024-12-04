@@ -46,3 +46,4 @@ C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Proje
 C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\bin\Debug\EntityFramework.xml
 C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\bin\Debug\System.Data.SQLite.xml
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\obj\Debug\LLocal.GradientBG.resources
