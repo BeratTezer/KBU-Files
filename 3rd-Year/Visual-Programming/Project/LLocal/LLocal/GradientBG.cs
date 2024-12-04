@@ -22,7 +22,7 @@ namespace LLocal
         public GradientBG()
         {
             DoubleBuffered = true;
-            t.Interval = 60;
+            t.Interval = 240;
             t.Start();
             t.Tick += (s, e) => { Angle = Angle % 360 + 1; };
         }
