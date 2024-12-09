@@ -33,6 +33,20 @@ void b(double x)
 }
 
 // Sorunun c şıkkı
+void c(double x, int n, int m)
+{
+    double result = 0;
+    for (int i=n; i==1; i--)
+    {
+        for (int i=m; i==1; i--)
+        {
+           result = d(n, m, x);
+        }
+        
+    }
+    printf("[C]: %lf", result);
+}
+
 double fi(double x, int hCarpan)
 {
     double v1 = x + h/hCarpan;
@@ -44,27 +58,17 @@ double fi(double x, int hCarpan)
     return (r1-r2)/2*(h/hCarpan);    
 }
 
-// double d(int n, int m)
-// {
-//     if (m==1)
-//     {
-//         fi()
-//     }
-//     return
-// }
-
-void c(double x, int n, int m)
+double d(int n, int m, double x)
 {
-    double result = 0;
-    for (int i=n; i==1; i--)
+    double innerResult = 0;
+    if (m==1)
     {
-        for (int i=m; i==1; i--)
-        {
-           result += d(n, m); 
-        }
-        
+        innerResult += fi(x, pow(2, n));
+    } else 
+    {
+        innerResult += d(n,m-1,x) + 1/(pow(4,m)-1)*(d(n, m, x)-d(n-1, m, x));
     }
-    printf("[C]: %lf", result);
+    return innerResult;
 }
 
 int main() 
