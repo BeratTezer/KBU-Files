@@ -15,44 +15,24 @@ namespace LLocal
 {
     public partial class Form2 : KryptonForm
     {
+        //private int counter = 0; // Sayaç değişkeni
+
         public Form2()
         {
             InitializeComponent();
+
+            //// Timer'ı yapılandır
+            //Timer timer = new Timer();
+            //timer.Interval = 1000; // 1 saniye
+            //timer.Tick += Timer_Tick;
+            //timer.Start(); // Timer'ı başlat
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
+        //private void Timer_Tick(object sender, EventArgs e)
+        //{
+        //    // Label içeriğini değiştir
+        //    counter++;
+        //    label1.Text = $"Sayaç: {counter}";
+        //}
     }
 }

@@ -53,11 +53,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.gradientBG1 = new LLocal.GradientBG();
+            this.homeTabControl = new System.Windows.Forms.TabControl();
+            this.homePage2 = new System.Windows.Forms.TabPage();
+            this.homePage1 = new System.Windows.Forms.TabPage();
+            this.homePage3 = new System.Windows.Forms.TabPage();
+            this.homePage4 = new System.Windows.Forms.TabPage();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -65,8 +68,11 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel9.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -77,8 +83,10 @@
             this.panel12.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.tabControl1.SuspendLayout();
-            this.tabPage3.SuspendLayout();
+            this.homeTabControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -103,7 +111,7 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.tabControl1);
+            this.panel1.Controls.Add(this.homeTabControl);
             this.panel1.Location = new System.Drawing.Point(12, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1389, 809);
@@ -123,6 +131,10 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.panel9.Controls.Add(this.label3);
+            this.panel9.Controls.Add(this.pictureBox10);
+            this.panel9.Controls.Add(this.pictureBox9);
+            this.panel9.Controls.Add(this.pictureBox8);
             this.panel9.Location = new System.Drawing.Point(1050, 0);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(351, 100);
@@ -202,7 +214,6 @@
             this.label8.Size = new System.Drawing.Size(60, 19);
             this.label8.TabIndex = 1;
             this.label8.Text = "Profile";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // panel14
             // 
@@ -223,7 +234,6 @@
             this.label7.Size = new System.Drawing.Size(71, 19);
             this.label7.TabIndex = 1;
             this.label7.Text = "Settings";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // panel5
             // 
@@ -256,7 +266,6 @@
             this.label6.Size = new System.Drawing.Size(64, 19);
             this.label6.TabIndex = 1;
             this.label6.Text = "History";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel12
             // 
@@ -277,7 +286,6 @@
             this.label5.Size = new System.Drawing.Size(62, 19);
             this.label5.TabIndex = 1;
             this.label5.Text = "Create ";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // panel11
             // 
@@ -298,7 +306,6 @@
             this.label4.Size = new System.Drawing.Size(51, 19);
             this.label4.TabIndex = 1;
             this.label4.Text = "News";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel10
             // 
@@ -319,60 +326,88 @@
             this.label2.Size = new System.Drawing.Size(55, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Home";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // tabControl1
+            // homeTabControl
             // 
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(248, 77);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1163, 744);
-            this.tabControl1.TabIndex = 3;
+            this.homeTabControl.Controls.Add(this.homePage2);
+            this.homeTabControl.Controls.Add(this.homePage1);
+            this.homeTabControl.Controls.Add(this.homePage3);
+            this.homeTabControl.Controls.Add(this.homePage4);
+            this.homeTabControl.Location = new System.Drawing.Point(248, 77);
+            this.homeTabControl.Name = "homeTabControl";
+            this.homeTabControl.SelectedIndex = 0;
+            this.homeTabControl.Size = new System.Drawing.Size(1148, 734);
+            this.homeTabControl.TabIndex = 3;
             // 
-            // tabPage2
+            // homePage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1155, 718);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.homePage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homePage2.Location = new System.Drawing.Point(4, 22);
+            this.homePage2.Name = "homePage2";
+            this.homePage2.Padding = new System.Windows.Forms.Padding(3);
+            this.homePage2.Size = new System.Drawing.Size(1140, 708);
+            this.homePage2.TabIndex = 1;
+            this.homePage2.Text = "tabPage2";
             // 
-            // tabPage1
+            // homePage1
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1155, 718);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.homePage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homePage1.Location = new System.Drawing.Point(4, 22);
+            this.homePage1.Name = "homePage1";
+            this.homePage1.Padding = new System.Windows.Forms.Padding(3);
+            this.homePage1.Size = new System.Drawing.Size(1140, 708);
+            this.homePage1.TabIndex = 0;
+            this.homePage1.Text = "tabPage1";
             // 
-            // tabPage3
+            // homePage3
             // 
-            this.tabPage3.Controls.Add(this.gradientBG1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1155, 718);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.homePage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homePage3.Location = new System.Drawing.Point(4, 22);
+            this.homePage3.Name = "homePage3";
+            this.homePage3.Padding = new System.Windows.Forms.Padding(3);
+            this.homePage3.Size = new System.Drawing.Size(1140, 708);
+            this.homePage3.TabIndex = 2;
+            this.homePage3.Text = "tabPage3";
             // 
-            // gradientBG1
+            // homePage4
             // 
-            this.gradientBG1.Angle = 261F;
-            this.gradientBG1.BorderRadius = 20;
-            this.gradientBG1.Color0 = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
-            this.gradientBG1.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(4)))), ((int)(((byte)(10)))));
-            this.gradientBG1.Location = new System.Drawing.Point(-15, -22);
-            this.gradientBG1.Name = "gradientBG1";
-            this.gradientBG1.Size = new System.Drawing.Size(1150, 730);
-            this.gradientBG1.TabIndex = 0;
+            this.homePage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homePage4.Location = new System.Drawing.Point(4, 22);
+            this.homePage4.Name = "homePage4";
+            this.homePage4.Padding = new System.Windows.Forms.Padding(3);
+            this.homePage4.Size = new System.Drawing.Size(1140, 708);
+            this.homePage4.TabIndex = 3;
+            this.homePage4.Text = "tabPage4";
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::LLocal.Properties.Resources.png;
+            this.pictureBox10.Location = new System.Drawing.Point(152, 30);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 3;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::LLocal.Properties.Resources.forum_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24;
+            this.pictureBox9.Location = new System.Drawing.Point(85, 30);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 2;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::LLocal.Properties.Resources.notifications_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24;
+            this.pictureBox8.Location = new System.Drawing.Point(23, 30);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 1;
+            this.pictureBox8.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -444,6 +479,17 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Leelawadee", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(202, 39);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(134, 25);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Default User";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -460,9 +506,10 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -480,8 +527,10 @@
             this.panel11.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
+            this.homeTabControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -505,11 +554,10 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage3;
-        private GradientBG gradientBG1;
+        private System.Windows.Forms.TabControl homeTabControl;
+        private System.Windows.Forms.TabPage homePage2;
+        private System.Windows.Forms.TabPage homePage1;
+        private System.Windows.Forms.TabPage homePage3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel10;
@@ -530,5 +578,11 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.TabPage homePage4;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Timer timer1;
     }
 }

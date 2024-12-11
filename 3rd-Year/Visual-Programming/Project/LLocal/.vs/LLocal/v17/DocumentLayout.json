@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|c:\\users\\berat\\yedeklenecekler\\repos\\kbu-files\\3rd-year\\visual-programming\\project\\llocal\\llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AA6E54-397C-49AD-A84D-67A8751EA1D1}|LLocal\\LLocal.csproj|solutionrelative:llocal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
               "RelativeDocumentMoniker": "LLocal\\Form1.cs",
@@ -35,7 +39,8 @@
               "ViewState": "AgIAABsAAAAAAAAAAAD4vzEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T21:02:51.816Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -47,7 +52,22 @@
               "RelativeToolTip": "LLocal\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T20:53:58.871Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form2.cs",
+              "RelativeDocumentMoniker": "LLocal\\Form2.cs",
+              "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form2.cs",
+              "RelativeToolTip": "LLocal\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:35:32.614Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
