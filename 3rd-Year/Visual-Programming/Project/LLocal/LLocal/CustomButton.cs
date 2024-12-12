@@ -17,7 +17,7 @@ namespace LLocal
             DoubleBuffered = true;
             t.Interval = 60;
             t.Start();
-            t.Tick += (s, e) => { ang = ang % 360 + 1; };
+            t.Tick += (s, e) => { Angle = Angle % 360 + 1; };
         }
 
         public float Angle

@@ -672,16 +672,16 @@
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(393, 446);
+            this.panel2.Location = new System.Drawing.Point(399, 446);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(363, 31);
+            this.panel2.Size = new System.Drawing.Size(331, 31);
             this.panel2.TabIndex = 6;
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(731, 37);
+            this.panel4.Location = new System.Drawing.Point(731, 41);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(26, 439);
+            this.panel4.Size = new System.Drawing.Size(26, 436);
             this.panel4.TabIndex = 7;
             // 
             // Form1
