@@ -34,6 +34,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -58,18 +59,31 @@
             this.homePage1 = new System.Windows.Forms.TabPage();
             this.homePage3 = new System.Windows.Forms.TabPage();
             this.homePage4 = new System.Windows.Forms.TabPage();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.homePage5 = new System.Windows.Forms.TabPage();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.homeWidget = new System.Windows.Forms.TabControl();
+            this.homeWidget1 = new System.Windows.Forms.TabPage();
+            this.homeWidget2 = new System.Windows.Forms.TabPage();
+            this.homeWidget3 = new System.Windows.Forms.TabPage();
+            this.homeWidget4 = new System.Windows.Forms.TabPage();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -84,16 +98,25 @@
             this.panel11.SuspendLayout();
             this.panel10.SuspendLayout();
             this.homeTabControl.SuspendLayout();
+            this.homePage1.SuspendLayout();
+            this.panel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel17.SuspendLayout();
+            this.homeWidget.SuspendLayout();
+            this.homeWidget4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.SuspendLayout();
             // 
             // kryptonPalette1
@@ -139,6 +162,17 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(351, 100);
             this.panel9.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Leelawadee", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(195, 39);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(134, 25);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Default User";
             // 
             // panel8
             // 
@@ -238,6 +272,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.panel5.Controls.Add(this.panel16);
             this.panel5.Controls.Add(this.panel13);
             this.panel5.Controls.Add(this.panel12);
             this.panel5.Controls.Add(this.panel11);
@@ -251,7 +286,7 @@
             // 
             this.panel13.Controls.Add(this.label6);
             this.panel13.Controls.Add(this.pictureBox5);
-            this.panel13.Location = new System.Drawing.Point(3, 231);
+            this.panel13.Location = new System.Drawing.Point(3, 304);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(250, 67);
             this.panel13.TabIndex = 4;
@@ -271,7 +306,7 @@
             // 
             this.panel12.Controls.Add(this.label5);
             this.panel12.Controls.Add(this.pictureBox4);
-            this.panel12.Location = new System.Drawing.Point(3, 158);
+            this.panel12.Location = new System.Drawing.Point(3, 231);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(250, 67);
             this.panel12.TabIndex = 3;
@@ -291,7 +326,7 @@
             // 
             this.panel11.Controls.Add(this.label4);
             this.panel11.Controls.Add(this.pictureBox3);
-            this.panel11.Location = new System.Drawing.Point(3, 85);
+            this.panel11.Location = new System.Drawing.Point(3, 158);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(250, 67);
             this.panel11.TabIndex = 2;
@@ -303,9 +338,9 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(91, 25);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 19);
+            this.label4.Size = new System.Drawing.Size(44, 19);
             this.label4.TabIndex = 1;
-            this.label4.Text = "News";
+            this.label4.Text = "Chat";
             // 
             // panel10
             // 
@@ -333,6 +368,7 @@
             this.homeTabControl.Controls.Add(this.homePage1);
             this.homeTabControl.Controls.Add(this.homePage3);
             this.homeTabControl.Controls.Add(this.homePage4);
+            this.homeTabControl.Controls.Add(this.homePage5);
             this.homeTabControl.Location = new System.Drawing.Point(248, 77);
             this.homeTabControl.Name = "homeTabControl";
             this.homeTabControl.SelectedIndex = 0;
@@ -352,6 +388,8 @@
             // homePage1
             // 
             this.homePage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homePage1.Controls.Add(this.panel18);
+            this.homePage1.Controls.Add(this.panel17);
             this.homePage1.Location = new System.Drawing.Point(4, 22);
             this.homePage1.Name = "homePage1";
             this.homePage1.Padding = new System.Windows.Forms.Padding(3);
@@ -378,6 +416,26 @@
             this.homePage4.Size = new System.Drawing.Size(1140, 708);
             this.homePage4.TabIndex = 3;
             this.homePage4.Text = "tabPage4";
+            // 
+            // panel16
+            // 
+            this.panel16.Controls.Add(this.label9);
+            this.panel16.Controls.Add(this.pictureBox11);
+            this.panel16.Location = new System.Drawing.Point(3, 85);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(250, 67);
+            this.panel16.TabIndex = 3;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Leelawadee", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(91, 25);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(51, 19);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "News";
             // 
             // pictureBox10
             // 
@@ -439,6 +497,16 @@
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::LLocal.Properties.Resources.newspaper_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24;
+            this.pictureBox11.Location = new System.Drawing.Point(41, 13);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(44, 41);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 0;
+            this.pictureBox11.TabStop = false;
+            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::LLocal.Properties.Resources.manage_history_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24;
@@ -461,7 +529,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::LLocal.Properties.Resources.newspaper_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24;
+            this.pictureBox3.Image = global::LLocal.Properties.Resources.chat_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24;
             this.pictureBox3.Location = new System.Drawing.Point(41, 13);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(44, 41);
@@ -479,16 +547,109 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // label3
+            // homePage5
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Leelawadee", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(202, 39);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(134, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Default User";
+            this.homePage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homePage5.Location = new System.Drawing.Point(4, 22);
+            this.homePage5.Name = "homePage5";
+            this.homePage5.Padding = new System.Windows.Forms.Padding(3);
+            this.homePage5.Size = new System.Drawing.Size(1140, 708);
+            this.homePage5.TabIndex = 4;
+            this.homePage5.Text = "tabPage1";
+            // 
+            // panel17
+            // 
+            this.panel17.Controls.Add(this.homeWidget);
+            this.panel17.Location = new System.Drawing.Point(7, 12);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(1120, 439);
+            this.panel17.TabIndex = 0;
+            // 
+            // panel18
+            // 
+            this.panel18.Location = new System.Drawing.Point(7, 457);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(1120, 245);
+            this.panel18.TabIndex = 1;
+            // 
+            // homeWidget
+            // 
+            this.homeWidget.Controls.Add(this.homeWidget1);
+            this.homeWidget.Controls.Add(this.homeWidget2);
+            this.homeWidget.Controls.Add(this.homeWidget3);
+            this.homeWidget.Controls.Add(this.homeWidget4);
+            this.homeWidget.Location = new System.Drawing.Point(-6, -31);
+            this.homeWidget.Name = "homeWidget";
+            this.homeWidget.SelectedIndex = 0;
+            this.homeWidget.Size = new System.Drawing.Size(1133, 482);
+            this.homeWidget.TabIndex = 0;
+            // 
+            // homeWidget1
+            // 
+            this.homeWidget1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homeWidget1.Location = new System.Drawing.Point(4, 22);
+            this.homeWidget1.Name = "homeWidget1";
+            this.homeWidget1.Padding = new System.Windows.Forms.Padding(3);
+            this.homeWidget1.Size = new System.Drawing.Size(1125, 456);
+            this.homeWidget1.TabIndex = 0;
+            this.homeWidget1.Text = "tabPage1";
+            // 
+            // homeWidget2
+            // 
+            this.homeWidget2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homeWidget2.Location = new System.Drawing.Point(4, 22);
+            this.homeWidget2.Name = "homeWidget2";
+            this.homeWidget2.Padding = new System.Windows.Forms.Padding(3);
+            this.homeWidget2.Size = new System.Drawing.Size(1125, 456);
+            this.homeWidget2.TabIndex = 1;
+            this.homeWidget2.Text = "tabPage2";
+            // 
+            // homeWidget3
+            // 
+            this.homeWidget3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homeWidget3.Location = new System.Drawing.Point(4, 22);
+            this.homeWidget3.Name = "homeWidget3";
+            this.homeWidget3.Padding = new System.Windows.Forms.Padding(3);
+            this.homeWidget3.Size = new System.Drawing.Size(1125, 456);
+            this.homeWidget3.TabIndex = 2;
+            this.homeWidget3.Text = "tabPage3";
+            // 
+            // homeWidget4
+            // 
+            this.homeWidget4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homeWidget4.Controls.Add(this.pictureBox14);
+            this.homeWidget4.Controls.Add(this.pictureBox13);
+            this.homeWidget4.Controls.Add(this.pictureBox12);
+            this.homeWidget4.Location = new System.Drawing.Point(4, 22);
+            this.homeWidget4.Name = "homeWidget4";
+            this.homeWidget4.Padding = new System.Windows.Forms.Padding(3);
+            this.homeWidget4.Size = new System.Drawing.Size(1125, 456);
+            this.homeWidget4.TabIndex = 3;
+            this.homeWidget4.Text = "tabPage4";
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Location = new System.Drawing.Point(7, 9);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(803, 436);
+            this.pictureBox12.TabIndex = 0;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Location = new System.Drawing.Point(816, 9);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(302, 263);
+            this.pictureBox13.TabIndex = 1;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Location = new System.Drawing.Point(816, 278);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(302, 167);
+            this.pictureBox14.TabIndex = 2;
+            this.pictureBox14.TabStop = false;
             // 
             // Form2
             // 
@@ -528,16 +689,26 @@
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             this.homeTabControl.ResumeLayout(false);
+            this.homePage1.ResumeLayout(false);
+            this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel17.ResumeLayout(false);
+            this.homeWidget.ResumeLayout(false);
+            this.homeWidget4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -584,5 +755,19 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.TabPage homePage5;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.TabControl homeWidget;
+        private System.Windows.Forms.TabPage homeWidget1;
+        private System.Windows.Forms.TabPage homeWidget2;
+        private System.Windows.Forms.TabPage homeWidget3;
+        private System.Windows.Forms.TabPage homeWidget4;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox12;
     }
 }
