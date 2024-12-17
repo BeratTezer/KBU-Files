@@ -55,3 +55,4 @@ C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Proje
 C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\bin\Debug\Ollama.Core.xml
 C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\bin\Debug\System.Memory.Data.xml
+C:\Users\berat\Yedeklenecekler\Repos\KBU-Files\3rd-Year\Visual-Programming\Project\LLocal\LLocal\obj\Debug\LLocal.Form3.resources
