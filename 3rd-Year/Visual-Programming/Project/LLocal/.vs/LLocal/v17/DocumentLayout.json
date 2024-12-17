@@ -36,10 +36,11 @@
               "RelativeDocumentMoniker": "LLocal\\Form1.cs",
               "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form1.cs",
               "RelativeToolTip": "LLocal\\Form1.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAD4vzEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAjwDEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T21:02:51.816Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -51,7 +52,8 @@
               "RelativeToolTip": "LLocal\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T20:53:58.871Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -61,7 +63,7 @@
               "RelativeDocumentMoniker": "LLocal\\Form2.cs",
               "ToolTip": "C:\\Users\\berat\\Yedeklenecekler\\Repos\\KBU-Files\\3rd-Year\\Visual-Programming\\Project\\LLocal\\LLocal\\Form2.cs",
               "RelativeToolTip": "LLocal\\Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAADgv0AAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T13:35:32.614Z",
               "IsPinned": true,

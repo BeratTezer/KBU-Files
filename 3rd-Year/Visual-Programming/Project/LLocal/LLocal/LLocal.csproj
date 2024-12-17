@@ -243,6 +243,102 @@
   <ItemGroup>
     <None Include="Resources\chat_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tip1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\more help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home41.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home42.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home4-ezgif.com-crop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home4-ezgif.com-crop1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home4-ezgif.com-crop %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subtract.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tip2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\more list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home1-ezgif.com-crop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subtract %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tip3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home3-ezgif.com-crop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tip31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\more show.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tip4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\more clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home2-ezgif.com-crop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home2-ezgif.com-crop %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Solid_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llama3.3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qwq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llama3.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llama3.2g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nomic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mistral.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

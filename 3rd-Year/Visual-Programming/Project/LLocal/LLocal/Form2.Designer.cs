@@ -46,6 +46,8 @@
             this.panel14 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
@@ -57,11 +59,18 @@
             this.homeTabControl = new System.Windows.Forms.TabControl();
             this.homePage2 = new System.Windows.Forms.TabPage();
             this.homePage1 = new System.Windows.Forms.TabPage();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.homeWidget = new System.Windows.Forms.TabControl();
+            this.homeWidget1 = new System.Windows.Forms.TabPage();
+            this.homeWidget2 = new System.Windows.Forms.TabPage();
+            this.homeWidget3 = new System.Windows.Forms.TabPage();
+            this.homeWidget4 = new System.Windows.Forms.TabPage();
             this.homePage3 = new System.Windows.Forms.TabPage();
             this.homePage4 = new System.Windows.Forms.TabPage();
+            this.homePage5 = new System.Windows.Forms.TabPage();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -73,14 +82,20 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.homePage5 = new System.Windows.Forms.TabPage();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.homeWidget = new System.Windows.Forms.TabControl();
-            this.homeWidget1 = new System.Windows.Forms.TabPage();
-            this.homeWidget2 = new System.Windows.Forms.TabPage();
-            this.homeWidget3 = new System.Windows.Forms.TabPage();
-            this.homeWidget4 = new System.Windows.Forms.TabPage();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
@@ -93,13 +108,20 @@
             this.panel15.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel16.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel10.SuspendLayout();
             this.homeTabControl.SuspendLayout();
             this.homePage1.SuspendLayout();
-            this.panel16.SuspendLayout();
+            this.panel18.SuspendLayout();
+            this.panel17.SuspendLayout();
+            this.homeWidget.SuspendLayout();
+            this.homeWidget1.SuspendLayout();
+            this.homeWidget2.SuspendLayout();
+            this.homeWidget3.SuspendLayout();
+            this.homeWidget4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -111,9 +133,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel17.SuspendLayout();
-            this.homeWidget.SuspendLayout();
-            this.homeWidget4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
@@ -282,6 +315,26 @@
             this.panel5.Size = new System.Drawing.Size(253, 463);
             this.panel5.TabIndex = 0;
             // 
+            // panel16
+            // 
+            this.panel16.Controls.Add(this.label9);
+            this.panel16.Controls.Add(this.pictureBox11);
+            this.panel16.Location = new System.Drawing.Point(3, 85);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(250, 67);
+            this.panel16.TabIndex = 3;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Leelawadee", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(91, 25);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(51, 19);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "News";
+            // 
             // panel13
             // 
             this.panel13.Controls.Add(this.label6);
@@ -364,8 +417,8 @@
             // 
             // homeTabControl
             // 
-            this.homeTabControl.Controls.Add(this.homePage2);
             this.homeTabControl.Controls.Add(this.homePage1);
+            this.homeTabControl.Controls.Add(this.homePage2);
             this.homeTabControl.Controls.Add(this.homePage3);
             this.homeTabControl.Controls.Add(this.homePage4);
             this.homeTabControl.Controls.Add(this.homePage5);
@@ -397,6 +450,94 @@
             this.homePage1.TabIndex = 0;
             this.homePage1.Text = "tabPage1";
             // 
+            // panel18
+            // 
+            this.panel18.Controls.Add(this.pictureBox28);
+            this.panel18.Controls.Add(this.pictureBox27);
+            this.panel18.Controls.Add(this.pictureBox26);
+            this.panel18.Controls.Add(this.pictureBox25);
+            this.panel18.Controls.Add(this.pictureBox16);
+            this.panel18.Controls.Add(this.label10);
+            this.panel18.Location = new System.Drawing.Point(7, 457);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(1120, 245);
+            this.panel18.TabIndex = 1;
+            // 
+            // panel17
+            // 
+            this.panel17.Controls.Add(this.homeWidget);
+            this.panel17.Location = new System.Drawing.Point(7, 12);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(1120, 439);
+            this.panel17.TabIndex = 0;
+            // 
+            // homeWidget
+            // 
+            this.homeWidget.Controls.Add(this.homeWidget1);
+            this.homeWidget.Controls.Add(this.homeWidget2);
+            this.homeWidget.Controls.Add(this.homeWidget3);
+            this.homeWidget.Controls.Add(this.homeWidget4);
+            this.homeWidget.Location = new System.Drawing.Point(-6, -31);
+            this.homeWidget.Name = "homeWidget";
+            this.homeWidget.SelectedIndex = 0;
+            this.homeWidget.Size = new System.Drawing.Size(1133, 482);
+            this.homeWidget.TabIndex = 0;
+            // 
+            // homeWidget1
+            // 
+            this.homeWidget1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homeWidget1.Controls.Add(this.pictureBox17);
+            this.homeWidget1.Controls.Add(this.pictureBox15);
+            this.homeWidget1.Controls.Add(this.pictureBox24);
+            this.homeWidget1.Location = new System.Drawing.Point(4, 22);
+            this.homeWidget1.Name = "homeWidget1";
+            this.homeWidget1.Padding = new System.Windows.Forms.Padding(3);
+            this.homeWidget1.Size = new System.Drawing.Size(1125, 456);
+            this.homeWidget1.TabIndex = 0;
+            this.homeWidget1.Text = "tabPage1";
+            // 
+            // homeWidget2
+            // 
+            this.homeWidget2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homeWidget2.Controls.Add(this.pictureBox18);
+            this.homeWidget2.Controls.Add(this.pictureBox19);
+            this.homeWidget2.Controls.Add(this.pictureBox20);
+            this.homeWidget2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.homeWidget2.Location = new System.Drawing.Point(4, 22);
+            this.homeWidget2.Name = "homeWidget2";
+            this.homeWidget2.Padding = new System.Windows.Forms.Padding(3);
+            this.homeWidget2.Size = new System.Drawing.Size(1125, 456);
+            this.homeWidget2.TabIndex = 1;
+            this.homeWidget2.Text = "tabPage2";
+            // 
+            // homeWidget3
+            // 
+            this.homeWidget3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homeWidget3.Controls.Add(this.pictureBox21);
+            this.homeWidget3.Controls.Add(this.pictureBox22);
+            this.homeWidget3.Controls.Add(this.pictureBox23);
+            this.homeWidget3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.homeWidget3.Location = new System.Drawing.Point(4, 22);
+            this.homeWidget3.Name = "homeWidget3";
+            this.homeWidget3.Padding = new System.Windows.Forms.Padding(3);
+            this.homeWidget3.Size = new System.Drawing.Size(1125, 456);
+            this.homeWidget3.TabIndex = 2;
+            this.homeWidget3.Text = "tabPage3";
+            // 
+            // homeWidget4
+            // 
+            this.homeWidget4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homeWidget4.Controls.Add(this.pictureBox12);
+            this.homeWidget4.Controls.Add(this.pictureBox13);
+            this.homeWidget4.Controls.Add(this.pictureBox14);
+            this.homeWidget4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.homeWidget4.Location = new System.Drawing.Point(4, 22);
+            this.homeWidget4.Name = "homeWidget4";
+            this.homeWidget4.Padding = new System.Windows.Forms.Padding(3);
+            this.homeWidget4.Size = new System.Drawing.Size(1125, 456);
+            this.homeWidget4.TabIndex = 3;
+            this.homeWidget4.Text = "tabPage4";
+            // 
             // homePage3
             // 
             this.homePage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
@@ -417,25 +558,31 @@
             this.homePage4.TabIndex = 3;
             this.homePage4.Text = "tabPage4";
             // 
-            // panel16
+            // homePage5
             // 
-            this.panel16.Controls.Add(this.label9);
-            this.panel16.Controls.Add(this.pictureBox11);
-            this.panel16.Location = new System.Drawing.Point(3, 85);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(250, 67);
-            this.panel16.TabIndex = 3;
+            this.homePage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homePage5.Location = new System.Drawing.Point(4, 22);
+            this.homePage5.Name = "homePage5";
+            this.homePage5.Padding = new System.Windows.Forms.Padding(3);
+            this.homePage5.Size = new System.Drawing.Size(1140, 708);
+            this.homePage5.TabIndex = 4;
+            this.homePage5.Text = "tabPage1";
             // 
-            // label9
+            // timer1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Leelawadee", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(91, 25);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 19);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "News";
+            this.timer1.Interval = 8000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI Variable Display", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(1, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(336, 43);
+            this.label10.TabIndex = 2;
+            this.label10.Text = "Last Updated Models";
             // 
             // pictureBox10
             // 
@@ -547,108 +694,184 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // homePage5
+            // pictureBox28
             // 
-            this.homePage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
-            this.homePage5.Location = new System.Drawing.Point(4, 22);
-            this.homePage5.Name = "homePage5";
-            this.homePage5.Padding = new System.Windows.Forms.Padding(3);
-            this.homePage5.Size = new System.Drawing.Size(1140, 708);
-            this.homePage5.TabIndex = 4;
-            this.homePage5.Text = "tabPage1";
+            this.pictureBox28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox28.Image = global::LLocal.Properties.Resources.mistral;
+            this.pictureBox28.Location = new System.Drawing.Point(973, 46);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(235, 193);
+            this.pictureBox28.TabIndex = 7;
+            this.pictureBox28.TabStop = false;
+            this.pictureBox28.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
-            // panel17
+            // pictureBox27
             // 
-            this.panel17.Controls.Add(this.homeWidget);
-            this.panel17.Location = new System.Drawing.Point(7, 12);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(1120, 439);
-            this.panel17.TabIndex = 0;
+            this.pictureBox27.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox27.Image = global::LLocal.Properties.Resources.nomic;
+            this.pictureBox27.Location = new System.Drawing.Point(732, 46);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(235, 193);
+            this.pictureBox27.TabIndex = 6;
+            this.pictureBox27.TabStop = false;
+            this.pictureBox27.Click += new System.EventHandler(this.pictureBox27_Click);
             // 
-            // panel18
+            // pictureBox26
             // 
-            this.panel18.Location = new System.Drawing.Point(7, 457);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(1120, 245);
-            this.panel18.TabIndex = 1;
+            this.pictureBox26.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox26.Image = global::LLocal.Properties.Resources.llama3_2g;
+            this.pictureBox26.Location = new System.Drawing.Point(491, 46);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(235, 193);
+            this.pictureBox26.TabIndex = 5;
+            this.pictureBox26.TabStop = false;
+            this.pictureBox26.Click += new System.EventHandler(this.pictureBox26_Click);
             // 
-            // homeWidget
+            // pictureBox25
             // 
-            this.homeWidget.Controls.Add(this.homeWidget1);
-            this.homeWidget.Controls.Add(this.homeWidget2);
-            this.homeWidget.Controls.Add(this.homeWidget3);
-            this.homeWidget.Controls.Add(this.homeWidget4);
-            this.homeWidget.Location = new System.Drawing.Point(-6, -31);
-            this.homeWidget.Name = "homeWidget";
-            this.homeWidget.SelectedIndex = 0;
-            this.homeWidget.Size = new System.Drawing.Size(1133, 482);
-            this.homeWidget.TabIndex = 0;
+            this.pictureBox25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox25.Image = global::LLocal.Properties.Resources.qwq;
+            this.pictureBox25.Location = new System.Drawing.Point(250, 46);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(235, 193);
+            this.pictureBox25.TabIndex = 4;
+            this.pictureBox25.TabStop = false;
+            this.pictureBox25.Click += new System.EventHandler(this.pictureBox25_Click);
             // 
-            // homeWidget1
+            // pictureBox16
             // 
-            this.homeWidget1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
-            this.homeWidget1.Location = new System.Drawing.Point(4, 22);
-            this.homeWidget1.Name = "homeWidget1";
-            this.homeWidget1.Padding = new System.Windows.Forms.Padding(3);
-            this.homeWidget1.Size = new System.Drawing.Size(1125, 456);
-            this.homeWidget1.TabIndex = 0;
-            this.homeWidget1.Text = "tabPage1";
+            this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox16.Image = global::LLocal.Properties.Resources.llama3_3;
+            this.pictureBox16.Location = new System.Drawing.Point(9, 46);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(235, 193);
+            this.pictureBox16.TabIndex = 3;
+            this.pictureBox16.TabStop = false;
+            this.pictureBox16.Click += new System.EventHandler(this.pictureBox16_Click);
             // 
-            // homeWidget2
+            // pictureBox17
             // 
-            this.homeWidget2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
-            this.homeWidget2.Location = new System.Drawing.Point(4, 22);
-            this.homeWidget2.Name = "homeWidget2";
-            this.homeWidget2.Padding = new System.Windows.Forms.Padding(3);
-            this.homeWidget2.Size = new System.Drawing.Size(1125, 456);
-            this.homeWidget2.TabIndex = 1;
-            this.homeWidget2.Text = "tabPage2";
+            this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox17.Image = global::LLocal.Properties.Resources.more_help;
+            this.pictureBox17.Location = new System.Drawing.Point(814, 230);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(306, 215);
+            this.pictureBox17.TabIndex = 2;
+            this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.pictureBox17_Click);
             // 
-            // homeWidget3
+            // pictureBox15
             // 
-            this.homeWidget3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
-            this.homeWidget3.Location = new System.Drawing.Point(4, 22);
-            this.homeWidget3.Name = "homeWidget3";
-            this.homeWidget3.Padding = new System.Windows.Forms.Padding(3);
-            this.homeWidget3.Size = new System.Drawing.Size(1125, 456);
-            this.homeWidget3.TabIndex = 2;
-            this.homeWidget3.Text = "tabPage3";
+            this.pictureBox15.Image = global::LLocal.Properties.Resources.tip1;
+            this.pictureBox15.Location = new System.Drawing.Point(5, 9);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(803, 436);
+            this.pictureBox15.TabIndex = 0;
+            this.pictureBox15.TabStop = false;
             // 
-            // homeWidget4
+            // pictureBox24
             // 
-            this.homeWidget4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
-            this.homeWidget4.Controls.Add(this.pictureBox14);
-            this.homeWidget4.Controls.Add(this.pictureBox13);
-            this.homeWidget4.Controls.Add(this.pictureBox12);
-            this.homeWidget4.Location = new System.Drawing.Point(4, 22);
-            this.homeWidget4.Name = "homeWidget4";
-            this.homeWidget4.Padding = new System.Windows.Forms.Padding(3);
-            this.homeWidget4.Size = new System.Drawing.Size(1125, 456);
-            this.homeWidget4.TabIndex = 3;
-            this.homeWidget4.Text = "tabPage4";
+            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox24.BackgroundImage = global::LLocal.Properties.Resources.Subtract;
+            this.pictureBox24.Image = global::LLocal.Properties.Resources.home4_ezgif_com_crop__1_;
+            this.pictureBox24.Location = new System.Drawing.Point(816, 9);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(306, 215);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox24.TabIndex = 3;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox18.Image = global::LLocal.Properties.Resources.more_list;
+            this.pictureBox18.Location = new System.Drawing.Point(814, 230);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(306, 215);
+            this.pictureBox18.TabIndex = 5;
+            this.pictureBox18.TabStop = false;
+            this.pictureBox18.Click += new System.EventHandler(this.pictureBox18_Click);
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.BackgroundImage = global::LLocal.Properties.Resources.Subtract__1_;
+            this.pictureBox19.Image = global::LLocal.Properties.Resources.home1_ezgif_com_crop;
+            this.pictureBox19.Location = new System.Drawing.Point(814, 9);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(306, 215);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox19.TabIndex = 4;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = global::LLocal.Properties.Resources.tip2;
+            this.pictureBox20.Location = new System.Drawing.Point(5, 9);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(803, 436);
+            this.pictureBox20.TabIndex = 3;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox21.Image = global::LLocal.Properties.Resources.more_show;
+            this.pictureBox21.Location = new System.Drawing.Point(814, 230);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(306, 215);
+            this.pictureBox21.TabIndex = 5;
+            this.pictureBox21.TabStop = false;
+            this.pictureBox21.Click += new System.EventHandler(this.pictureBox21_Click);
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackgroundImage = global::LLocal.Properties.Resources.Subtract__1_;
+            this.pictureBox22.Image = global::LLocal.Properties.Resources.home3_ezgif_com_crop;
+            this.pictureBox22.Location = new System.Drawing.Point(814, 9);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(306, 215);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 4;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = global::LLocal.Properties.Resources.tip3;
+            this.pictureBox23.Location = new System.Drawing.Point(5, 9);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(803, 436);
+            this.pictureBox23.TabIndex = 3;
+            this.pictureBox23.TabStop = false;
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Location = new System.Drawing.Point(7, 9);
+            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox12.Image = global::LLocal.Properties.Resources.more_clear;
+            this.pictureBox12.Location = new System.Drawing.Point(814, 230);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(803, 436);
-            this.pictureBox12.TabIndex = 0;
+            this.pictureBox12.Size = new System.Drawing.Size(306, 215);
+            this.pictureBox12.TabIndex = 5;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
             // 
             // pictureBox13
             // 
-            this.pictureBox13.Location = new System.Drawing.Point(816, 9);
+            this.pictureBox13.BackgroundImage = global::LLocal.Properties.Resources.Subtract__1_;
+            this.pictureBox13.Image = global::LLocal.Properties.Resources.home2_ezgif_com_crop__1_;
+            this.pictureBox13.Location = new System.Drawing.Point(814, 9);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(302, 263);
-            this.pictureBox13.TabIndex = 1;
+            this.pictureBox13.Size = new System.Drawing.Size(306, 215);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 4;
             this.pictureBox13.TabStop = false;
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Location = new System.Drawing.Point(816, 278);
+            this.pictureBox14.Image = global::LLocal.Properties.Resources.tip4;
+            this.pictureBox14.Location = new System.Drawing.Point(5, 9);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(302, 167);
-            this.pictureBox14.TabIndex = 2;
+            this.pictureBox14.Size = new System.Drawing.Size(803, 436);
+            this.pictureBox14.TabIndex = 3;
             this.pictureBox14.TabStop = false;
             // 
             // Form2
@@ -680,6 +903,8 @@
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
             this.panel5.ResumeLayout(false);
+            this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             this.panel12.ResumeLayout(false);
@@ -690,8 +915,14 @@
             this.panel10.PerformLayout();
             this.homeTabControl.ResumeLayout(false);
             this.homePage1.ResumeLayout(false);
-            this.panel16.ResumeLayout(false);
-            this.panel16.PerformLayout();
+            this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            this.homeWidget.ResumeLayout(false);
+            this.homeWidget1.ResumeLayout(false);
+            this.homeWidget2.ResumeLayout(false);
+            this.homeWidget3.ResumeLayout(false);
+            this.homeWidget4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -703,9 +934,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel17.ResumeLayout(false);
-            this.homeWidget.ResumeLayout(false);
-            this.homeWidget4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
@@ -766,8 +1008,23 @@
         private System.Windows.Forms.TabPage homeWidget2;
         private System.Windows.Forms.TabPage homeWidget3;
         private System.Windows.Forms.TabPage homeWidget4;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox pictureBox23;
         private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.Label label10;
     }
 }
