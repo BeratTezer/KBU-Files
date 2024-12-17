@@ -15,6 +15,23 @@
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\berat\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,6 +51,18 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6B01EE9E832803E2BAFB080962290D772D681B4C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LLocal_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ComponentFactory.Krypton.Toolkit">
@@ -178,6 +207,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="LLocal_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -386,6 +416,75 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\b8717641f46cdfdced2c86e984f07c11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2bc375a59ea8bb65dbd995b77ab56cbc3107a651.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2bc375a59ea8bb65dbd995b77ab56cbc3107a6511.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2bc375a59ea8bb65dbd995b77ab56cbc3107a6512.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2bc375a59ea8bb65dbd995b77ab56cbc3107a651 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2bc375a59ea8bb65dbd995b77ab56cbc3107a651 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2bc375a59ea8bb65dbd995b77ab56cbc3107a651 1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news1-ezgif.com-resize.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FitTrack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\createmodel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capacity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sendFrame.png" />
+    <None Include="Resources\chat.png" />
+    <Content Include="Resources\close.png" />
+    <None Include="Resources\X.png" />
+    <None Include="Resources\kapa.png" />
+    <None Include="Resources\close2.png" />
+    <None Include="Resources\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

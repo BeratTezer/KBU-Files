@@ -11,11 +11,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
 using System.Threading;
+using System.Diagnostics;
+using System.IO;
+using System.Web.Security;
 
 namespace LLocal
 {
     public partial class Form2 : KryptonForm
     {
+
         int index = 0;
         public Form2()
         {
@@ -23,6 +27,10 @@ namespace LLocal
             timer2.Start();
         }
 
+        private void pictureBox42_Click(object sender, EventArgs e)
+        {
+
+        }
         private void timer2_Tick(object sender, EventArgs e)
         {
             index++;
@@ -112,5 +120,77 @@ namespace LLocal
         {
             homeTabControl.SelectedIndex = 1;
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            homeTabControl.SelectedIndex = 2;
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            homeTabControl.SelectedIndex = 2;
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+            homeTabControl.SelectedIndex = 2;
+        }
+
+        private void panel12_Paint(object sender, PaintEventArgs e)
+        {
+            homeTabControl.SelectedIndex = 3;
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            homeTabControl.SelectedIndex = 3;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            homeTabControl.SelectedIndex = 3;
+        }
+
+        private void modelsCombBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            modelLabel.Text = modelsCombBox.Text;   
+        }
+
+        private void panel13_Paint(object sender, PaintEventArgs e)
+        {
+            homeTabControl.SelectedIndex = 4;
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            homeTabControl.SelectedIndex = 4;
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            homeTabControl.SelectedIndex = 4;
+        }
+
+        private void pictureBox37_Click(object sender, EventArgs e)
+        {
+            //otomatik olarak chat sekmesine geç, oradan odeli oluştur. 
+            homeTabControl.SelectedIndex = 2;
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox1.Image = LLocal.Properties.Resources.X;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.Image = LLocal.Properties.Resources.logo_silhouette_7;
+        }
+
     }
 }

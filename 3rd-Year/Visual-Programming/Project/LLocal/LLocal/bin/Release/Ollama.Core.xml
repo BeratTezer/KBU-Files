@@ -1,0 +1,1904 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ollama.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Ollama.Core.Converter.ChatMessageRoleConverter">
+            <summary>
+            The chat message role converter, between <see cref="T:Ollama.Core.Models.ChatMessageRole"/> and string value.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.DeserializationException">
+            <summary>
+            Represents an exception specific to when json deserialization is null.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.DeserializationException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.DeserializationException"/> class.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.DeserializationException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.DeserializationException"/> class with its message set to <paramref name="message"/>.
+            </summary>
+            <param name="message">A string that describes the error.</param>
+        </member>
+        <member name="M:Ollama.Core.DeserializationException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.DeserializationException"/> class with its message set to <paramref name="message"/>.
+            </summary>
+            <param name="message">A string that describes the error.</param>
+            <param name="innerException">The exception that is the cause of the current exception.</param>
+        </member>
+        <member name="M:Ollama.Core.DeserializationException.#ctor(System.String,System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.DeserializationException"/> class with its json content.
+            </summary>
+            <param name="json">The json string to deserialize.</param>
+            <param name="message">A string that describes the error.</param>
+            <param name="innerException">The exception that is the cause of the current exception.</param>
+        </member>
+        <member name="P:Ollama.Core.DeserializationException.Json">
+            <summary>
+            Gets or sets the content of json.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.HttpOperationException">
+            <summary>
+            Represents an exception specific to HTTP operations.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.HttpOperationException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.HttpOperationException"/> class.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.HttpOperationException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.HttpOperationException"/> class with its message set to <paramref name="message"/>.
+            </summary>
+            <param name="message">A string that describes the error.</param>
+        </member>
+        <member name="M:Ollama.Core.HttpOperationException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.HttpOperationException"/> class with its message set to <paramref name="message"/>.
+            </summary>
+            <param name="message">A string that describes the error.</param>
+            <param name="innerException">The exception that is the cause of the current exception.</param>
+        </member>
+        <member name="M:Ollama.Core.HttpOperationException.#ctor(System.Nullable{System.Net.HttpStatusCode},System.String,System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.HttpOperationException"/> class with its message
+            and additional properties for the HTTP status code and response content.
+            </summary>
+            <param name="statusCode">The HTTP status code.</param>
+            <param name="responseContent">The content of the HTTP response.</param>
+            <param name="message">A string that describes the error.</param>
+            <param name="innerException">The exception that is the cause of the current exception.</param>
+        </member>
+        <member name="P:Ollama.Core.HttpOperationException.StatusCode">
+            <summary>
+            Gets or sets the HTTP status code. If the property is null, it indicates that no response was received.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.HttpOperationException.ResponseContent">
+            <summary>
+            Gets or sets the content of the HTTP response.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.HttpOperationException.RequestMethod">
+            <summary>
+            Gets the method used for the HTTP request.
+            </summary>
+            <remarks>
+            This information is only available in limited circumstances e.g. when using Open API plugins.
+            </remarks>
+        </member>
+        <member name="P:Ollama.Core.HttpOperationException.RequestUri">
+            <summary>
+            Gets the System.Uri used for the HTTP request.
+            </summary>
+            <remarks>
+            This information is only available in limited circumstances e.g. when using Open API plugins.
+            </remarks>
+        </member>
+        <member name="P:Ollama.Core.HttpOperationException.RequestPayload">
+            <summary>
+            Gets the payload sent in the request.
+            </summary>
+            <remarks>
+            This information is only available in limited circumstances e.g. when using Open API plugins.
+            </remarks>
+        </member>
+        <member name="M:Ollama.Core.Extensions.HttpClientExtensions.SendWithSuccessCheckAsync(System.Net.Http.HttpClient,System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)">
+            <summary>
+            Sends an HTTP request using the provided <see cref="T:System.Net.Http.HttpClient"/> instance and checks for a successful response.
+            If the response is not successful, it logs an error and throws an <see cref="T:Ollama.Core.HttpOperationException"/>.
+            </summary>
+            <param name="client">The <see cref="T:System.Net.Http.HttpClient"/> instance to use for sending the request.</param>
+            <param name="request">The <see cref="T:System.Net.Http.HttpRequestMessage"/> to send.</param>
+            <param name="completionOption">Indicates if HttpClient operations should be considered completed either as soon as a response is available,
+            or after reading the entire response message including the content.</param>
+            <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken"/> for canceling the request.</param>
+            <returns>The <see cref="T:System.Net.Http.HttpResponseMessage"/> representing the response.</returns>
+        </member>
+        <member name="M:Ollama.Core.Extensions.HttpClientExtensions.SendWithSuccessCheckAsync(System.Net.Http.HttpClient,System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <summary>
+            Sends an HTTP request using the provided <see cref="T:System.Net.Http.HttpClient"/> instance and checks for a successful response.
+            If the response is not successful, it logs an error and throws an <see cref="T:Ollama.Core.HttpOperationException"/>.
+            </summary>
+            <param name="client">The <see cref="T:System.Net.Http.HttpClient"/> instance to use for sending the request.</param>
+            <param name="request">The <see cref="T:System.Net.Http.HttpRequestMessage"/> to send.</param>
+            <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken"/> for canceling the request.</param>
+            <returns>The <see cref="T:System.Net.Http.HttpResponseMessage"/> representing the response.</returns>
+        </member>
+        <member name="T:Ollama.Core.Extensions.HttpContentExtensions">
+            <summary>
+            Provides extension methods for working with HTTP content in a way that translates HttpRequestExceptions into HttpOperationExceptions.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Extensions.HttpContentExtensions.ReadAsStringWithExceptionMappingAsync(System.Net.Http.HttpContent)">
+            <summary>
+            Reads the content of the HTTP response as a string and translates any HttpRequestException into an HttpOperationException.
+            </summary>
+            <param name="httpContent">The HTTP content to read.</param>
+            <returns>A string representation of the HTTP content.</returns>
+        </member>
+        <member name="M:Ollama.Core.Extensions.HttpContentExtensions.ReadAsStreamAndTranslateExceptionAsync(System.Net.Http.HttpContent)">
+            <summary>
+            Reads the content of the HTTP response as a stream and translates any HttpRequestException into an HttpOperationException.
+            </summary>
+            <param name="httpContent">The HTTP content to read.</param>
+            <returns>A stream representing the HTTP content.</returns>
+        </member>
+        <member name="M:Ollama.Core.Extensions.HttpContentExtensions.ReadAsByteArrayAndTranslateExceptionAsync(System.Net.Http.HttpContent)">
+            <summary>
+            Reads the content of the HTTP response as a byte array and translates any HttpRequestException into an HttpOperationException.
+            </summary>
+            <param name="httpContent">The HTTP content to read.</param>
+            <returns>A byte array representing the HTTP content.</returns>
+        </member>
+        <member name="T:Ollama.Core.Extensions.ObjectExtensions">
+            <summary>
+            The extensions.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Extensions.ObjectExtensions.AsJson(System.Object)">
+            <summary>
+            Converts <paramref name="obj"/> to a JSON string.
+            </summary>
+            <param name="obj">The object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.Extensions.ObjectExtensions.FromJson``1(System.String)">
+            <summary>
+            Converts  string to an instance of <typeparamref name="T"/>.
+            </summary>
+            <param name="json">The json string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.Extensions.ObjectExtensions.AsDictionary(System.Object,System.Boolean,System.String[])">
+            <summary>  
+            Converts <paramref name="obj"/> to a dictionary.
+            </summary>  
+            <param name="obj">The specified object.</param>  
+            <param name="isInclude">Flag indicating whether to include the properties in <paramref name="propertyNames"/>.   
+            <br/>True to include <paramref name="propertyNames"/>, false to exclude <paramref name="propertyNames"/>.</param>  
+            <param name="propertyNames">The property names to include/exclude.</param>  
+            <returns></returns>  
+        </member>
+        <member name="T:Ollama.Core.Models.ChatCompletionOptions">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#generate-a-chat-completion" />
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatCompletionOptions.Model">
+            <summary>
+            The model name.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatCompletionOptions.Messages">
+            <summary>
+            The messages of the chat, this can be used to keep a chat memory.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatCompletionOptions.Format">
+            <summary>
+            The format to return a response in.
+            Currently the only accepted value is json.
+            When format is set to json, the output will always be a well-formed JSON object. It's important to also instruct the model to respond in JSON.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatCompletionOptions.Options">
+            <summary>
+            Additional model parameters listed in the documentation for the Modelfile such as temperature.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatCompletionOptions.Stream">
+            <summary>
+            If false the response will be returned as a single response object, rather than a stream of objects.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatCompletionOptions.KeepAlive">
+            <summary>
+            Controls how long the model will stay loaded into memory following the request (default: 5m).
+            <para>The keep_alive parameter can be set to:</para>
+            <list type="bullet"> a duration string (such as "10m" or "24h")
+            <item> a number in seconds(such as 3600) </item> 
+            <item> any negative number which will keep the model loaded in memory(e.g. -1 or "-1m") </item> 
+            <item> '0' which will unload the model immediately after generating a response </item> 
+            </list> 
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.GenerateCompletionOptions">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#generate-a-completion"/>
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.Model">
+            <summary>
+            The model name.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.Prompt">
+            <summary>
+            The prompt to generate a response for.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.Images">
+            <summary>
+            A list of base64-encoded images(for multimodal models such as llava).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.Format">
+            <summary>
+            The format to return a response in.
+            Currently the only accepted value is json.
+            When format is set to json, the output will always be a well-formed JSON object. It's important to also instruct the model to respond in JSON.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.Options">
+            <summary>
+            Additional model parameters listed in the documentation for the Modelfile such as temperature.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.System">
+            <summary>
+            System message to (overrides what is defined in the Modelfile).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.Template">
+            <summary>
+            The prompt template to use(overrides what is defined in the Modelfile).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.Context">
+            <summary>
+            The context parameter returned from a previous request to /generate, this can be used to keep a short conversational memory.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.Stream">
+            <summary>
+            If false the response will be returned as a single response object, rather than a stream of objects
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.Raw">
+            <summary>
+            If true no formatting will be applied to the prompt.You may choose to use the raw parameter if you are specifying a full templated prompt in your request to the API.<br />
+            In some cases, you may wish to bypass the templating system and provide a full prompt. In this case, you can use the raw parameter to disable templating. Also note that raw mode will not return a context.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionOptions.KeepAlive">
+            <summary>
+            Controls how long the model will stay loaded into memory following the request (default: 5m).
+            <para>The keep_alive parameter can be set to:</para>
+            <list type="bullet"> a duration string (such as "10m" or "24h")
+            <item> a number in seconds(such as 3600) </item> 
+            <item> any negative number which will keep the model loaded in memory(e.g. -1 or "-1m") </item> 
+            <item> '0' which will unload the model immediately after generating a response </item> 
+            </list> 
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.ParameterOptions">
+            <summary>
+            The <seealso cref="T:Ollama.Core.Models.ParameterOptions"/> defines parameters that can be set when the model is run. <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/modelfile.md#valid-parameters-and-values"/>
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.Mirostat">
+            <summary>
+            Enable Mirostat sampling for controlling perplexity. (default: 0, 0 = disabled, 1 = Mirostat, 2 = Mirostat 2.0).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.MirostatEta">
+            <summary>
+            Influences how quickly the algorithm responds to feedback from the generated text.
+            A lower learning rate will result in slower adjustments, while a higher learning rate will make the algorithm more responsive. (Default: 0.1).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.MirostatTau">
+            <summary>
+            Controls the balance between coherence and diversity of the output.
+            A lower value will result in more focused and coherent text. (Default: 5.0).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.NumCtx">
+            <summary>
+            Sets the size of the context window used to generate the next token. (Default: 2048).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.RepeatLastN">
+            <summary>
+            Sets how far back for the model to look back to prevent repetition. (Default: 64, 0 = disabled, -1 = num_ctx).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.RepeatPenalty">
+            <summary>
+            Sets how strongly to penalize repetitions.
+            A higher value(e.g., 1.5) will penalize repetitions more strongly, while a lower value(e.g., 0.9) will be more lenient. (Default: 1.1).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.Temperature">
+            <summary>
+            The temperature of the model.Increasing the temperature will make the model answer more creatively. (Default: 0.8).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.Seed">
+            <summary>
+            Sets the random number seed to use for generation. <br />
+            Setting this to a specific number will make the model generate the same text for the same prompt. (Default: 0). <br />
+            For reproducible outputs, set temperature to 0 and seed to a number.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.Stop">
+            <summary>
+            Sets the stop sequences to use.When this pattern is encountered the LLM will stop generating text and return.
+            Multiple stop patterns may be set by specifying multiple separate stop parameters in a modelfile.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.TfsZ">
+            <summary>
+            Tail free sampling is used to reduce the impact of less probable tokens from the output.
+            A higher value (e.g., 2.0) will reduce the impact more, while a value of 1.0 disables this setting. (default: 1).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.NumPredict">
+            <summary>
+            Maximum number of tokens to predict when generating text. (Default: 128, -1 = infinite generation, -2 = fill context).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.TopK">
+            <summary>
+            Reduces the probability of generating nonsense.
+            A higher value(e.g. 100) will give more diverse answers, while a lower value(e.g. 10) will be more conservative. (Default: 40).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.TopP">
+            <summary>
+            Works together with top-k.
+            A higher value(e.g., 0.95) will lead to more diverse text, while a lower value(e.g., 0.5) will generate more focused and conservative text. (Default: 0.9).
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.PresencePenalty">
+            <summary>
+            Presence penalty coefficient. Used to reduce the generation of repeated words; higher values penalize words that have already appeared.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.FrequencyPenalty">
+            <summary>
+            Frequency penalty coefficient. Used to reduce the generation of high-frequency words; higher values penalize frequently occurring words.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.NumKeep">
+            <summary>
+            The number of generated sequences to keep. This parameter determines how many of the top output sequences are retained during text generation.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.TypicalP">
+            <summary>
+            Typical sampling probability. This parameter controls the diversity of text generation by selecting words with typical probabilities.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.PenalizeNewline">
+            <summary>
+            Newline penalty. This parameter decides whether to penalize the generation of new newline characters to control the format of the output text.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.Numa">
+            <summary>
+            NUMA (Non-Uniform Memory Access) node configuration. This parameter is used to specify the NUMA nodes utilized during model execution to optimize memory access performance. <br />
+            Invalid parameter for argument chat completion
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.NumBatch">
+            <summary>
+            Batch size. This parameter determines the amount of data processed by the model in one go.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.NumGpu">
+            <summary>
+            Number of GPUs used. This parameter specifies the number of GPUs utilized for model training or inference.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.MainGpu">
+            <summary>
+            Main GPU index. This parameter specifies the GPU index used for primary computation tasks.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.LowVram">
+            <summary>
+            Low VRAM mode. When enabled, this parameter optimizes memory usage to suit environments with limited VRAM.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.F16Kv">
+            <summary>
+            Use half-precision (FP16) for storing key-value pairs. When enabled, the model stores key-value pairs in 16-bit floating-point format to reduce memory usage.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.VocabOnly">
+            <summary>
+            Vocabulary-only mode. When enabled, the model will generate only words from the vocabulary, suitable for specific tasks.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.UseMmap">
+            <summary>
+            Use memory-mapped files. When enabled, the model utilizes memory-mapped files to optimize loading and running large models.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.UseMlock">
+            <summary>
+            Use memory locking. When enabled, the model locks memory to prevent data from being swapped to disk, enhancing performance.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ParameterOptions.NumThread">
+            <summary>
+            Number of threads. This parameter specifies the number of threads used for model computation to optimize parallel processing capabilities.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.ChatCompletionRequestBase">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatCompletionRequestBase.#ctor(System.String,Ollama.Core.Models.ChatMessageHistory,System.Boolean)">
+            <summary>  
+            Initializes a new instance of the <see cref="T:Ollama.Core.Models.ChatCompletionRequestBase"/> class with the specified model and messages.  
+            </summary>  
+            <param name="model">The model name.</param>  
+            <param name="messages">The messages of the chat, this can be used to keep a chat memory.</param>
+            <param name="stream">If false the response will be returned as a single response object, rather than a stream of objects</param>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatCompletionRequestBase.#ctor(Ollama.Core.Models.ChatCompletionOptions)">
+            <summary>  
+            Initializes a new instance of the <see cref="T:Ollama.Core.Models.ChatCompletionRequestBase"/> class with the specified options.  
+            </summary>
+            <param name="options">The options to use for chat completions, including model, messages, and additional settings.</param>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatCompletionRequestBase.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.GenerateCompletionRequestBase">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.GenerateCompletionRequestBase.#ctor(System.String,System.String,System.Boolean)">
+            <summary>  
+            Initializes a new instance of the <see cref="T:Ollama.Core.Models.GenerateCompletionRequestBase"/> class with the specified model and prompt.  
+            </summary>  
+            <param name="model">The model name.</param>  
+            <param name="prompt"> The prompt to generate a response for.</param>
+            <param name="stream">If false the response will be returned as a single response object, rather than a stream of objects</param>
+        </member>
+        <member name="M:Ollama.Core.Models.GenerateCompletionRequestBase.#ctor(Ollama.Core.Models.GenerateCompletionOptions)">
+            <summary>  
+            Initializes a new instance of the <see cref="T:Ollama.Core.Models.GenerateCompletionRequestBase"/> class with the specified options.  
+            </summary>
+            <param name="options">The options to use for generating completions, including model, prompt, and additional settings.</param>
+        </member>
+        <member name="M:Ollama.Core.Models.GenerateCompletionRequestBase.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.CheckBlobExistsRequest">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#create-a-model" />
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.CheckBlobExistsRequest.Digest">
+            <summary>
+            The SHA256 digest of the blob
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.CheckBlobExistsRequest.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.CreateBlobRequest">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#create-a-model"/>
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.CreateBlobRequest.Digest">
+            <summary>
+            The SHA256 digest of the blob.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.CreateBlobRequest.Content">
+            <summary>
+            The file content to create a blob.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.CreateBlobRequest.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.ChatCompletionRequest">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#generate-a-chat-completion" />
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatCompletionRequest.#ctor(System.String,Ollama.Core.Models.ChatMessageHistory,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatCompletionRequest.#ctor(Ollama.Core.Models.ChatCompletionOptions)">
+            <inheritdoc />
+        </member>
+        <member name="T:Ollama.Core.Models.ChatMessage">
+            <summary>
+            The messages of the chat, this can be used to keep a chat memory
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessage.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.Models.ChatMessage"/>.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessage.#ctor(Ollama.Core.Models.ChatMessageRole,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.Models.ChatMessage"/> with role and content.
+            </summary>
+            <param name="role">Role of the chat of the message.</param>
+            <param name="content">The chat message content.</param>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessage.#ctor(Ollama.Core.Models.ChatMessageRole,System.String,System.String[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.Models.ChatMessage"/> with role,content and images.
+            </summary>
+            <param name="role">Role of the chat of the message.</param>
+            <param name="content">The chat message content.</param>
+            <param name="images">A list of base64-encoded images(for multimodal models such as llava).</param>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatMessage.Role">
+            <summary>
+            Role of the chat of the message.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatMessage.Content">
+            <summary>
+            The chat message content.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatMessage.Images">
+            <summary>
+            A list of base64-encoded images(for multimodal models such as llava).
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessage.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="T:Ollama.Core.Models.ChatMessageHistory">
+            <summary>
+            The chat message history.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.#ctor">
+            <summary>
+            Initialize a new instance of the <see cref="T:Ollama.Core.Models.ChatMessageHistory"/> with empty history.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.Models.ChatMessageHistory"/> with a system message.
+            </summary>
+            <param name="systemMessage">The system message to add to the history.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="systemMessage"/> is null.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="systemMessage"/> is empty or whitespace.
+            </exception>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.#ctor(System.Collections.Generic.IEnumerable{Ollama.Core.Models.ChatMessage})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.Models.ChatMessageHistory"/> with the history messages.
+            </summary>
+            <param name="messages">The messages to copy into the history.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="messages"/> is null.
+            </exception>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.AddAssistantMessage(System.String)">
+            <summary>
+            Add an assistant message to the chat message history.
+            </summary>
+            <param name="content">Message content</param>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.AddSystemMessage(System.String)">
+            <summary>
+            Add a system message to the chat message history
+            </summary>
+            <param name="systemMessage">Message content.</param>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.AddUserMessage(System.String)">
+            <summary>
+            Add a user message to the chat message history.
+            </summary>
+            <param name="content">Message content.</param>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.AddUserMessage(System.String,System.String[])">
+            <summary>
+            Add a user message with images to the chat message history.
+            </summary>
+            <param name="content">Message content.</param>
+            <param name="images">Images in message.</param>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.AddMessage(Ollama.Core.Models.ChatMessageRole,System.String)">
+            <summary>
+            Add a <see cref="T:Ollama.Core.Models.ChatMessage"/> to the message history.
+            </summary>
+            <param name="role">Role of the message.</param>
+            <param name="content">Message content.</param>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatMessageHistory.Item(System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="P:Ollama.Core.Models.ChatMessageHistory.Count">
+            <inheritdoc />
+        </member>
+        <member name="P:Ollama.Core.Models.ChatMessageHistory.System#Collections#Generic#ICollection{Ollama#Core#Models#ChatMessage}#IsReadOnly">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.Add(Ollama.Core.Models.ChatMessage)">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.Clear">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.Contains(Ollama.Core.Models.ChatMessage)">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.CopyTo(Ollama.Core.Models.ChatMessage[],System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.IndexOf(Ollama.Core.Models.ChatMessage)">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.Insert(System.Int32,Ollama.Core.Models.ChatMessage)">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.Remove(Ollama.Core.Models.ChatMessage)">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.RemoveAt(System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.System#Collections#Generic#IEnumerable{Ollama#Core#Models#ChatMessage}#GetEnumerator">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageHistory.System#Collections#IEnumerable#GetEnumerator">
+            <inheritdoc />
+        </member>
+        <member name="T:Ollama.Core.Models.ChatMessageRole">
+            <summary>
+            A description of the intended purpose of a message within a chat completions interaction.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatMessageRole.System">
+            <summary>
+            The role that instructs or sets the behavior of the assistant.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatMessageRole.Assistant">
+            <summary>
+            The role that provides responses to system-instructed, user-prompted input.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatMessageRole.User">
+            <summary>
+            The role that provides input for chat completions.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatMessageRole.Label">
+            <summary>
+            Gets the label associated with this ChatMessageRole.
+            </summary>
+            <remarks>
+            The label is what will be serialized into the "role" message field of the Chat Message format.
+            </remarks>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageRole.#ctor(System.String)">
+            <summary>
+            Creates a new ChatMessageRole instance with the provided label.
+            </summary>
+            <param name="label">The label to associate with this ChatMessageRole.</param>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageRole.op_Equality(Ollama.Core.Models.ChatMessageRole,Ollama.Core.Models.ChatMessageRole)">
+            <summary>
+            Returns a value indicating whether two ChatMessageRole instances are equivalent, as determined by a
+            case-insensitive comparison of their labels.
+            </summary>
+            <param name="left"> the first ChatMessageRole instance to compare </param>
+            <param name="right"> the second ChatMessageRole instance to compare </param>
+            <returns> true if left and right are both null or have equivalent labels; false otherwise </returns>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageRole.op_Inequality(Ollama.Core.Models.ChatMessageRole,Ollama.Core.Models.ChatMessageRole)">
+            <summary>
+            Returns a value indicating whether two ChatMessageRole instances are not equivalent, as determined by a
+            case-insensitive comparison of their labels.
+            </summary>
+            <param name="left"> the first ChatMessageRole instance to compare </param>
+            <param name="right"> the second ChatMessageRole instance to compare </param>
+            <returns> false if left and right are both null or have equivalent labels; true otherwise </returns>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageRole.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageRole.Equals(Ollama.Core.Models.ChatMessageRole)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageRole.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="M:Ollama.Core.Models.ChatMessageRole.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="T:Ollama.Core.Models.GenerateCompletionRequest">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.GenerateCompletionRequest.#ctor(System.String,System.String,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:Ollama.Core.Models.GenerateCompletionRequest.#ctor(Ollama.Core.Models.GenerateCompletionOptions)">
+            <inheritdoc />
+        </member>
+        <member name="T:Ollama.Core.Models.GenerateEmbeddingRequest">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#generate-embeddings"/>
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateEmbeddingRequest.Model">
+            <summary>
+            Name of model to generate embeddings from.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateEmbeddingRequest.Prompt">
+            <summary>
+            Text to generate embeddings for.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateEmbeddingRequest.KeepAlive">
+            <summary>
+            Controls how long the model will stay loaded into memory following the request (default: 5m)
+            <para>The keep_alive parameter can be set to:</para>
+            <list type="bullet"> a duration string (such as "10m" or "24h")
+            <item> a number in seconds(such as 3600) </item> 
+            <item> any negative number which will keep the model loaded in memory(e.g. -1 or "-1m") </item> 
+            <item> '0' which will unload the model immediately after generating a response </item> 
+            </list> 
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateEmbeddingRequest.Options">
+            <summary>
+            Additional model parameters listed in the documentation for the Modelfile such as temperature
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.GenerateEmbeddingRequest.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.CopyModelRequest">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#copy-a-model" />
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.CopyModelRequest.Source">
+            <summary>
+            The source model name.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.CopyModelRequest.Destination">
+            <summary>
+            The model name of destination.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.CopyModelRequest.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.CreateModelRequest">
+            <inheritdoc />
+        </member>
+        <member name="P:Ollama.Core.Models.CreateModelRequest.Stream">
+            <summary>
+            If false the response will be returned as a single response object, rather than a stream of objects
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.CreateModelRequestBase">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#create-a-model" />
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.CreateModelRequestBase.Name">
+            <summary>
+            Name of the model to create.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.CreateModelRequestBase.ModelFileContent">
+            <summary>
+            Contents of the Modelfile.
+            <para>https://github.com/ollama/ollama/blob/main/docs/modelfile.md </para>
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.CreateModelRequestBase.Path">
+            <summary>
+            Path to the Modelfile
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.CreateModelRequestBase.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.CreateModelStreamingRequest">
+            <inheritdoc />
+        </member>
+        <member name="P:Ollama.Core.Models.CreateModelStreamingRequest.Stream">
+            <summary>
+            If false the response will be returned as a single response object, rather than a stream of objects
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.DeleteModelRequest">
+            <summary>
+            The request for delete model. <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#delete-a-model" />
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.DeleteModelRequest.Name">
+            <summary>
+            The model name
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.DeleteModelRequest.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.ListModelRequest">
+            <summary>
+            The request for list models. <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#list-local-models" />
+            <code>ollama list</code>
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.ListModelRequest.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.ListRunningModelRequest">
+            <summary>
+            The request for list running models. <br />
+            <code>ollama ps</code>
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.ListRunningModelRequest.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.LoadModelRequestBase">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/faq.md" />
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.LoadModelRequestBase.Model">
+            <summary>
+            The model name
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.LoadModelRequestBase.KeepAlive">
+            <summary>
+            By default models are kept in memory for 5 minutes before being unloaded.
+            <list type="bullet">
+            <item>The keep_alive parameter can be set to:</item>
+            <item>a duration string (such as "10m" or "24h")</item>
+            <item>a number in seconds(such as 3600)</item>
+            <item>any negative number which will keep the model loaded in memory(e.g. -1 or "-1m")</item>
+            <item>'0' which will unload the model immediately after generating a response</item>
+            </list>
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.LoadModelRequestBase.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.LoadModelUseChatCompletionRequest">
+            <summary>
+            The request for preload the model using the chat endpoint. <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/faq.md" />
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.LoadModelUseChatCompletionRequest.ToHttpRequestMessage">
+            <inheritdoc/>
+        </member>
+        <member name="T:Ollama.Core.Models.LoadModelUseGenerateCompletionRequest">
+            <summary>
+            The request for preload the model using the generate endpoint. <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#generate-a-completion "/><br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/faq.md" />
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.LoadModelUseGenerateCompletionRequest.ToHttpRequestMessage">
+            <inheritdoc/>
+        </member>
+        <member name="T:Ollama.Core.Models.PullModelRequest">
+            <inheritdoc />
+        </member>
+        <member name="P:Ollama.Core.Models.PullModelRequest.Stream">
+            <summary>
+            If false the response will be returned as a single response object, rather than a stream of objects
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.PullModelRequestBase">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#pull-a-model"/>
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PullModelRequestBase.Name">
+            <summary>
+            Name of the model to pull.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PullModelRequestBase.Insecure">
+            <summary>
+            Allow insecure connections to the library. 
+            Only use this if you are pulling from your own library during development.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.PullModelRequestBase.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.PullModelStreamingRequest">
+            <inheritdoc />
+        </member>
+        <member name="P:Ollama.Core.Models.PullModelStreamingRequest.Stream">
+            <summary>
+            If false the response will be returned as a single response object, rather than a stream of objects
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.PushModelRequest">
+            <inheritdoc />
+        </member>
+        <member name="P:Ollama.Core.Models.PushModelRequest.Stream">
+            <summary>
+            If false the response will be returned as a single response object, rather than a stream of objects
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.PushModelRequestBase">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#push-a-model"/>
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PushModelRequestBase.Name">
+            <summary>
+            Name of the model to push in the form of &lt;namespace&gt;/&lt;model&gt;:&lt;tag&gt;. 
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PushModelRequestBase.Insecure">
+            <summary>
+            Allow insecure connections to the library. 
+            Only use this if you are pulling from your own library during development.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.PushModelRequestBase.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.PushModelStreamingRequest">
+            <inheritdoc />
+        </member>
+        <member name="P:Ollama.Core.Models.PushModelStreamingRequest.Stream">
+            <summary>
+            If false the response will be returned as a single response object, rather than a stream of objects
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.ShowModelRequest">
+            <summary>
+            The request for show model informration. <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#show-model-information"/>
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ShowModelRequest.Name">
+            <summary>
+            The model name
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.Models.ShowModelRequest.ToHttpRequestMessage">
+            <summary>
+            To the <see cref="T:System.Net.Http.HttpRequestMessage"/>  for send a http request.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.Models.Base.CompletionDoneResponseBase">
+            <summary>
+            The completion done response base.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.Base.CompletionDoneResponseBase.DoneReason">
+            <summary>
+            The reason the model stopped generating text.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.Base.CompletionDoneResponseBase.TotalDuration">
+            <summary>
+            Time spent generating the response in nanoseconds.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.Base.CompletionDoneResponseBase.LoadDuration">
+            <summary>
+            Time spent in nanoseconds loading the model in nanoseconds.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.Base.CompletionDoneResponseBase.PromptEvalCount">
+            <summary>
+            Number of tokens in the prompt.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.Base.CompletionDoneResponseBase.PromptEvalDuration">
+            <summary>
+            Time spent in nanoseconds evaluating the prompt in nanoseconds.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.Base.CompletionDoneResponseBase.EvalCount">
+            <summary>
+            Number of tokens in the response.<br />
+            To calculate how fast the response is generated in tokens per second (token/s), divide eval_count / eval_duration * 10^9.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.Base.CompletionDoneResponseBase.EvalDuration">
+            <summary>
+            Time in nanoseconds spent generating the response in nanoseconds.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.Base.CompletionResponseBase">
+            <summary>
+            The completion response base.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.Base.CompletionResponseBase.Model">
+            <summary>
+            The model name.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.Base.CompletionResponseBase.CreatedAt">
+            <summary>
+            Gets the timestamp associated with generation activity for this completions response.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.Base.CompletionResponseBase.Done">
+            <summary>
+            Gets the done status.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.ChatCompletionResponse">
+            <summary>
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#generate-a-chat-completion" />
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ChatCompletionResponse.Message">
+            <summary>
+            The messages of the chat, this can be used to keep a chat memory
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.CreateModelResponse">
+            <summary>
+            The create model response.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.CreateModelResponse.Status">
+            <summary>
+            Gets the content fragment associated with this update.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.EmbeddingResponse">
+            <summary>
+            The embedding response.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.EmbeddingResponse.Embedding">
+            <summary>
+            The generated embeddings.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.GenerateCompletionResponse">
+            <summary>
+            The generation completion response.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionResponse.Response">
+            <summary>
+            Gets the content fragment associated with this update.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.GenerateCompletionResponse.Context">
+            <summary>
+            An encoding of the conversation used in this response, this can be sent in the next request to keep a conversational memory
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.ListModelItem">
+            <summary>
+            A model including details, modelfile, template, parameters, license, and system prompt.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ListModelItem.Name">
+            <summary>
+            The model name.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ListModelItem.Model">
+            <summary>
+            The model name.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ListModelItem.ModifiedAt">
+            <summary>
+            The model last modified time.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ListModelItem.ExpiresAt">
+            <summary>
+            The model last modified time.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ListModelItem.Size">
+            <summary>
+            The model size in byte.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ListModelItem.SizeVram">
+            <summary>
+            The model VRAM size in byte.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ListModelItem.Digest">
+            <summary>
+            The model SHA256 digest.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ListModelItem.Details">
+            <summary>
+            The model details.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.ListModelResponse">
+            <summary>
+            The list mode response.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ListModelResponse.Models">
+            <summary>
+            The models.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.ListRunningModelResponse">
+            <summary>
+            The list running model response.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ListRunningModelResponse.Models">
+            <summary>
+            The models.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.LoadModelResponse">
+            <summary>
+            The load model response.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.LoadModelResponse.Response">
+            <summary>
+            Gets the content fragment associated with this update.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.ModelDetail">
+            <summary>
+            The model details.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ModelDetail.Format">
+            <summary>
+            The model file format.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ModelDetail.Family">
+            <summary>
+            The model family.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ModelDetail.Families">
+            <summary>
+            The model families.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ModelDetail.ParameterSize">
+            <summary>
+            The model parameter size.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ModelDetail.QuantizationLevel">
+            <summary>
+            The model quantization level.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.PullModelResponse">
+            <summary>
+            The pull model response.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PullModelResponse.Status">
+            <summary>
+            The pull status of the model.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PullModelResponse.Digest">
+            <summary>
+            The SHA256 digest of the blob
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PullModelResponse.Total">
+            <summary>
+            The total size of the model.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PullModelResponse.Completed">
+            <summary>
+            The size of the completed pull.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.PushModelResponse">
+            <summary>
+            The pull model response.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PushModelResponse.Status">
+            <summary>
+            The pull status of the model.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PushModelResponse.Digest">
+            <summary>
+            The SHA256 digest of the blob
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.PushModelResponse.Total">
+            <summary>
+            The total size of the model.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.ShowModelResponse">
+            <summary>
+            A model including details, modelfile, template, parameters, license, and system prompt.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ShowModelResponse.License">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ShowModelResponse.ModelFile">
+            <summary>
+            A model file is the blueprint to create and share models with Ollama.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ShowModelResponse.Parameters">
+            <summary>
+            The parameters is for how Ollama will run the model.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ShowModelResponse.Template">
+            <summary>
+            The full prompt template in the model.
+            </summary>
+        </member>
+        <member name="P:Ollama.Core.Models.ShowModelResponse.Details">
+            <summary>
+            The model details.
+            </summary>
+        </member>
+        <member name="T:Ollama.Core.Models.StreamingResponse`1">
+            <summary>
+            Represents an operation response with streaming content that can be deserialized and enumerated while the response
+            is still being received.
+            </summary>
+            <typeparam name="T"> The data type representative of distinct, streamable items. </typeparam>
+        </member>
+        <member name="M:Ollama.Core.Models.StreamingResponse`1.CreateFromResponse(System.Net.Http.HttpResponseMessage,System.Func{System.Net.Http.HttpResponseMessage,System.Collections.Generic.IAsyncEnumerable{`0}})">
+            <summary>
+            Creates a new instance of <see cref="T:Ollama.Core.Models.StreamingResponse`1"/> using the provided underlying HTTP response. The
+            provided function will be used to resolve the response into an asynchronous enumeration of streamed response
+            items.
+            </summary>
+            <param name="response">The HTTP response.</param>
+            <param name="asyncEnumerableProcessor">
+            The function that will resolve the provided response into an IAsyncEnumerable.
+            </param>
+            <returns>
+            A new instance of <see cref="T:Ollama.Core.Models.StreamingResponse`1"/> that will be capable of asynchronous enumeration of
+            <typeparamref name="T"/> items from the HTTP response.
+            </returns>
+        </member>
+        <member name="M:Ollama.Core.Models.StreamingResponse`1.EnumerateValues">
+            <summary>
+            Gets the asynchronously enumerable collection of distinct, streamable items in the response.
+            </summary>
+            <remarks>
+            <para> The return value of this method may be used with the "await foreach" statement. </para>
+            <para>
+            As <see cref="T:Ollama.Core.Models.StreamingResponse`1"/> explicitly implements <see cref="T:System.Collections.Generic.IAsyncEnumerable`1"/>, callers may
+            enumerate a <see cref="T:Ollama.Core.Models.StreamingResponse`1"/> instance directly instead of calling this method.
+            </para>
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.Models.StreamingResponse`1.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:Ollama.Core.Models.StreamingResponse`1.Dispose(System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="T:Ollama.Core.OllamaClient">
+            <summary>
+            An implementation of a client for the Ollama serve.
+            </summary>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.CheckBlobExistsAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Ensures that the file blob used for a FROM or ADAPTER field exists on the server. <br />
+            This is checking your Ollama server and not Ollama.ai.
+            </summary>
+            <param name="digest">The SHA256 digest of the blob.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Return true if the blob exists, otherwise if it does not.</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.CreateBlobAsync(System.String,System.Byte[],System.Threading.CancellationToken)">
+            <summary>
+            Create a blob from a file on the server. Returns the server file path.
+            </summary>
+            <param name="digest">The SHA256 digest of the blob.</param>
+            <param name="content">The blob file content.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.CheckBlobExistsAsync(Ollama.Core.Models.CheckBlobExistsRequest,System.Threading.CancellationToken)">
+            <summary>
+            Ensures that the file blob used for a FROM or ADAPTER field exists on the server. <br />
+            This is checking your Ollama server and not Ollama.ai.
+            </summary>
+            <param name="request">The blob exists check request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <remarks>Return 200 OK if the blob exists, 404 Not Found if it does not.</remarks>
+            <returns>Return true if the blob exists, otherwise if it does not.</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.CreateBlobAsync(Ollama.Core.Models.CreateBlobRequest,System.Threading.CancellationToken)">
+            <summary>
+            Create a blob from a file on the server. Returns the server file path.
+            </summary>
+            <param name="request">The blob create request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <remarks>Return 201 Created if the blob was successfully created, 400 Bad Request if the digest used is not expected.</remarks>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.ChatCompletionStreamingAsync(System.String,Ollama.Core.Models.ChatMessageHistory,System.Threading.CancellationToken)">
+            <summary>
+            Get chat completion streaming results for the given chat messages history.
+            </summary>
+            <param name="model">The model name.</param>
+            <param name="messages">The chat messages history.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Streaming <see cref="T:Ollama.Core.Models.ChatMessage"/> list of completion result replied by the model</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.ChatCompletionAsync(System.String,Ollama.Core.Models.ChatMessageHistory,System.Threading.CancellationToken)">
+            <summary>
+            Get chat completions use specified model for the given prompt.
+            </summary>
+            <param name="model">The model name.</param>
+            <param name="messages">The chat message history.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Chat Completions replied by the model</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.ChatCompletionStreamingAsync(Ollama.Core.Models.ChatCompletionOptions,System.Threading.CancellationToken)">
+            <summary>
+            Get chat completions streaming use the given <see cref="T:Ollama.Core.Models.ChatCompletionOptions"/>.
+            </summary>
+            <param name="options">The options to use for chat completions.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Chat Completions replied by the model</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.ChatCompletionAsync(Ollama.Core.Models.ChatCompletionOptions,System.Threading.CancellationToken)">
+            <summary>
+            Get chat completions use the given <see cref="T:Ollama.Core.Models.ChatCompletionOptions"/>.
+            </summary>
+            <param name="options">The options to use for chat completions.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Chat Completions replied by the model</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.ChatCompletionStreamingAsync(Ollama.Core.Models.ChatCompletionRequest,System.Threading.CancellationToken)">
+            <summary>
+            Get streaming results for the chat request using the specified request.
+            </summary>
+            <param name="request">The data for this completions request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Streaming <see cref="T:Ollama.Core.Models.ChatMessage"/> list of completion result replied by the model</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.ChatCompletionAsync(Ollama.Core.Models.ChatCompletionRequest,System.Threading.CancellationToken)">
+            <summary>
+            Get chat completions as configured for the given request.
+            </summary>
+            <param name="request">The data for this chat completion request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Chat message replied by the model</returns>
+            <exception cref="T:Ollama.Core.DeserializationException">When deserialize the response is null.</exception>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.#ctor(System.Uri,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.OllamaClient"/> class.
+            </summary>
+            <param name="endpoint">The Ollama serve endpoint.</param>
+            <param name="loggerFactory">The <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory"/> to use for logging. If null, no logging will be performed.</param>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.#ctor(System.String,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.OllamaClient"/> class.
+            </summary>
+            <param name="endpoint">The Ollama serve endpoint.</param>
+            <param name="loggerFactory">The <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory"/> to use for logging. If null, no logging will be performed.</param>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ollama.Core.OllamaClient"/> class.
+            </summary>
+            <param name="httpClient">The <see cref="T:System.Net.Http.HttpClient"/> instance used for making HTTP requests.</param>
+            <param name="loggerFactory">The <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory"/> to use for logging. If null, no logging will be performed.</param>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.GenerateEmbeddingAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Generate embeddings from a model.
+            </summary>
+            <param name="model">Name of model to generate embeddings from.</param>
+            <param name="prompt">Text to generate embeddings for.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>The embedding.</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.GenerateEmbeddingAsync(Ollama.Core.Models.GenerateEmbeddingRequest,System.Threading.CancellationToken)">
+            <summary>
+            Generate embeddings from a model.
+            </summary>
+            <param name="request">The generate embedding request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>The embedding.</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.GenerateCompletionStreamingAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get streaming completion results for the given prompt.
+            </summary>
+            <param name="model">The model name.</param>
+            <param name="prompt">The prompt.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Streaming list of completion result generated by the model</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.GenerateCompletionStreamingAsync(Ollama.Core.Models.GenerateCompletionOptions,System.Threading.CancellationToken)">
+            <summary>
+            Get streaming completions results use the given <see cref="T:Ollama.Core.Models.GenerateCompletionOptions"/>.
+            </summary>
+            <param name="options">The options to use for generating completions, including model, prompt, and additional settings.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Streaming list of completion result generated by the model</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.GenerateCompletionAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get completions use specified model for the given prompt.
+            </summary>
+            <param name="model">The model name.</param>
+            <param name="prompt">The prompt.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Completion result generated by the model</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.GenerateCompletionAsync(Ollama.Core.Models.GenerateCompletionOptions,System.Threading.CancellationToken)">
+            <summary>
+            Get completions use the given <see cref="T:Ollama.Core.Models.GenerateCompletionOptions"/>.
+            </summary>
+            <param name="options">The options to use for generating completions, including model, prompt, and additional settings.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Completion result generated by the model</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.GenerateCompletionStreamingAsync(Ollama.Core.Models.GenerateCompletionRequest,System.Threading.CancellationToken)">
+            <summary>
+            Get streaming results for the generate completion using the specified request.
+            </summary>
+            <param name="request">The data for this completions request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Streaming list of completion result generated by the model</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.GenerateCompletionAsync(Ollama.Core.Models.GenerateCompletionRequest,System.Threading.CancellationToken)">
+            <summary>
+            Get completions as configured for the given request.
+            </summary>
+            <param name="request">The data for this completions request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>Completion result generated by the model</returns>
+            <exception cref="T:Ollama.Core.DeserializationException">When deserialize the response is null.</exception>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.CreateModelStreamingAsync(System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Create a model from a Modelfile with streaming response.
+            </summary>
+            <param name="name"></param>
+            <param name="modelFileContent">Contents of the Modelfile.</param>
+            <param name="path">Path to the Modelfile</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.CreateModelAsync(System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Create a model from a Modelfile.
+            </summary>
+            <param name="name"></param>
+            <param name="modelFileContent">Contents of the Modelfile.</param>
+            <param name="path">Path to the Modelfile</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.UnloadModelUseGenerateCompletionEndpointAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Unload the model and free up memory use generate completion endpoint.
+            </summary>
+            <param name="model">The model name.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>The model loaded response.</returns>
+            <exception cref="T:Ollama.Core.DeserializationException">When deserialize the response is null.</exception>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.UnloadModelUseChatCompletionEndpointAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Unload the speficied model into memory use chat completion endpoint.
+            </summary>
+            <param name="model">The model name.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>The model loaded response.</returns>
+            <exception cref="T:Ollama.Core.DeserializationException">When deserialize the response is null.</exception>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.LoadModelUseGenerateCompletionEndpointAsync(System.String,System.Double,System.Threading.CancellationToken)">
+            <summary>
+            Load the speficied model into memory use generate completion endpoint. <br />
+            If you are using the API you can preload a model by sending the Ollama server an empty request. <br />
+            This works with both the /api/generate and /api/chat API endpoints.<br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/faq.md"/>
+            </summary>
+            <param name="model">The model name.</param>
+            <param name="keepAlive">
+            To control how long the model is left in memory. Default is 300 seconds. <br />
+            To preload a model and leave it in memory use: keepAlive = -1 <br />
+            To unload the model and free up memory use: keepAlive = 0
+            </param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>The model loaded response.</returns>
+            <exception cref="T:Ollama.Core.DeserializationException">When deserialize the response is null.</exception>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.LoadModelUseChatCompletionEndpointAsync(System.String,System.Double,System.Threading.CancellationToken)">
+            <summary>
+            Load the speficied model into memory use chat completion endpoint. <br />
+            If you are using the API you can preload a model by sending the Ollama server an empty request. <br />
+            This works with both the /api/generate and /api/chat API endpoints.<br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/faq.md"/>
+            </summary>
+            <param name="model">The model name.</param>
+            <param name="keepAlive">
+            To control how long the model is left in memory. Default is 300 seconds. <br />
+            To preload a model and leave it in memory use: keepAlive = -1 <br />
+            To unload the model and free up memory use: keepAlive = 0
+            </param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>The model loaded response.</returns>
+            <exception cref="T:Ollama.Core.DeserializationException">When deserialize the response is null.</exception>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.ShowModelAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Show information about a model including details, modelfile, template, parameters, license, and system prompt.
+            </summary>
+            <param name="name">The model name.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>The model information.</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.CopyModelAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Copy a model. Creates a model with another name from an existing model.
+            </summary>
+            <param name="source">The source model name.</param>
+            <param name="destination">The model name of destination.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.DeleteModelAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Delete a model and its data.
+            </summary>
+            <param name="name">The model name to delete.</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.PullModelAsync(System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)">
+            <summary>
+            Download a model from the ollama library. <br />
+            Cancelled pulls are resumed from where they left off, and multiple calls will share the same download progress.<br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#pull-a-model"/>
+            </summary>
+            <param name="name">Name of the model to pull.</param>
+            <param name="insecure">
+            Allow insecure connections to the library. 
+            Only use this if you are pulling from your own library during development.
+            </param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <remarks>
+            Then there is a series of downloading responses. Until any of the download is completed, the completed key may not be included. The number of files to be downloaded depends on the number of layers specified in the manifest.
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.PullModelStreamingAsync(System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)">
+            <summary>
+            Download a model from the ollama library with streaming. <br />
+            Cancelled pulls are resumed from where they left off, and multiple calls will share the same download progress.<br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#pull-a-model"/>
+            </summary>
+            <param name="name">Name of the model to pull.</param>
+            <param name="insecure">
+            Allow insecure connections to the library. 
+            Only use this if you are pulling from your own library during development.
+            </param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <remarks>
+            Then there is a series of downloading responses. Until any of the download is completed, the completed key may not be included. The number of files to be downloaded depends on the number of layers specified in the manifest.
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.PushModelAsync(System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)">
+            <summary>
+            Upload a model to a model library. Requires registering for ollama.ai and adding a public key first. <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#push-a-model"/>
+            </summary>
+            <param name="name">Name of the model to push in the form of &lt;namespace&gt;/&lt;model&gt;:&lt;tag&gt;. </param>
+            <param name="insecure">
+            Allow insecure connections to the library. 
+            Only use this if you are pulling from your own library during development.
+            </param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.PushModelStreamingAsync(System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)">
+            <summary>
+            Upload a model to a model library with streaming. Requires registering for ollama.ai and adding a public key first. <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#push-a-model"/>
+            </summary>
+            <param name="name">Name of the model to push in the form of &lt;namespace&gt;/&lt;model&gt;:&lt;tag&gt;. </param>
+            <param name="insecure">
+            Allow insecure connections to the library. 
+            Only use this if you are pulling from your own library during development.
+            </param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.ListModelsAsync(System.Threading.CancellationToken)">
+            <summary>
+            List models that are available locally.
+            </summary>
+            <returns>The local models.</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.ListRunningModelsAsync(System.Threading.CancellationToken)">
+            <summary>
+            List running models.
+            </summary>
+            <returns>The running models.</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.CreateModelStreamingAsync(Ollama.Core.Models.CreateModelStreamingRequest,System.Threading.CancellationToken)">
+            <summary>
+            Create a model from a Modelfile with streaming response.<br />
+            It is recommended to set modelfile to the content of the Modelfile rather than just set path. 
+            This is a requirement for remote create. 
+            Remote model creation must also create any file blobs, fields such as FROM and ADAPTER, explicitly with the server using Create a Blob and the value to the path indicated in the response.<br />
+            <list type="bullet">
+            <item><a href="https://github.com/ollama/ollama/blob/main/docs/api.md#create-a-model"/><br /></item>
+            <item><a href="https://github.com/ollama/ollama/blob/main/docs/modelfile.md"/></item>
+            </list>
+            </summary>
+            <param name="request">The create model request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.CreateModelAsync(Ollama.Core.Models.CreateModelRequest,System.Threading.CancellationToken)">
+            <summary>
+            Create a model from a Modelfile.<br />
+            It is recommended to set modelfile to the content of the Modelfile rather than just set path. 
+            This is a requirement for remote create. 
+            Remote model creation must also create any file blobs, fields such as FROM and ADAPTER, explicitly with the server using Create a Blob and the value to the path indicated in the response.<br />
+            <list type="bullet">
+            <item><a href="https://github.com/ollama/ollama/blob/main/docs/api.md#create-a-model"/><br /></item>
+            <item><a href="https://github.com/ollama/ollama/blob/main/docs/modelfile.md"/></item>
+            </list>
+            </summary>
+            <param name="request">The create model request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.LoadModelAsync(Ollama.Core.Models.LoadModelRequestBase,System.Threading.CancellationToken)">
+            <summary>
+            Load the speficied model into memory. <br />
+            If you are using the API you can preload a model by sending the Ollama server an empty request. <br />
+            This works with both the /api/generate and /api/chat API endpoints.<br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/faq.md"/>
+            </summary>
+            <param name="request">The load model request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>The model loaded response.</returns>
+            <exception cref="T:Ollama.Core.DeserializationException">When deserialize the response is null.</exception>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.ShowModelAsync(Ollama.Core.Models.ShowModelRequest,System.Threading.CancellationToken)">
+            <summary>
+            Show information about a model including details, modelfile, template, parameters, license, and system prompt.
+            </summary>
+            <param name="request">The show model request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>The model information.</returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.CopyModelAsync(Ollama.Core.Models.CopyModelRequest,System.Threading.CancellationToken)">
+            <summary>
+            Copy a model. Creates a model with another name from an existing model.
+            </summary>
+            <param name="request">The copy model request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.DeleteModelAsync(Ollama.Core.Models.DeleteModelRequest,System.Threading.CancellationToken)">
+            <summary>
+            Delete a model and its data.
+            </summary>
+            <param name="request">The delete model request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <remarks>Returns a 200 OK if successful, 404 Not Found if the model to be deleted doesn't exist.</remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.PullModelAsync(Ollama.Core.Models.PullModelRequest,System.Threading.CancellationToken)">
+            <summary>
+            Download a model from the ollama library. <br />
+            Cancelled pulls are resumed from where they left off, and multiple calls will share the same download progress.<br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#pull-a-model"/>
+            </summary>
+            <param name="request">The pull model request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <remarks>
+            Then there is a series of downloading responses. Until any of the download is completed, the completed key may not be included. The number of files to be downloaded depends on the number of layers specified in the manifest.
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.PullModelStreamingAsync(Ollama.Core.Models.PullModelStreamingRequest,System.Threading.CancellationToken)">
+            <summary>
+            Download a model from the ollama library streaming. <br />
+            Cancelled pulls are resumed from where they left off, and multiple calls will share the same download progress.<br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#pull-a-model"/>
+            </summary>
+            <param name="request">The pull model request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <remarks>
+            Then there is a series of downloading responses. Until any of the download is completed, the completed key may not be included. The number of files to be downloaded depends on the number of layers specified in the manifest.
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.PushModelAsync(Ollama.Core.Models.PushModelRequest,System.Threading.CancellationToken)">
+            <summary>
+            Upload a model to a model library. Requires registering for ollama.ai and adding a public key first. <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#push-a-model"/> <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/import.md"/>
+            </summary>
+            <param name="request">The push model request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ollama.Core.OllamaClient.PushModelStreamingAsync(Ollama.Core.Models.PushModelRequest,System.Threading.CancellationToken)">
+            <summary>
+            Upload a model to a model library streaming. <br />
+            Requires registering for ollama.ai and adding a public key first. <br />
+            <a href="https://github.com/ollama/ollama/blob/main/docs/api.md#push-a-model"/>
+            </summary>
+            <param name="request">The push model request.</param>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Ollama.Core.ServerSendEvent.ServerSendEventAsyncEnumerator`1">
+            <summary>
+            The server send event async enumerator.
+            </summary>
+            <typeparam name="T">The type of the objects being enumerated.</typeparam>  
+        </member>
+        <member name="M:Ollama.Core.ServerSendEvent.ServerSendEventAsyncEnumerator`1.EnumerateFromSseStream(System.Net.Http.HttpResponseMessage,System.Threading.CancellationToken)">
+            <summary>  
+            Asynchronously enumerates through a Server-Sent Events (SSE) stream from an HTTP response message.  
+            </summary>  
+            <param name="httpResponseMessage">The HTTP response message containing the SSE stream.</param>  
+            <param name="cancellationToken">A cancellation token that can be used to cancel the initial request or ongoing streaming operation.</param>
+            <returns>An asynchronous enumerable of type <typeparamref name="T"/> representing the updates from the SSE stream.</returns>  
+            <remarks>  
+            This method reads from the SSE stream until the end of the stream is reached or the operation is cancelled.  
+            It uses <see cref="P:System.Net.Http.HttpResponseMessage.Content"/> to obtain the stream and <see cref="T:Ollama.Core.ServerSendEvent.ServerSendEventReader`1"/> to parse SSE events.  
+            </remarks>
+        </member>
+        <member name="T:Ollama.Core.ServerSendEvent.ServerSendEventReader`1">
+            <summary>  
+            Reads events from a stream and deserializes them into objects of <typeparamref name="T"/>.
+            Initializes a new instance of the <see cref="T:Ollama.Core.ServerSendEvent.ServerSendEventReader`1"/> class with the specified <paramref name="reader"/>.  
+            </summary>  
+            <typeparam name="T">The type of object to deserialize the events into. Must be a class.</typeparam>
+            <param name="reader">The StreamReader to read events from.</param>
+        </member>
+        <member name="M:Ollama.Core.ServerSendEvent.ServerSendEventReader`1.#ctor(System.IO.StreamReader)">
+            <summary>  
+            Reads events from a stream and deserializes them into objects of <typeparamref name="T"/>.
+            Initializes a new instance of the <see cref="T:Ollama.Core.ServerSendEvent.ServerSendEventReader`1"/> class with the specified <paramref name="reader"/>.  
+            </summary>  
+            <typeparam name="T">The type of object to deserialize the events into. Must be a class.</typeparam>
+            <param name="reader">The StreamReader to read events from.</param>
+        </member>
+        <member name="M:Ollama.Core.ServerSendEvent.ServerSendEventReader`1.TryReadLineAsync">
+            <summary>  
+            Tries to read a line asynchronously from the StreamReader and deserialize it into an object of type <typeparamref name="T"/>.  
+            </summary>  
+            <returns>A task representing the asynchronous operation, with a result of the deserialized object of type <typeparamref name="T"/>, or null if the line is empty or cannot be parsed.</returns>  
+        </member>
+        <member name="M:Ollama.Core.ServerSendEvent.ServerSendEventReader`1.TryParseLine(System.String,`0@)">
+            <summary>  
+            Tries to parse a line of text into an object of type T.  
+            </summary>  
+            <param name="lineText">The line of text to parse.</param>  
+            <param name="line">When this method returns, contains the parsed object of type <typeparamref name="T"/>, if the parsing succeeded, or the default value of <typeparamref name="T"/> if the parsing failed.</param>  
+            <returns>True if the line was successfully parsed; otherwise, false.</returns>  
+        </member>
+        <member name="M:Ollama.Core.ServerSendEvent.ServerSendEventReader`1.Dispose(System.Boolean)">
+            <summary>  
+            Releases the unmanaged resources used by the ServerSendEventReader and optionally releases the managed resources.  
+            </summary>  
+            <param name="disposing">True to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
+        </member>
+        <member name="M:Ollama.Core.ServerSendEvent.ServerSendEventReader`1.Dispose">
+            <summary>  
+            Releases all resources used by the ServerSendEventReader.  
+            </summary>  
+        </member>
+    </members>
+</doc>
