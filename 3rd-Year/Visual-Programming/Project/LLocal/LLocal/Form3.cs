@@ -13,15 +13,17 @@ namespace LLocal
 {
     public partial class Form3 : KryptonForm
     {
-        public Form3()
+        string currUsername;
+        public Form3(string username)
         {
+            currUsername = username;
             InitializeComponent();
             timer1.Start();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            Form2 form2 = new Form2(currUsername);
             form2.Show();
             this.Hide();
             timer1.Stop();

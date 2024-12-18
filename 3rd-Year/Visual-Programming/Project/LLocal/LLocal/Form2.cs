@@ -19,10 +19,11 @@ namespace LLocal
 {
     public partial class Form2 : KryptonForm
     {
-
+        string currUsername;
         int index = 0;
-        public Form2()
+        public Form2(string username)
         {
+            currUsername = username;
             InitializeComponent();
             timer2.Start();
         }
@@ -94,31 +95,37 @@ namespace LLocal
         private void panel10_Paint(object sender, PaintEventArgs e)
         {
             homeTabControl.SelectedIndex = 0;
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             homeTabControl.SelectedIndex = 0;
+
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
             homeTabControl.SelectedIndex = 0;
+
         }
 
         private void panel16_Paint(object sender, PaintEventArgs e)
         {
             homeTabControl.SelectedIndex = 1;
+
         }
 
         private void label9_Click(object sender, EventArgs e)
         {
             homeTabControl.SelectedIndex = 1;
+
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
             homeTabControl.SelectedIndex = 1;
+
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -129,6 +136,7 @@ namespace LLocal
         private void label4_Click(object sender, EventArgs e)
         {
             homeTabControl.SelectedIndex = 2;
+
         }
 
         private void panel11_Paint(object sender, PaintEventArgs e)
@@ -139,6 +147,7 @@ namespace LLocal
         private void panel12_Paint(object sender, PaintEventArgs e)
         {
             homeTabControl.SelectedIndex = 3;
+
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -159,11 +168,13 @@ namespace LLocal
         private void panel13_Paint(object sender, PaintEventArgs e)
         {
             homeTabControl.SelectedIndex = 4;
+
         }
 
         private void label6_Click(object sender, EventArgs e)
         {
             homeTabControl.SelectedIndex = 4;
+
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -192,5 +203,45 @@ namespace LLocal
             pictureBox1.Image = LLocal.Properties.Resources.logo_silhouette_7;
         }
 
+        private void pictureBox33_Click(object sender, EventArgs e)
+        {
+            string url = "https://ollama.com/library/llama3.3";
+            System.Diagnostics.Process.Start(url);
+        }
+
+        private void pictureBox32_Click(object sender, EventArgs e)
+        {
+            string url = "https://ollama.com/library/qwq";
+            System.Diagnostics.Process.Start(url);
+        }
+
+        private void pictureBox31_Click(object sender, EventArgs e)
+        {
+            string url = "https://ollama.com/library/llama3.2-vision";
+            System.Diagnostics.Process.Start(url);
+        }
+
+        private void pictureBox30_Click(object sender, EventArgs e)
+        {
+            string url = "https://ollama.com/library/nomic-embed-text";
+            System.Diagnostics.Process.Start(url);
+        }
+
+        private void pictureBox29_Click(object sender, EventArgs e)
+        {
+            string url = "https://ollama.com/library/mistral";
+            System.Diagnostics.Process.Start(url);
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            label3.Text = currUsername;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            string url = $"https://github.com/{currUsername}";
+            System.Diagnostics.Process.Start(url);
+        }
     }
 }
