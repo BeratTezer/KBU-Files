@@ -78,6 +78,27 @@ namespace LLocal
 
         private void loginButton_Click(object sender, EventArgs e)
         {
+            string userId = null; 
+
+            using (var connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+                string query = "SELECT userId FROM users WHERE username = @username";
+
+                using (var command = new SQLiteCommand(query, connection))
+                {
+                    command.Parameters.Add("@username", DbType.String).Value = username;
+
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            userId = reader["userId"].ToString(); 
+                        }
+                    }
+                }
+            }
+   
             string usernameLogin = username.Text;
             string passwordLogin = password.Text;
             using (var connection = new SQLiteConnection(connectionString))
@@ -96,7 +117,7 @@ namespace LLocal
                             //MessageBox.Show("Giriş Başarılı!");
 
                             this.Hide();
-                            Form3 form3 = new Form3(usernameLogin);
+                            Form3 form3 = new Form3(usernameLogin, userId);
                             form3.Show();
                         }
                         else
@@ -137,7 +158,6 @@ namespace LLocal
                 {
                     SQLconnect.Open();
 
-                    // Kullanıcı adının mevcut olup olmadığını kontrol et
                     using (var checkCommand = SQLconnect.CreateCommand())
                     {
                         checkCommand.CommandText = "SELECT COUNT(*) FROM users WHERE username = @username";
@@ -151,7 +171,6 @@ namespace LLocal
                         }
                     }
                     
-                    // Mailin mevcut olup olmadığını kontrol et
                     using (var checkCommand = SQLconnect.CreateCommand())
                     {
                         checkCommand.CommandText = "SELECT COUNT(*) FROM users WHERE mail = @mail";
@@ -165,7 +184,6 @@ namespace LLocal
                         }
                     }
 
-                    // Kullanıcı adı mevcut değilse kayıt işlemini yap
                     using (var SQLCommand = SQLconnect.CreateCommand())
                     {
                         SQLCommand.CommandText = @"

@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.kryptonPalette1 = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
@@ -107,7 +110,7 @@
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.homePage3 = new System.Windows.Forms.TabPage();
-            this.richTextBoxChat = new System.Windows.Forms.RichTextBox();
+            this.answerBox = new System.Windows.Forms.TextBox();
             this.textBoxCommand = new System.Windows.Forms.TextBox();
             this.pictureBox42 = new System.Windows.Forms.PictureBox();
             this.pictureBox41 = new System.Windows.Forms.PictureBox();
@@ -136,7 +139,9 @@
             this.pictureBox38 = new System.Windows.Forms.PictureBox();
             this.pictureBox39 = new System.Windows.Forms.PictureBox();
             this.homePage5 = new System.Windows.Forms.TabPage();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.userSession = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -208,6 +213,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
+            this.homePage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // kryptonPalette1
@@ -1066,7 +1073,7 @@
             // homePage3
             // 
             this.homePage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
-            this.homePage3.Controls.Add(this.richTextBoxChat);
+            this.homePage3.Controls.Add(this.answerBox);
             this.homePage3.Controls.Add(this.textBoxCommand);
             this.homePage3.Controls.Add(this.pictureBox42);
             this.homePage3.Controls.Add(this.pictureBox41);
@@ -1077,16 +1084,15 @@
             this.homePage3.TabIndex = 2;
             this.homePage3.Text = "tabPage3";
             // 
-            // richTextBoxChat
+            // answerBox
             // 
-            this.richTextBoxChat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
-            this.richTextBoxChat.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBoxChat.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBoxChat.Location = new System.Drawing.Point(38, 25);
-            this.richTextBoxChat.Name = "richTextBoxChat";
-            this.richTextBoxChat.Size = new System.Drawing.Size(1058, 578);
-            this.richTextBoxChat.TabIndex = 3;
-            this.richTextBoxChat.Text = "";
+            this.answerBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.answerBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.answerBox.Location = new System.Drawing.Point(31, 25);
+            this.answerBox.Multiline = true;
+            this.answerBox.Name = "answerBox";
+            this.answerBox.Size = new System.Drawing.Size(1061, 578);
+            this.answerBox.TabIndex = 3;
             // 
             // textBoxCommand
             // 
@@ -1438,12 +1444,32 @@
             // homePage5
             // 
             this.homePage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(21)))));
+            this.homePage5.Controls.Add(this.chart1);
             this.homePage5.Location = new System.Drawing.Point(4, 22);
             this.homePage5.Name = "homePage5";
             this.homePage5.Padding = new System.Windows.Forms.Padding(3);
             this.homePage5.Size = new System.Drawing.Size(1140, 708);
             this.homePage5.TabIndex = 4;
             this.homePage5.Text = "tabPage1";
+            // 
+            // chart1
+            // 
+            this.chart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(97)))), ((int)(((byte)(97)))));
+            this.chart1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.chart1.BorderlineColor = System.Drawing.Color.Transparent;
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
+            this.chart1.Location = new System.Drawing.Point(7, 12);
+            this.chart1.Name = "chart1";
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
+            this.chart1.Size = new System.Drawing.Size(1116, 686);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
             // 
             // timer2
             // 
@@ -1551,6 +1577,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
+            this.homePage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1662,7 +1690,9 @@
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.PictureBox pictureBox42;
         private System.Windows.Forms.TextBox textBoxCommand;
-        private System.Windows.Forms.RichTextBox richTextBoxChat;
         private System.Windows.Forms.PictureBox pictureBox41;
+        private System.Windows.Forms.TextBox answerBox;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.Timer userSession;
     }
 }

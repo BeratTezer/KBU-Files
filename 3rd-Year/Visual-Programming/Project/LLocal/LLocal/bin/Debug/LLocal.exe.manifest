@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LLocal.exe" size="17231784">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LLocal.exe" size="17237416">
       <assemblyIdentity name="LLocal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GZm0/kLuKUM0Clk1u+EuCrFtYId6xd+7uqm29pOJnOo=</dsig:DigestValue>
+        <dsig:DigestValue>0cu3wQFg4JSggFgfWewmMTmO6xdGIFL0d9XN9Ll0Zcs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
