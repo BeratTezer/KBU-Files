@@ -467,6 +467,7 @@
             this.changeYourPasswordButton2.StateTracking.Border.Width = 2;
             this.changeYourPasswordButton2.TabIndex = 16;
             this.changeYourPasswordButton2.Values.Text = "Change your password";
+            this.changeYourPasswordButton2.Click += new System.EventHandler(this.changeYourPasswordButton2_Click);
             // 
             // newPassword2
             // 
@@ -643,6 +644,7 @@
             this.Register3.StateTracking.Border.Width = 2;
             this.Register3.TabIndex = 24;
             this.Register3.Values.Text = "Create Account";
+            this.Register3.Click += new System.EventHandler(this.Register3_Click);
             // 
             // password3
             // 
