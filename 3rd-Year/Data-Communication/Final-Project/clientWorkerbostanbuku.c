@@ -15,7 +15,6 @@ int main() {
     char buffer[MAX_BUFFER];
     int n, operation;
 
-    // Sunucuya bağlanmak için soket oluşturuluyor
     sock = socket(AF_INET, SOCK_STREAM, 0);
     if (sock < 0) {
         perror("[-]Socket error");
@@ -28,7 +27,6 @@ int main() {
     addr.sin_port = port;
     addr.sin_addr.s_addr = inet_addr(ip);
 
-    // Sunucuya bağlanıyoruz
     if (connect(sock, (struct sockaddr*)&addr, sizeof(addr)) < 0) {
         perror("[-]Connect error");
         close(sock);
@@ -36,7 +34,6 @@ int main() {
     }
     printf("[CLIENT]: Sunucuya baglandik.\n");
 
-    // Sunucuya kendini "bostanbuku" olarak tanıtıyoruz
     strcpy(buffer, "bostanbuku");
     send(sock, buffer, strlen(buffer), 0);
     printf("[CLIENT]: Server tarafindan tanindi.\n");
@@ -61,7 +58,6 @@ int main() {
                     int order_status = 0;
                     int order_choice;
 
-                    // Menü seçeneklerini sunalım
                     printf("Siparisinizi Secin:\n");
                     printf("1 - Pizza           (130₺)\n");
                     printf("2 - Hamburger       (210₺)\n");
@@ -71,17 +67,14 @@ int main() {
                     scanf("%d", &order_choice);
                     getchar();
 
-                    // Müşteri ismini alalım
                     printf("\n\nCustomer Name\n\n> ");
                     fgets(customer_name, sizeof(customer_name), stdin);
                     customer_name[strcspn(customer_name, "\n")] = '\0';
 
-                    // Müşteri adresini alalım
                     printf("\n\nCustomer Address\n\n> ");
                     fgets(customer_address, sizeof(customer_address), stdin);
                     customer_address[strcspn(customer_address, "\n")] = '\0';
 
-                    // Sipariş detaylarını ve maliyetini seçelim
                     switch(order_choice) {
                         case 1:
                             strcpy(order_details, "Pizza");
@@ -108,16 +101,12 @@ int main() {
                             continue;
                     }
 
-                    // Sipariş durumu olarak "Onaylandı" (1) gönderelim
-                    order_status = 1; // Örneğin 1: Onaylı, 0: İptal
 
-                    // Veriyi tek buffer ile sunucuya gönderiyoruz
                     bzero(buffer, sizeof(buffer));
                     snprintf(buffer, sizeof(buffer), "%s,%s,%d,%d,%s", customer_name, order_details, cost, order_status, customer_address);
                     send(sock, buffer, strlen(buffer), 0);
                     printf("[CLIENT]: Siparis sunucuya gonderildi: %s\n", buffer);
 
-                    // Sunucudan onay alıyoruz
                     bzero(buffer, sizeof(buffer));
                     recv(sock, buffer, sizeof(buffer), 0);
                     printf("[SERVER]: %s\n", buffer);
@@ -126,12 +115,10 @@ int main() {
                 }
 
             case 2:
-                // Sipariş durumu görüntüleme
                 bzero(buffer, sizeof(buffer));
                 strcpy(buffer, "2");
                 send(sock, buffer, strlen(buffer), 0);
 
-                // Sunucudan sipariş durumu alıyoruz
                 bzero(buffer, sizeof(buffer));
                 recv(sock, buffer, sizeof(buffer), 0);
                 printf("[SERVER]: Sipariş Durumu: %s\n", buffer);
