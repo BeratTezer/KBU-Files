@@ -165,6 +165,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(390,320)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="F0"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="1" loc="(300,320)" name="AND Gate">
@@ -177,6 +178,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(390,100)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="F1"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="1" loc="(140,120)" name="NAND Gate">
