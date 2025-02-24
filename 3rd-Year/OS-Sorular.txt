@@ -1,0 +1,427 @@
+1. What is the primary role of the scheduler in an operating system?
+A. Manage memory allocation
+B. Decide which process to run next
+C. Handle I/O requests
+D. Detect and resolve deadlocks
+E. Implement user interfaces
+
+2. In a preemptive scheduling algorithm, the CPU is:
+A. Allocated until the process completes or blocks
+B. Allocated to processes based on their arrival time
+C. Switched between processes after a fixed time quantum
+D. Only used for high-priority tasks
+E. Exclusively reserved for I/O-bound processes
+
+3. Which scheduling algorithm always selects the process with the shortest remaining time?
+A. First-Come First-Served
+B. Round Robin
+C. Shortest Remaining Time Next
+D. Priority Scheduling
+E. Fair-Share Scheduling
+
+4. Deadlock occurs when:
+A. A single process holds multiple resources
+B. Two or more processes wait indefinitely for each other to release resources
+C. The CPU is underutilized
+D. A program encounters a memory leak
+E. There is no free space in memory
+
+5. Which of the following is NOT a condition for deadlock?
+A. Mutual exclusion
+B. Hold and wait
+C. Preemption
+D. Circular wait
+E. Safe state
+
+6. In memory management, what is the role of the base and limit registers?
+A. Allocate memory dynamically
+B. Relocate memory during program execution
+C. Protect memory by restricting access outside allocated regions
+D. Swap processes in and out of memory
+E. Load programs into the operating system kernel
+
+7. What is the primary disadvantage of the fixed partition memory management scheme?
+A. It requires paging hardware
+B. Memory utilization is inefficient due to fragmentation
+C. It does not allow multiprogramming
+D. The system crashes when memory is full
+E. It is incompatible with modern processors
+
+8. Which memory management technique divides physical memory into frames and logical memory into pages?
+A. Fixed partitioning
+B. Paging
+C. Segmentation
+D. Swapping
+E. Bitmapping
+
+9. The page replacement algorithm that removes the page least recently used is called:
+A. First-In First-Out (FIFO)
+B. Optimal Replacement
+C. Least Recently Used (LRU)
+D. Second Chance
+E. Clock Replacement
+
+10. Which condition must be true for a system to be in a safe state?
+A. The system has no deadlocks
+B. All resources are preemptable
+C. All processes can finish execution in some order
+D. Processes are granted resources immediately
+E. Resources are evenly distributed among processes
+
+11. In the context of I/O management, a block device is characterized by:
+A. Streaming data continuously without blocks
+B. Fixed-size blocks that can be read/written independently
+C. High-speed communication interfaces
+D. Sequential access to stored data
+E. Addressing data as characters
+
+12. Memory-mapped I/O:
+A. Maps I/O device registers to specific memory addresses
+B. Allocates virtual memory dynamically
+C. Uses separate instructions for I/O operations
+D. Requires DMA controllers for operation
+E. Reduces the need for interrupts
+
+13. Which component handles the transfer of data directly between memory and I/O devices without CPU involvement?
+A. Scheduler
+B. Device driver
+C. DMA controller
+D. Interrupt vector
+E. Cache controller
+
+14. The simplest approach to handling deadlocks is:
+A. Deadlock prevention
+B. Deadlock detection and recovery
+C. The Ostrich Algorithm
+D. The Banker’s Algorithm
+E. Safe-state allocation
+
+15. Which scheduling algorithm gives each process a proportional share of CPU time based on lottery tickets?
+A. Priority Scheduling
+B. Fair-Share Scheduling
+C. Guaranteed Scheduling
+D. Lottery Scheduling
+E. Round Robin
+
+16. A key disadvantage of the FIFO page replacement algorithm is:
+A. It requires hardware support for counters
+B. It often removes frequently used pages
+C. It is too complex for modern systems
+D. It prioritizes unused pages over active ones
+E. It increases page fault frequency
+
+17. What happens when a page not present in physical memory is accessed?
+A. A segmentation fault occurs
+B. The process is terminated
+C. A page fault is triggered
+D. The MMU bypasses the request
+E. The operating system clears the TLB
+
+18. Which of the following is NOT an I/O buffering strategy?
+A. Single buffering
+B. Double buffering
+C. Circular buffering
+D. Kernel buffering
+E. Real-time buffering
+
+19. In Round Robin scheduling, the quantum must be carefully chosen because:
+A. Too short a quantum increases CPU efficiency
+B. Too long a quantum improves I/O-bound process performance
+C. Too short a quantum causes excessive context switching
+D. Too long a quantum eliminates the need for preemption
+E. A fixed quantum is always inefficient
+
+20. What is the purpose of the TLB (Translation Lookaside Buffer)?
+A. Store all page tables for fast access
+B. Translate physical addresses to virtual addresses
+C. Reduce page table lookups by caching translations
+D. Replace pages in virtual memory
+E. Optimize DMA transfers
+
+20. What is the purpose of the TLB (Translation Lookaside Buffer)?
+A. Store all page tables for fast access
+B. Translate physical addresses to virtual addresses
+C. Reduce page table lookups by caching translations
+D. Replace pages in virtual memory
+E. Optimize DMA transfers
+
+21. Which of the following strategies is used to recover from a deadlock?
+A. Resource reservation
+B. Killing processes involved in the deadlock
+C. Ignoring resource requests
+D. Increasing memory allocation
+E. Preemptive scheduling
+
+22. Which condition ensures mutual exclusion for resource allocation?
+A. Resources can be shared among multiple processes simultaneously
+B. Resources are always preemptable
+C. Each resource is assigned exclusively to one process at a time
+D. Circular wait is prevented
+E. Processes are statically assigned priorities
+
+23. In segmentation, memory is divided into:
+A. Fixed-size frames
+B. Variable-size segments
+C. Uniform-sized pages
+D. Disk sectors
+E. Cache lines
+
+24. What is the primary disadvantage of swapping?
+A. Reduced CPU utilization
+B. Increased system complexity
+C. Wasted disk space
+D. High overhead due to frequent disk I/O
+E. Inability to allocate large memory spaces
+
+25. What happens during a context switch?
+A. A process's resources are permanently released
+B. CPU switches to kernel mode
+C. The current process state is saved, and the next process state is loaded
+D. The memory manager allocates additional memory
+E. The MMU is reprogrammed for segmentation
+
+26. Which of the following prevents starvation in a priority-based scheduling system?
+A. Round Robin Scheduling
+B. Dynamic priority adjustment
+C. First-Come First-Served Scheduling
+D. Increasing time quantum
+E. Implementing multiple queues
+
+27. A page fault occurs when:
+A. A program accesses data outside its allocated memory
+B. A requested page is not in the memory
+C. The page table overflows
+D. The MMU fails to translate a virtual address
+E. Virtual memory is disabled
+
+28. In the Banker’s Algorithm, a safe state ensures:
+A. All processes are guaranteed to complete without deadlocks
+B. Deadlocks are detected and recovered
+C. Resources are preemptively allocated
+D. The CPU is always fully utilized
+E. All resources are used efficiently
+
+29. Which disk scheduling algorithm minimizes seek time?
+A. First-Come First-Served (FCFS)
+B. Shortest Seek Time First (SSTF)
+C. Round Robin
+D. Scan (Elevator Algorithm)
+E. Random Scheduling
+
+30. A resource allocation graph is used to:
+A. Track CPU usage
+B. Manage memory allocation
+C. Detect and prevent deadlocks
+D. Schedule I/O operations
+E. Evaluate system performance
+
+31. Which page replacement algorithm uses the R and M bits to classify pages?
+A. Optimal Replacement
+B. Least Recently Used (LRU)
+C. Not Recently Used (NRU)
+D. Second Chance
+E. Clock Replacement
+
+32. In device management, the role of a device driver is to:
+A. Allocate memory for the device
+B. Translate high-level I/O requests into hardware-specific operations
+C. Manage virtual memory
+D. Implement the CPU scheduling algorithm
+E. Coordinate DMA transfers
+
+33. Which type of buffer strategy uses two buffers to handle input and output operations efficiently?
+A. Single buffering
+B. Double buffering
+C. Circular buffering
+D. Cache buffering
+E. Direct buffering
+
+34. What does the protection bit in a page table entry signify?
+A. Whether a page is currently in memory
+B. Permissions for accessing the page (e.g., read/write)
+C. Whether the page has been modified
+D. The physical address of the page frame
+E. The page's disk location
+
+35. Which scheduling algorithm uses multilevel feedback queues?
+A. Lottery Scheduling
+B. Priority Scheduling
+C. Guaranteed Scheduling
+D. Multilevel Queue Scheduling
+E. Round Robin Scheduling
+
+36. A semaphore is primarily used to:
+A. Synchronize processes
+B. Manage memory allocation
+C. Handle deadlocks
+D. Replace interrupts
+E. Manage disk I/O
+
+37. In virtual memory systems, the Present/Absent bit indicates:
+A. If the page is currently mapped in physical memory
+B. The priority of the page
+C. Whether the page has been modified
+D. The location of the page on the disk
+E. The last access time of the page
+
+38. The difference between spooling and buffering is that:
+A. Buffering is used only for block devices
+B. Spooling uses disk storage, while buffering uses main memory
+C. Buffering requires DMA, while spooling does not
+D. Spooling applies to CPU scheduling, buffering applies to memory
+E. Spooling and buffering are identical in operation
+
+39. What is the main purpose of a multilevel page table?
+A. Reduce page faults
+B. Support virtual memory for large address spaces
+C. Allocate physical memory dynamically
+D. Prevent page table overflow
+E. Improve TLB hit rates
+
+40. The Working Set model in memory management is used to:
+A. Allocate memory for processes
+B. Determine the set of pages actively used by a process
+C. Reduce I/O operations during paging
+D. Manage DMA transfers
+E. Optimize CPU utilization
+
+41. What happens when a process is waiting for an I/O operation to complete?
+A. It remains in the ready queue
+B. It enters the blocked state
+C. It is terminated
+D. It switches to kernel mode
+E. It restarts its execution
+
+42. Which memory allocation algorithm fits a process into the smallest available partition that fits?
+A. First Fit
+B. Next Fit
+C. Best Fit
+D. Worst Fit
+E. Optimal Fit
+
+43. The Second-Chance page replacement algorithm modifies:
+A. FIFO by giving each page a second chance if referenced
+B. LRU by allowing pages to be reused
+C. NRU by prioritizing unmodified pages
+D. Clock algorithm to avoid page faults
+E. Optimal replacement for accuracy
+
+44. Which technique ensures that the CPU is efficiently utilized by I/O-bound processes?
+A. Priority scheduling
+B. Shortest Job First
+C. Guaranteed scheduling
+D. Multilevel queue scheduling
+E. Dynamic time-slicing
+
+45. The Banker’s Algorithm prevents deadlocks by:
+A. Ignoring resource requests in unsafe states
+B. Allocating all requested resources immediately
+C. Evaluating safety before resource allocation
+D. Using static resource allocation
+E. Detecting and recovering from deadlocks
+
+46. Which field in a page table entry is used to track if a page has been modified?
+A. Protection bit
+B. Present/Absent bit
+C. Referenced bit
+D. Modified (or Dirty) bit
+E. Frame number
+
+47. What is the primary purpose of device controllers?
+A. Manage CPU scheduling for devices
+B. Translate physical addresses to virtual addresses
+C. Act as an interface between devices and the operating system
+D. Optimize device drivers
+E. Allocate memory for device operations
+
+48. A RAID system is used primarily for:
+A. Virtual memory management
+B. CPU scheduling
+C. Enhancing storage reliability and performance
+D. Managing I/O buffers
+E. Improving DMA efficiency
+
+49. Which process synchronization primitive uses atomic operations to avoid race conditions?
+A. Semaphore
+B. Mutex
+C. Condition variable
+D. Spinlock
+E. Barrier
+
+50. When multiple queues are used for scheduling, processes in lower-priority queues:
+A. Are never scheduled
+B. Use preemptive scheduling
+C. Run only if higher-priority queues are empty
+D. Are allocated fixed CPU time
+E. Share CPU time equally
+
+51. What is the main advantage of dynamic linking?
+A. Improved execution speed
+B. Reduced memory usage
+C. Enhanced file system reliability
+D. Simplified program debugging
+E. Better virtual memory management
+
+52. The function of the MMU (Memory Management Unit) is to:
+A. Handle I/O operations
+B. Translate virtual addresses to physical addresses
+C. Manage CPU scheduling
+D. Allocate disk blocks
+E. Perform device control
+
+53. Which interrupt type is triggered by software?
+A. Hardware interrupt
+B. Software interrupt
+C. Maskable interrupt
+D. Non-maskable interrupt
+E. Priority interrupt
+
+54. A starvation problem can be avoided in scheduling by:
+A. Increasing the priority of long-waiting processes
+B. Implementing First-Come First-Served scheduling
+C. Disabling priority queues
+D. Reducing time quantum in Round Robin
+E. Using shortest remaining time next
+
+55. The primary difference between spooling and buffering is:
+A. Buffering requires hardware support, spooling does not
+B. Spooling involves queuing I/O operations in memory
+C. Buffering temporarily stores data in memory
+D. Spooling works with non-blocking devices only
+E. Buffering uses kernel space exclusively
+
+56. Which replacement algorithm uses a circular buffer for tracking page use?
+A. FIFO
+B. Clock
+C. LRU
+D. Second-Chance
+E. Optimal Replacement
+
+57. What is a characteristic of segmented memory management?
+A. Equal-sized divisions of memory
+B. Logical divisions based on program modules
+C. Reduced fragmentation compared to paging
+D. Fixed-size memory allocation
+E. Simplified memory access
+
+58. In direct memory access (DMA), what signals the CPU that a transfer is complete?
+A. Hardware interrupt
+B. DMA register update
+C. Software interrupt
+D. Bus acknowledgment
+E. Memory read cycle
+
+59. Which scheduling approach prevents indefinite blocking of processes?
+A. Preemptive scheduling
+B. Round Robin
+C. Shortest Remaining Time First
+D. Guaranteed Scheduling
+E. Lottery Scheduling
+
+60. When a page fault occurs, the operating system must:
+A. Swap all processes to disk
+B. Reload the page table entirely
+C. Locate the required page on disk and bring it into memory
+D. Reset the CPU
+E. Free up all memory for the faulting process
+
