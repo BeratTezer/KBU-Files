@@ -1,0 +1,33 @@
+# Sunucu IP ve Port bilgileri
+$ip = "0.0.0.0"  # Tüm arayüzleri dinler
+$port = 8080
+
+# TCP Listener oluştur
+$listener = New-Object System.Net.Sockets.TcpListener ([System.Net.IPAddress]::Parse($ip), $port)
+$listener.Start()
+Write-Host "TCP Sunucu $port portunda dinliyor..."
+
+while ($true) {
+    # Gelen bağlantıyı kabul et
+    $client = $listener.AcceptTcpClient()
+    Write-Host "Yeni bağlantı kabul edildi: $($client.Client.RemoteEndPoint)"
+    
+    # Stream oluştur
+    $stream = $client.GetStream()
+    $reader = New-Object System.IO.StreamReader($stream)
+    $writer = New-Object System.IO.StreamWriter($stream)
+    $writer.AutoFlush = $true
+    
+    # Veriyi oku
+    $data = $reader.ReadLine()
+    Write-Host "İstemciden gelen veri: $data"
+
+    # Yanıt gönder
+    $response = "Sunucudan selamlar! Aldığın mesaj: $data"
+    $writer.WriteLine($response)
+    
+    # Bağlantıyı kapat
+    $reader.Close()
+    $writer.Close()
+    $client.Close()
+}
