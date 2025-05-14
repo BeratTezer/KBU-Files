@@ -1,0 +1,1003 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="Page-1" id="brvUyiZEm0prEde-LjQm">
+    <mxGraphModel dx="1371" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="b6uFn2SaGQBsOgkf-mmU-1" target="UXcAdIsX0P1JOGbJmKCX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6uFn2SaGQBsOgkf-mmU-1" value="Kullanıcı" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;aspect=fixed;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="330" width="45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="b6uFn2SaGQBsOgkf-mmU-1" target="UXcAdIsX0P1JOGbJmKCX-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="62.5" y="414.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-4" value="Giriş" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="450" height="350" as="geometry">
+            <mxRectangle x="120" y="200" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-5" value="Türkçe/English" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-4">
+          <mxGeometry x="10" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-17" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=9;labelBackgroundColor=none;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-4" source="UXcAdIsX0P1JOGbJmKCX-10" target="UXcAdIsX0P1JOGbJmKCX-13">
+          <mxGeometry x="-0.1223" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-18" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-4" source="UXcAdIsX0P1JOGbJmKCX-10" target="UXcAdIsX0P1JOGbJmKCX-12">
+          <mxGeometry x="-0.1603" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-10" value="Akademisyen Giriş" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-4">
+          <mxGeometry x="10" y="230" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-14" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-4" source="UXcAdIsX0P1JOGbJmKCX-9" target="UXcAdIsX0P1JOGbJmKCX-11">
+          <mxGeometry x="0.0626" y="8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-9" value="Öğrenci Giriş" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-4">
+          <mxGeometry x="10" y="130" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-11" value="E-Devletle Giriş" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-4">
+          <mxGeometry x="190" y="60" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-12" value="Giriş Bilgileriyle Giriş" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-4">
+          <mxGeometry x="190" y="160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-24" value="&#xa;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;startFill=1;startArrow=classicThin;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-4" source="UXcAdIsX0P1JOGbJmKCX-13" target="UXcAdIsX0P1JOGbJmKCX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-25" value="&#xa;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;startFill=1;startArrow=classicThin;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-4" source="UXcAdIsX0P1JOGbJmKCX-13" target="UXcAdIsX0P1JOGbJmKCX-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-13" value="Şifremi Unuttum" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-4">
+          <mxGeometry x="190" y="260" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-15" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=9;labelBackgroundColor=none;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-4" source="UXcAdIsX0P1JOGbJmKCX-9" target="UXcAdIsX0P1JOGbJmKCX-12">
+          <mxGeometry x="-0.354" y="11" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-16" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.013;entryY=0.306;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=9;labelBackgroundColor=none;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-4" source="UXcAdIsX0P1JOGbJmKCX-9" target="UXcAdIsX0P1JOGbJmKCX-13">
+          <mxGeometry x="0.4087" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-19" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.312;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=9;labelBackgroundColor=none;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-4" source="UXcAdIsX0P1JOGbJmKCX-10" target="UXcAdIsX0P1JOGbJmKCX-11">
+          <mxGeometry x="-0.2821" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-22" value="Kimlik Bilgileriyle Sıfırlama" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-4">
+          <mxGeometry x="350" y="180" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-23" value="E-Posta Bilgileriyle Sıfırlama" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-4">
+          <mxGeometry x="350" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-27" target="UXcAdIsX0P1JOGbJmKCX-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-27" target="UXcAdIsX0P1JOGbJmKCX-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-27" target="UXcAdIsX0P1JOGbJmKCX-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-27" target="UXcAdIsX0P1JOGbJmKCX-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-62" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-27" target="UXcAdIsX0P1JOGbJmKCX-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="240" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-63" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-27" target="UXcAdIsX0P1JOGbJmKCX-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-64" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-27" target="UXcAdIsX0P1JOGbJmKCX-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-27" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-27" value="Öğrenci" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;aspect=fixed;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-28" target="UXcAdIsX0P1JOGbJmKCX-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-28" target="UXcAdIsX0P1JOGbJmKCX-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-28" target="UXcAdIsX0P1JOGbJmKCX-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-28" target="UXcAdIsX0P1JOGbJmKCX-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-28" target="UXcAdIsX0P1JOGbJmKCX-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-28" target="UXcAdIsX0P1JOGbJmKCX-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-28" target="UXcAdIsX0P1JOGbJmKCX-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-28" value="Akademisyen" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;aspect=fixed;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="390" width="45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-9" target="UXcAdIsX0P1JOGbJmKCX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-248" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="UXcAdIsX0P1JOGbJmKCX-29">
+          <mxGeometry x="0.7548" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXcAdIsX0P1JOGbJmKCX-10" target="UXcAdIsX0P1JOGbJmKCX-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-245" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="UXcAdIsX0P1JOGbJmKCX-30">
+          <mxGeometry x="0.8125" y="-3" relative="1" as="geometry">
+            <mxPoint x="-14" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-32" value="Akademisyen" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="390" width="1050" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-43" value="Genel İşlemler" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="20" y="40" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-44" value="Dönem İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="20" y="120" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-45" value="Form İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="20" y="200" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-46" value="Konsey İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="20" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-47" value="Başvuru İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="20" y="360" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-241" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=0;endArrow=none;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-48" target="UXcAdIsX0P1JOGbJmKCX-240">
+          <mxGeometry x="0.8301" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-242" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=0;endArrow=none;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-48" target="UXcAdIsX0P1JOGbJmKCX-239">
+          <mxGeometry x="0.8281" y="1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="420" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-243" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=0;endArrow=none;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-48" target="UXcAdIsX0P1JOGbJmKCX-238">
+          <mxGeometry x="0.6967" y="-5" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="440" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-48" value="Topluluk ve Etkinlik İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="20" y="440" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-49" value="Kullanıcı İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="20" y="520" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-211" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;entryX=0.915;entryY=0.822;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-203" target="UXcAdIsX0P1JOGbJmKCX-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-203" value="Belge Talebi" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="290" y="660" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-212" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.98;entryY=0.697;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;entryPerimeter=0;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-204" target="UXcAdIsX0P1JOGbJmKCX-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-204" value="Gönderilen Mesajlar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="290" y="590" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-213" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-205" target="UXcAdIsX0P1JOGbJmKCX-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-205" value="Gelen Mesajlar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="290" y="520" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-214" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.989;entryY=0.35;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;entryPerimeter=0;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-206" target="UXcAdIsX0P1JOGbJmKCX-49">
+          <mxGeometry x="0.001" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-206" value="Yapılacaklar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="290" y="450" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-210" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.078;exitY=0.15;exitDx=0;exitDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;exitPerimeter=0;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-207" target="UXcAdIsX0P1JOGbJmKCX-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-207" value="Şifre Değiştir" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="170" y="660" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-209" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.333;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;exitPerimeter=0;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-208" target="UXcAdIsX0P1JOGbJmKCX-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-208" value="Fotoğraf Güncelle" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="60" y="660" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-238" value="Gönderilen Mesajlar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="465" y="500" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-239" value="Gelen Mesajlar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="465" y="430" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-240" value="Yapılacaklar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="470" y="350" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-252" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-249" target="UXcAdIsX0P1JOGbJmKCX-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-253" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXcAdIsX0P1JOGbJmKCX-252">
+          <mxGeometry x="0.0692" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-249" value="Değerlendirme Formları" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="240" y="250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-251" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-250" target="UXcAdIsX0P1JOGbJmKCX-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-254" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXcAdIsX0P1JOGbJmKCX-251">
+          <mxGeometry x="0.0471" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-250" value="Anket" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="240" y="160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-314" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-255" target="UXcAdIsX0P1JOGbJmKCX-43">
+          <mxGeometry x="-0.8797" y="1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="100" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-255" value="Akademik Takvim" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="650" y="250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-315" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-256" target="UXcAdIsX0P1JOGbJmKCX-43">
+          <mxGeometry x="-0.8949" y="-8" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-256" value="Sınav Takvimi" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="650" y="330" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-312" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-257" target="UXcAdIsX0P1JOGbJmKCX-43">
+          <mxGeometry x="-0.9082" y="-7" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="90" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-257" value="Genel Bilgileri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="650" y="180" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-311" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-258" target="UXcAdIsX0P1JOGbJmKCX-43">
+          <mxGeometry x="-0.9024" y="-9" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="80" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-258" value="Özlük Bilgileri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="650" y="110" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-310" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-259" target="UXcAdIsX0P1JOGbJmKCX-43">
+          <mxGeometry x="-0.8889" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-259" value="Kullanım Kılavuzu" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="650" y="40" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-317" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-260" target="UXcAdIsX0P1JOGbJmKCX-43">
+          <mxGeometry x="-0.9262" y="-6" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="120" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-260" value="Ders Programı" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="650" y="400" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-318" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-261" target="UXcAdIsX0P1JOGbJmKCX-43">
+          <mxGeometry x="-0.9085" y="-7" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="130" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-261" value="Genel Duyurular" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="650" y="480" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-307" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-303" target="UXcAdIsX0P1JOGbJmKCX-44">
+          <mxGeometry x="-0.7821" y="4" relative="1" as="geometry">
+            <mxPoint x="140" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="160" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-303" value="Müfredat Bilgi Paketi" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="390" y="160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-306" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-32" source="UXcAdIsX0P1JOGbJmKCX-304" target="UXcAdIsX0P1JOGbJmKCX-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-308" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXcAdIsX0P1JOGbJmKCX-306">
+          <mxGeometry x="-0.7055" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-304" value="Müfredat Durum" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-32">
+          <mxGeometry x="390" y="90" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-31" value="Öğrenci" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-680" width="1050" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-33" value="Genel İşlemler" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="20" y="40" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-34" value="Ders ve Dönem İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="20" y="120" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-35" value="Form İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="20" y="200" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-36" value="Konsey İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="20" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-38" value="Hazırlık İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="20" y="360" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-39" value="Başvuru İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="20" y="440" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-40" value="Staj İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="20" y="520" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-88" value="&#xa;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9px; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-41" target="UXcAdIsX0P1JOGbJmKCX-85">
+          <mxGeometry x="0.6842" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-89" value="&#xa;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9px; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-41" target="UXcAdIsX0P1JOGbJmKCX-84">
+          <mxGeometry x="-0.3337" y="-8" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="660" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-41" value="Topluluk ve Etkinlik İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="20" y="600" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-77" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-42" target="UXcAdIsX0P1JOGbJmKCX-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-78" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-42" target="UXcAdIsX0P1JOGbJmKCX-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-79" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.958;exitY=0.723;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=none;exitPerimeter=0;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-42" target="UXcAdIsX0P1JOGbJmKCX-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-80" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-42" target="UXcAdIsX0P1JOGbJmKCX-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-81" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.776;exitY=0.91;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=none;exitPerimeter=0;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-42" target="UXcAdIsX0P1JOGbJmKCX-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-82" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.611;exitY=0.983;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;startArrow=classic;startFill=1;endArrow=none;exitPerimeter=0;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-42" target="UXcAdIsX0P1JOGbJmKCX-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-42" value="Kullanıcı İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="20" y="680" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-66" value="Belge Talebi" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="190" y="870" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-67" value="Gönderilen Mesajlar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="190" y="800" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-68" value="Gelen Mesajlar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="190" y="730" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-69" value="Yapılacaklar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="190" y="660" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-70" value="Şifre Değiştir" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="190" y="940" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-76" value="Fotoğraf Güncelle" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="80" y="940" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-84" value="Gönderilen Mesajlar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="300" y="670" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-85" value="Gelen Mesajlar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="300" y="600" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-86" value="Yapılacaklar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="300" y="530" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-87" value="&#xa;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 9px; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-41" target="UXcAdIsX0P1JOGbJmKCX-86">
+          <mxGeometry x="-0.116" y="8" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="610" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-92" value="&#xa;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px;&quot;&gt;&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-90" target="UXcAdIsX0P1JOGbJmKCX-40">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-90" value="Yapılacaklar" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="190" y="520" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-101" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=9;dashed=1;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-93">
+          <mxGeometry x="-0.279" y="-3" relative="1" as="geometry">
+            <mxPoint x="110" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="510" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-93" value="Ek Sınav Başvuru V2" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="430" y="560" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-100" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;dashed=1;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-94" target="UXcAdIsX0P1JOGbJmKCX-39">
+          <mxGeometry x="-0.2021" y="-4" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="490" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-94" value="Ek Sınav Başvuru İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="430" y="490" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-99" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=9;dashed=1;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-95">
+          <mxGeometry x="-0.5948" relative="1" as="geometry">
+            <mxPoint x="110" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="470" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-95" value="Mazeret Sınavı Başvurusu" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="430" y="420" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-98" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;dashed=1;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-96" target="UXcAdIsX0P1JOGbJmKCX-39">
+          <mxGeometry x="-0.4216" y="-2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="450" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-102" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=9;dashed=1;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-97">
+          <mxGeometry x="-0.2326" y="-4" relative="1" as="geometry">
+            <mxPoint x="110" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="530" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-97" value="Tek Ders Başvuru İşlemleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="430" y="630" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-103" value="&#xa;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px;&quot;&gt;&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-104">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <mxPoint x="110" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-104" value="Hazırlık Ders Programı" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="190" y="360" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-120" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-105">
+          <mxGeometry x="-0.9074" y="-5" relative="1" as="geometry">
+            <mxPoint x="109.99999999999977" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-105" value="Kurul Adaylığı" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="600" y="615" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-118" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-106">
+          <mxGeometry x="-0.9005" y="-4" relative="1" as="geometry">
+            <mxPoint x="110" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="340" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-106" value="Birim Adaylığı Oylama" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="600" y="545" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-117" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-107">
+          <mxGeometry x="-0.8924" y="-4" relative="1" as="geometry">
+            <mxPoint x="110" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="330" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-107" value="Birim Adaylığı" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="600" y="475" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-116" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.062;exitY=0.237;exitDx=0;exitDy=0;dashed=1;exitPerimeter=0;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-108">
+          <mxGeometry x="-0.9301" y="1" relative="1" as="geometry">
+            <mxPoint x="109.99999999999977" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="320" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-108" value="Bölüm Adaylığı Oylama" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="600" y="405" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-121" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-109">
+          <mxGeometry x="-0.9347" y="6" relative="1" as="geometry">
+            <mxPoint x="109.99999999999977" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-109" value="Kurul Adaylığı Oylama" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="600" y="685" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-115" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.186;exitY=0.082;exitDx=0;exitDy=0;dashed=1;exitPerimeter=0;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-110">
+          <mxGeometry x="-0.9402" y="1" relative="1" as="geometry">
+            <mxPoint x="109.99999999999977" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="310" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-110" value="Bölüm Adaylığı" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="595" y="335" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-114" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.014;exitY=0.66;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitPerimeter=0;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-111" target="UXcAdIsX0P1JOGbJmKCX-36">
+          <mxGeometry x="-0.892" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-111" value="Seçim Duyurusu" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="595" y="265" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-113" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.094;exitY=0.771;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitPerimeter=0;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-112" target="UXcAdIsX0P1JOGbJmKCX-36">
+          <mxGeometry x="-0.916" y="-6" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="300" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-112" value="Seçim Takvimi" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="595" y="195" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-96" value="Kayıt Dondurma Başvurusu" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="430" y="350" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-125" value="&#xa;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px;&quot;&gt;&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-126" target="UXcAdIsX0P1JOGbJmKCX-35">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <mxPoint x="190" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-126" value="Değerlendirme Formları" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="260" y="205" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-127" value="&#xa;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px;&quot;&gt;&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-128">
+          <mxGeometry x="-0.0154" y="11" relative="1" as="geometry">
+            <mxPoint x="110" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-128" value="Öğrenci Bilgi formu" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="180" y="240" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-129" value="&#xa;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px;&quot;&gt;&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;br data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-130" target="UXcAdIsX0P1JOGbJmKCX-35">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <mxPoint x="140" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-144" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-132" target="UXcAdIsX0P1JOGbJmKCX-34">
+          <mxGeometry x="-0.9394" y="-14" relative="1" as="geometry">
+            <mxPoint x="170" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="170" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-132" value="Müfredat Bilgi Paketi" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="740" y="490" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-145" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-133" target="UXcAdIsX0P1JOGbJmKCX-34">
+          <mxGeometry x="-0.9324" y="-5" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="160" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-133" value="Müfredat Durum" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="740" y="420" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-146" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-134" target="UXcAdIsX0P1JOGbJmKCX-34">
+          <mxGeometry x="-0.9041" y="-8" relative="1" as="geometry">
+            <mxPoint x="180" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="150" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-134" value="Transkript Senaryosu" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="740" y="350" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-147" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-135" target="UXcAdIsX0P1JOGbJmKCX-34">
+          <mxGeometry x="-0.8987" y="-11" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="140" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-135" value="Transkript" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="740" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-143" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-136" target="UXcAdIsX0P1JOGbJmKCX-34">
+          <mxGeometry x="-0.9425" y="-14" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="180" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-136" value="Staj Başvurusu" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="740" y="560" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-148" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-137" target="UXcAdIsX0P1JOGbJmKCX-34">
+          <mxGeometry x="-0.8466" y="-2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="130" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-137" value="Not Listesi" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="740" y="210" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-149" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-138" target="UXcAdIsX0P1JOGbJmKCX-34">
+          <mxGeometry x="-0.9132" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="120" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-138" value="Dönem Ortalamaları" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="740" y="140" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-150" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-139" target="UXcAdIsX0P1JOGbJmKCX-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-152" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXcAdIsX0P1JOGbJmKCX-150">
+          <mxGeometry x="-0.9225" relative="1" as="geometry">
+            <mxPoint x="-31" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-139" value="Ders Kayıt" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="740" y="70" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-141" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;labelBackgroundColor=none;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-140" target="UXcAdIsX0P1JOGbJmKCX-34">
+          <mxGeometry x="-0.9434" y="-3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="190" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-140" value="Devamsızlık Durumu" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="740" y="630" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-130" value="Anket" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="190" y="160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-174" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-154" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-154" value="Açılan Bölüm Dersleri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="451" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-173" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-155" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-155" value="Alınan Dersler" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="381" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-172" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-156" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-156" value="Danışman Bilgileri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="311" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-171" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-157" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-157" value="Akademik Takvim" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="241" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-175" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-158" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-158" value="Sınav Takvimi" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="521" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-170" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-159" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-159" value="Genel Bilgileri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="171" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-169" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-160" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-183" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="UXcAdIsX0P1JOGbJmKCX-169">
+          <mxGeometry x="-0.9229" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-160" value="Özlük Bilgileri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="101" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-168" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.002;exitY=0.319;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;exitPerimeter=0;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-161" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry x="-0.9684" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="50" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-161" value="Kullanım Kılavuzu" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="31" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-176" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-162" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-162" value="Ders Programı" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="591" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-179" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-163" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-163" value="Staj Bilgileri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="806" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-178" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-164" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-164" value="Harç Bilgileri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="736" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-177" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-165" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-165" value="Bölüm Ders Programı" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="666" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-180" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-166" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-166" value="Genel Duyurular" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="876" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-181" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;dashed=1;fontSize=9;" edge="1" parent="UXcAdIsX0P1JOGbJmKCX-31" source="UXcAdIsX0P1JOGbJmKCX-167" target="UXcAdIsX0P1JOGbJmKCX-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-167" value="Mezuniyet Onay Bilgileri" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="943" y="946" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-184" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="910" y="155" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-187" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="910" y="225" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-188" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="910" y="295" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-190" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="910" y="360" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-192" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="920" y="572" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-193" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="920" y="643" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-191" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="920" y="502" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-189" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="920" y="435" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-199" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="914" y="720" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-200" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="914" y="790" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-201" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="914" y="860" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXcAdIsX0P1JOGbJmKCX-202" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="UXcAdIsX0P1JOGbJmKCX-31">
+          <mxGeometry x="920" y="930" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
