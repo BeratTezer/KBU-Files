@@ -1,0 +1,123 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[turkish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\title{Çalışma Notları: Sınıflandırma: Temel Kavramlar (Bölüm 8.1 - 8.2.2)}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{Bölüm 8: Sınıflandırma: Temel Kavramlar}
+	
+	\textbf{Sınıflandırma} (Classification), önemli veri sınıflarını tanımlayan modelleri (\textbf{sınıflandırıcıları}) çıkaran bir veri analizi türüdür. Bu modeller, \textbf{kategorik} (ayrık, sıralanmamış) sınıf etiketlerini tahmin eder.
+	
+	Uygulama alanları arasında dolandırıcılık tespiti, hedefli pazarlama ve tıbbi teşhis yer alır.
+	
+	\subsection{Temel Kavramlar}
+	
+	\subsubsection{Sınıflandırma Nedir?}
+	
+	Sınıflandırmadaki temel amaç, kategorik etiketleri tahmin etmek için bir model oluşturmaktır. Bu kategoriler arasındaki sıralamanın bir anlam ifade etmediği ayrık değerler (örneğin tedaviler A, B, C) ile temsil edilebilir.
+	
+	\subsubsection{Sınıflandırmaya Genel Yaklaşım}
+	
+	Sınıflandırma süreci iki temel adımdan oluşur:
+	
+	\begin{enumerate}
+		\item \textbf{Model Oluşturma (Öğrenme):}
+		\begin{itemize}
+			\item Önceden tanımlanmış veri sınıflarını veya kavramları tanımlayan bir sınıflandırıcı (model) oluşturulur.
+			\item Model oluşturmak için kullanılan verilere \textbf{eğitim seti} (training set) denir.
+			\item Eğitim setindeki her veri örneği (tuple), bir uzmandan gelen veya veriden türetilen \textbf{ilişkili bir sınıf etiketine} sahiptir.
+			\item Sınıf etiketlerinin bilinmesi nedeniyle bu adım, \textbf{denetimli öğrenme} (supervised learning) olarak da bilinir. Bu, etiketlerin bilinmediği \textbf{denetimsiz öğrenme} (kümeleme) yönteminin tersidir.
+			\item Türetilmiş model; sınıflandırma kuralları (EĞER-O ZAMAN), karar ağaçları, matematiksel formüller veya sinir ağları gibi çeşitli şekillerde temsil edilebilir.
+		\end{itemize}
+		
+		\item \textbf{Modelin Kullanımı:}
+		\begin{itemize}
+			\item Oluşturulan sınıflandırıcı, yeni veya daha önce görülmemiş veri örneklerini sınıflandırmak için kullanılır.
+			\item Kullanım öncesinde, sınıflandırıcının \textbf{tahmini doğruluğu} (predictive accuracy) tahmin edilmelidir.
+			\item Doğruluğu ölçmek için eğitim örneklerinden bağımsız olan bir \textbf{test seti} (test set) kullanılır.
+			\item Eğer modelin doğruluğu eğitim seti kullanılarak ölçülürse, bu tahmin genellikle \textbf{iyimser} olur (aşırı uyum/overfit nedeniyle).
+			\item Modelin doğruluğu kabul edilebilir düzeydeyse, yeni veri örneklerini sınıflandırmak için kullanılabilir.
+		\end{itemize}
+	\end{enumerate}
+	
+	\subsection{Karar Ağacı Türetme}
+	
+	Karar ağacı türetimi, sınıflandırma için popüler bir yöntemdir. Karar ağacı, eğitim setindeki verilerin tutarlı sınıflara ayrılmasına izin veren bir akış şeması benzeri yapıdır.
+	
+	\begin{itemize}
+		\item \textbf{İç düğümler} (internal nodes) bir öznitelik üzerindeki testleri gösterir.
+		\item \textbf{Dallar} (branches) testin sonuçlarını temsil eder.
+		\item \textbf{Yaprak düğümleri} (leaf nodes) ise sınıf etiketlerini veya sınıf dağılımlarını temsil eder.
+	\end{itemize}
+	
+	Karar ağaçları oluşturulurken, en iyi ayrımı sağlayan özniteliği seçmek için \textbf{öznitelik seçim ölçütleri} (attribute selection measures) kullanılır.
+	
+	\subsubsection{Karar Ağacı Türetme (Temel Algoritma)}
+	
+	Karar ağacı algoritmaları genellikle \textbf{açgözlü} (greedy) bir yaklaşımla çalışır: Ağacı, veriyi \textbf{yukarıdan aşağıya özyinelemeli bölme} (top-down recursive partitioning) yoluyla oluştururlar.
+	
+	\textbf{Önemli Algoritmalar:}
+	\begin{itemize}
+		\item \textbf{ID3} (Iterative Dichotomiser).
+		\item \textbf{C4.5} (ID3'ün ardılı).
+		\item \textbf{CART} (Classification and Regression Trees), ikili karar ağaçlarının üretimini tanımlar.
+	\end{itemize}
+	
+	\textbf{Durdurma Koşulları} (Temel Algoritma İçin):
+	\begin{enumerate}
+		\item Bir düğümdeki tüm örnekler aynı sınıfa aitse.
+		\item Test edilecek başka öznitelik kalmamışsa.
+		\item Dalın bölmesinde hiç örnek kalmamışsa.
+	\end{enumerate}
+	
+	\subsubsection{Öznitelik Seçim Ölçütleri}
+	
+	Öznitelik seçim ölçütleri, eğitim verilerindeki örnekleri en iyi şekilde ayrı sınıflara bölen \textbf{bölme kriterini} (splitting criterion) seçmek için kullanılan \textbf{sezgisel} (heuristic) yöntemlerdir. En iyi puana sahip öznitelik, \textbf{bölme özniteliği} olarak seçilir.
+	
+	\paragraph{1. Bilgi Kazancı (Information Gain)}
+	
+	Bilgi Kazancı, bilgi teorisine dayanır ve en az bilgiyi gerektiren özniteliği seçer.
+	$D$ veri kümesini sınıflandırmak için gereken beklenen bilgi (entropi) miktarı ($Info(D)$) şu şekilde hesaplanır:
+	
+	$$Info(D) = - \sum_{i=1}^{m} p_i \log_2 (p_i)$$
+	
+	$A$ özniteliği kullanılarak bölme yapıldıktan sonra kalan beklenen bilgi miktarı ($Info_A(D)$) hesaplanır.
+	
+	\textbf{Bilgi Kazancı ($Gain(A)$)} şu şekilde hesaplanır:
+	$$Gain(A) = Info(D) - Info_A(D)$$
+	
+	En yüksek bilgi kazancını sağlayan öznitelik, bölme özniteliği olarak seçilir. Bilgi Kazancı, çok sayıda farklı değere sahip öznitelikleri kayırma eğilimindedir.
+	
+	\paragraph{2. Kazanç Oranı (Gain Ratio)}
+	
+	C4.5 algoritmasında kullanılan Kazanç Oranı, Bilgi Kazancı'nın önyargısını düzeltmek için tasarlanmıştır. Bir normalleştirme faktörü olan \textbf{Bölme Bilgisi} ($SplitInfo_A(D)$) kullanılır:
+	$$SplitInfo_A(D) = - \sum_{j=1}^{v} \frac{|D_j|}{|D|} \log_2 (\frac{|D_j|}{|D|})$$
+	
+	\textbf{Kazanç Oranı ($GainRatio(A)$)} formülü:
+	$$\text{GainRatio}(A) = Gain(A) / SplitInfo_A(D)$$
+	
+	Maksimum kazanç oranına sahip öznitelik seçilir.
+	
+	\paragraph{3. Gini İndeksi (Gini Index)}
+	
+	CART sistemi tarafından kullanılan Gini İndeksi, bir $D$ veri bölümünün \textbf{saflığını} (impurity) ölçer.
+	$$Gini(D) = 1 - \sum_{i=1}^{m} p_i^2$$
+	($p_i$, $D$'deki bir örneğin $C_i$ sınıfına ait olma olasılığıdır).
+	
+	Öznitelik $A$ üzerindeki ikili bölme durumunda ($D$'yi $D_1$ ve $D_2$'ye ayırır), ağırlıklı Gini İndeksi hesaplanır:
+	$$Gini_A(D) = \frac{|D_1|}{|D|} Gini(D_1) + \frac{|D_2|}{|D|} Gini(D_2)$$
+	
+	\textbf{En düşük Gini İndeksine} (yani saflıkta en büyük azalmaya) sahip olan öznitelik seçilir.
+	
+	\paragraph{Çok Değişkenli Bölmeler (Multivariate Splits)}
+	Bazı öznitelik seçim ölçütleri, birden fazla özniteliğin kombinasyonuna dayanan \textbf{çok değişkenli bölmeleri} dikkate alır. Bu, \textbf{öznitelik yapılandırması} (feature construction) olarak da bilinir.
+	
+\end{document}
